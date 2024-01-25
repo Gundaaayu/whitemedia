@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "dinbold";
+  src: url("/fonts/dinbold.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "dinlight";
+  src: url("/fonts/dinlight.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "sharpsans";
+  src: url("/fonts/sharpsans.otf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "inter";
+  src: url("/fonts/inter.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+.block {
+  width: 5px;
+  height: 30px;
+  background-color: #138064;
+  margin-right: 16px;
+}
+.mainblock {
+  display: flex;
+}
+@media (max-width: 2560px) {
+  .dinbold-h1 {
+    font-size: 36px;
+    font-family: dinbold;
+    font-weight: 800;
+  }
+  .dinbold-h2 {
+    font-size: 32px;
+    font-family: dinbold;
+    font-weight: 800;
+  }
+  .dinbold-h3 {
+    font-size: 26px;
+    font-family: dinbold;
+  }
+  .dinbold-h4 {
+    font-size: 20px;
+    font-family: dinbold;
+    /* used */
+  }
+  .dinbold-h5 {
+    font-size: 14px;
+    font-family: dinbold;
+  }
+
+  .dinlight-h1 {
+    font-size: 40px;
+    font-family: dinlight;
+    font-weight: 800;
+  }
+  .dinlight-h2 {
+    font-size: 32px;
+    font-family: dinlight;
+    font-weight: 800;
+  }
+  .dinlight-h3 {
+    font-size: 26px;
+    font-family: dinlight;
+  }
+  .dinlight-h4 {
+    font-size: 20px;
+    font-family: dinlight;
+    /* used */
+  }
+  .dinlight-h5 {
+    font-size: 14px;
+    font-family: sharpsans;
+  }
+  .sharpsans-h1 {
+    font-size: 28px;
+    font-family: sharpsans;
+    font-weight: 800;
+  }
+  .sharpsans-h2 {
+    font-size: 32px;
+    font-family: sharpsans;
+    font-weight: 800;
+  }
+  .sharpsans-h3 {
+    font-size: 26px;
+    font-family: sharpsans;
+  }
+  .sharpsans-h4 {
+    font-size: 20px;
+    font-family: sharpsans;
+    /* used */
+  }
+  .sharpsans-h5 {
+    font-size: 14px;
+    font-family: sharpsans;
+  }
+  .inter-h1 {
+    font-size: 36px;
+    font-family: inter;
+    font-weight: 800;
+  }
+  .inter-h2 {
+    font-size: 32px;
+    font-family: inter;
+    font-weight: 800;
+  }
+  .inter-h3 {
+    font-size: 26px;
+    font-family: inter;
+  }
+  .inter-h4 {
+    font-size: 20px;
+    font-family: inter;
+    /* used */
+  }
+  .inter-h5 {
+    font-size: 14px;
+    font-family: inter;
+  }
+}
+@media (max-width: 1800px) {
+  .dinbold-h1 {
+    font-size: 36px;
+    font-family: dinbold;
+    font-weight: 800;
+  }
+  .dinbold-h2 {
+    font-size: 32px;
+    font-family: dinbold;
+    font-weight: 800;
+  }
+  .dinbold-h3 {
+    font-size: 26px;
+    font-family: dinbold;
+  }
+  .dinbold-h4 {
+    font-size: 20px;
+    font-family: dinbold;
+    /* used */
+  }
+  .dinbold-h5 {
+    font-size: 14px;
+    font-family: dinbold;
+  }
+
+  .dinlight-h1 {
+    font-size: 30px;
+    font-family: dinlight;
+    font-weight: 800;
+  }
+  .dinlight-h2 {
+    font-size: 32px;
+    font-family: dinlight;
+    font-weight: 800;
+  }
+  .dinlight-h3 {
+    font-size: 26px;
+    font-family: dinlight;
+  }
+  .dinlight-h4 {
+    font-size: 20px;
+    font-family: dinlight;
+    /* used */
+  }
+  .dinlight-h5 {
+    font-size: 14px;
+    font-family: sharpsans;
+  }
+  .sharpsans-h1 {
+    font-size: 28px;
+    font-family: sharpsans;
+    font-weight: 800;
+  }
+  .sharpsans-h2 {
+    font-size: 32px;
+    font-family: sharpsans;
+    font-weight: 800;
+  }
+  .sharpsans-h3 {
+    font-size: 26px;
+    font-family: sharpsans;
+  }
+  .sharpsans-h4 {
+    font-size: 20px;
+    font-family: sharpsans;
+    /* used */
+  }
+  .sharpsans-h5 {
+    font-size: 14px;
+    font-family: sharpsans;
+  }
+  .inter-h1 {
+    font-size: 36px;
+    font-family: inter;
+    font-weight: 800;
+  }
+  .inter-h2 {
+    font-size: 32px;
+    font-family: inter;
+    font-weight: 800;
+  }
+  .inter-h3 {
+    font-size: 26px;
+    font-family: inter;
+  }
+  .inter-h4 {
+    font-size: 20px;
+    font-family: inter;
+    /* used */
+  }
+  .inter-h5 {
+    font-size: 14px;
+    font-family: inter;
+  }
+}
+@media (max-width: 1440px) {
+  .dinbold-h1 {
+    font-size: 36px;
+    font-family: dinbold;
+    font-weight: 800;
+  }
+  .dinbold-h2 {
+    font-size: 32px;
+    font-family: dinbold;
+    font-weight: 800;
+  }
+  .dinbold-h3 {
+    font-size: 26px;
+    font-family: dinbold;
+  }
+  .dinbold-h4 {
+    font-size: 20px;
+    font-family: dinbold;
+    /* used */
+  }
+  .dinbold-h5 {
+    font-size: 14px;
+    font-family: dinbold;
+  }
+
+  .dinlight-h1 {
+    font-size: 30px;
+    font-family: dinlight;
+    font-weight: 800;
+  }
+  .dinlight-h2 {
+    font-size: 32px;
+    font-family: dinlight;
+    font-weight: 800;
+  }
+  .dinlight-h3 {
+    font-size: 26px;
+    font-family: dinlight;
+  }
+  .dinlight-h4 {
+    font-size: 20px;
+    font-family: dinlight;
+    /* used */
+  }
+  .dinlight-h5 {
+    font-size: 14px;
+    font-family: sharpsans;
+  }
+  .sharpsans-h1 {
+    font-size: 28px;
+    font-family: sharpsans;
+    font-weight: 800;
+  }
+  .sharpsans-h2 {
+    font-size: 32px;
+    font-family: sharpsans;
+    font-weight: 800;
+  }
+  .sharpsans-h3 {
+    font-size: 26px;
+    font-family: sharpsans;
+  }
+  .sharpsans-h4 {
+    font-size: 20px;
+    font-family: sharpsans;
+    /* used */
+  }
+  .sharpsans-h5 {
+    font-size: 14px;
+    font-family: sharpsans;
+  }
+  .inter-h1 {
+    font-size: 36px;
+    font-family: inter;
+    font-weight: 800;
+  }
+  .inter-h2 {
+    font-size: 32px;
+    font-family: inter;
+    font-weight: 800;
+  }
+  .inter-h3 {
+    font-size: 26px;
+    font-family: inter;
+  }
+  .inter-h4 {
+    font-size: 20px;
+    font-family: inter;
+    /* used */
+  }
+  .inter-h5 {
+    font-size: 14px;
+    font-family: inter;
+  }
+}
+@media (max-width: 480px) {
+  .dinbold-h1 {
+    font-size: 36px;
+    font-family: dinbold;
+    font-weight: 800;
+  }
+  .dinbold-h2 {
+    font-size: 32px;
+    font-family: dinbold;
+    font-weight: 800;
+  }
+  .dinbold-h3 {
+    font-size: 26px;
+    font-family: dinbold;
+  }
+  .dinbold-h4 {
+    font-size: 20px;
+    font-family: dinbold;
+    /* used */
+  }
+  .dinbold-h5 {
+    font-size: 14px;
+    font-family: dinbold;
+  }
+
+  .dinlight-h1 {
+    font-size: 28px;
+    font-family: dinlight;
+    font-weight: 800;
+  }
+  .dinlight-h2 {
+    font-size: 32px;
+    font-family: dinlight;
+    font-weight: 800;
+  }
+  .dinlight-h3 {
+    font-size: 26px;
+    font-family: dinlight;
+  }
+  .dinlight-h4 {
+    font-size: 20px;
+    font-family: dinlight;
+    /* used */
+  }
+  .dinlight-h5 {
+    font-size: 14px;
+    font-family: sharpsans;
+  }
+  .sharpsans-h1 {
+    font-size: 26px;
+    font-family: sharpsans;
+    font-weight: 800;
+  }
+  .sharpsans-h2 {
+    font-size: 22px;
+    font-family: sharpsans;
+    font-weight: 800;
+  }
+  .sharpsans-h3 {
+    font-size: 20px;
+    font-family: sharpsans;
+  }
+  .sharpsans-h4 {
+    font-size: 20px;
+    font-family: sharpsans;
+    /* used */
+  }
+  .sharpsans-h5 {
+    font-size: 14px;
+    font-family: sharpsans;
+  }
+  .inter-h1 {
+    font-size: 28px;
+    font-family: inter;
+    font-weight: 800;
+  }
+  .inter-h2 {
+    font-size: 32px;
+    font-family: inter;
+    font-weight: 800;
+  }
+  .inter-h3 {
+    font-size: 26px;
+    font-family: inter;
+  }
+  .inter-h4 {
+    font-size: 20px;
+    font-family: inter;
+    /* used */
+  }
+  .inter-h5 {
+    font-size: 14px;
+    font-family: inter;
+  }
+}
