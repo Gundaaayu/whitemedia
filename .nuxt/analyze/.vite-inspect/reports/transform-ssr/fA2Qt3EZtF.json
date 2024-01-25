@@ -1,0 +1,268 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/ConnectMain.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div class=\"bg-white\">\r\n    <br />\r\n    <v-container fluid>\r\n      <v-row>\r\n        <v-col class=\"text-center my-auto\" cols=\"12\" lg=\"6\">\r\n          <img class=\"images\" src=\"/images/connect1.png\" alt=\"\" />\r\n        </v-col>\r\n        <v-col class=\"mt-5\" cols=\"12\" lg=\"6\">\r\n          <v-row>\r\n            <v-col cols=\"12\">\r\n              <h1>Connect</h1>\r\n            </v-col>\r\n            <v-col cols=\"10\">\r\n              <p class=\"para mb-5\">\r\n                From the pulsating heart of Bangalore, we’re crafting,\r\n                strategizing, and subtly sprinkling marketing magic into the\r\n                river of digital influence. Are you ready to dive in?\r\n              </p>\r\n            </v-col>\r\n            <v-col cols=\"12\" class=\"mt-5\">\r\n              <h1 class=\"heading\">Are you ready to dive in ?</h1>\r\n            </v-col>\r\n          </v-row>\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<style scoped>\r\n.images {\r\n  /* height: 450px; */\r\n  border-radius: 20px;\r\n}\r\n.para {\r\n  font-size: 25px;\r\n  font-style: normal;\r\n  font-weight: 500;\r\n  line-height: 48px;\r\n}\r\n@media (max-width: 420px) {\r\n  .images {\r\n    width: 350px;\r\n  }\r\n  .heading {\r\n    font-size: 29px;\r\n  }\r\n}\r\n@media (max-width: 380px) {\r\n  .images {\r\n    width: 300px;\r\n  }\r\n}\r\n</style>\r\n",
+      "start": 1706183609009,
+      "end": 1706183609448,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609448,
+      "end": 1706183609448,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609448,
+      "end": 1706183609448,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609448,
+      "end": 1706183609448,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609448,
+      "end": 1706183609448,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183609448,
+      "end": 1706183609448,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1706183609448,
+      "end": 1706183609448,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183609448,
+      "end": 1706183609448,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183609448,
+      "end": 1706183609448,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183609448,
+      "end": 1706183609448,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/connect1.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_v_container = _resolveComponent(\"v-container\")\n  const _component_v_row = _resolveComponent(\"v-row\")\n  const _component_v_col = _resolveComponent(\"v-col\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"bg-white\" }, _attrs))} data-v-b1b1e194><br data-v-b1b1e194>`)\n  _push(_ssrRenderComponent(_component_v_container, { fluid: \"\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_v_row, null, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(_ssrRenderComponent(_component_v_col, {\n                class: \"text-center my-auto\",\n                cols: \"12\",\n                lg: \"6\"\n              }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(`<img class=\"images\"${\n                      _ssrRenderAttr(\"src\", _imports_0)\n                    } alt=\"\" data-v-b1b1e194${\n                      _scopeId\n                    }>`)\n                  } else {\n                    return [\n                      _createVNode(\"img\", {\n                        class: \"images\",\n                        src: _imports_0,\n                        alt: \"\"\n                      })\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n              _push(_ssrRenderComponent(_component_v_col, {\n                class: \"mt-5\",\n                cols: \"12\",\n                lg: \"6\"\n              }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(_ssrRenderComponent(_component_v_row, null, {\n                      default: _withCtx((_, _push, _parent, _scopeId) => {\n                        if (_push) {\n                          _push(_ssrRenderComponent(_component_v_col, { cols: \"12\" }, {\n                            default: _withCtx((_, _push, _parent, _scopeId) => {\n                              if (_push) {\n                                _push(`<h1 data-v-b1b1e194${_scopeId}>Connect</h1>`)\n                              } else {\n                                return [\n                                  _createVNode(\"h1\", null, \"Connect\")\n                                ]\n                              }\n                            }),\n                            _: 1\n                          }, _parent, _scopeId))\n                          _push(_ssrRenderComponent(_component_v_col, { cols: \"10\" }, {\n                            default: _withCtx((_, _push, _parent, _scopeId) => {\n                              if (_push) {\n                                _push(`<p class=\"para mb-5\" data-v-b1b1e194${_scopeId}> From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? </p>`)\n                              } else {\n                                return [\n                                  _createVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \")\n                                ]\n                              }\n                            }),\n                            _: 1\n                          }, _parent, _scopeId))\n                          _push(_ssrRenderComponent(_component_v_col, {\n                            cols: \"12\",\n                            class: \"mt-5\"\n                          }, {\n                            default: _withCtx((_, _push, _parent, _scopeId) => {\n                              if (_push) {\n                                _push(`<h1 class=\"heading\" data-v-b1b1e194${_scopeId}>Are you ready to dive in ?</h1>`)\n                              } else {\n                                return [\n                                  _createVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\")\n                                ]\n                              }\n                            }),\n                            _: 1\n                          }, _parent, _scopeId))\n                        } else {\n                          return [\n                            _createVNode(_component_v_col, { cols: \"12\" }, {\n                              default: _withCtx(() => [\n                                _createVNode(\"h1\", null, \"Connect\")\n                              ]),\n                              _: 1\n                            }),\n                            _createVNode(_component_v_col, { cols: \"10\" }, {\n                              default: _withCtx(() => [\n                                _createVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \")\n                              ]),\n                              _: 1\n                            }),\n                            _createVNode(_component_v_col, {\n                              cols: \"12\",\n                              class: \"mt-5\"\n                            }, {\n                              default: _withCtx(() => [\n                                _createVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\")\n                              ]),\n                              _: 1\n                            })\n                          ]\n                        }\n                      }),\n                      _: 1\n                    }, _parent, _scopeId))\n                  } else {\n                    return [\n                      _createVNode(_component_v_row, null, {\n                        default: _withCtx(() => [\n                          _createVNode(_component_v_col, { cols: \"12\" }, {\n                            default: _withCtx(() => [\n                              _createVNode(\"h1\", null, \"Connect\")\n                            ]),\n                            _: 1\n                          }),\n                          _createVNode(_component_v_col, { cols: \"10\" }, {\n                            default: _withCtx(() => [\n                              _createVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \")\n                            ]),\n                            _: 1\n                          }),\n                          _createVNode(_component_v_col, {\n                            cols: \"12\",\n                            class: \"mt-5\"\n                          }, {\n                            default: _withCtx(() => [\n                              _createVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\")\n                            ]),\n                            _: 1\n                          })\n                        ]),\n                        _: 1\n                      })\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n            } else {\n              return [\n                _createVNode(_component_v_col, {\n                  class: \"text-center my-auto\",\n                  cols: \"12\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(\"img\", {\n                      class: \"images\",\n                      src: _imports_0,\n                      alt: \"\"\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  class: \"mt-5\",\n                  cols: \"12\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_row, null, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_col, { cols: \"12\" }, {\n                          default: _withCtx(() => [\n                            _createVNode(\"h1\", null, \"Connect\")\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, { cols: \"10\" }, {\n                          default: _withCtx(() => [\n                            _createVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \")\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, {\n                          cols: \"12\",\n                          class: \"mt-5\"\n                        }, {\n                          default: _withCtx(() => [\n                            _createVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\")\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_v_row, null, {\n            default: _withCtx(() => [\n              _createVNode(_component_v_col, {\n                class: \"text-center my-auto\",\n                cols: \"12\",\n                lg: \"6\"\n              }, {\n                default: _withCtx(() => [\n                  _createVNode(\"img\", {\n                    class: \"images\",\n                    src: _imports_0,\n                    alt: \"\"\n                  })\n                ]),\n                _: 1\n              }),\n              _createVNode(_component_v_col, {\n                class: \"mt-5\",\n                cols: \"12\",\n                lg: \"6\"\n              }, {\n                default: _withCtx(() => [\n                  _createVNode(_component_v_row, null, {\n                    default: _withCtx(() => [\n                      _createVNode(_component_v_col, { cols: \"12\" }, {\n                        default: _withCtx(() => [\n                          _createVNode(\"h1\", null, \"Connect\")\n                        ]),\n                        _: 1\n                      }),\n                      _createVNode(_component_v_col, { cols: \"10\" }, {\n                        default: _withCtx(() => [\n                          _createVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \")\n                        ]),\n                        _: 1\n                      }),\n                      _createVNode(_component_v_col, {\n                        cols: \"12\",\n                        class: \"mt-5\"\n                      }, {\n                        default: _withCtx(() => [\n                          _createVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\")\n                        ]),\n                        _: 1\n                      })\n                    ]),\n                    _: 1\n                  })\n                ]),\n                _: 1\n              })\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div>`)\n}\n\nimport \"C:/Users/weigo/whitemedia/components/ConnectMain.vue?vue&type=style&index=0&scoped=b1b1e194&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/ConnectMain.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-b1b1e194\"]])",
+      "start": 1706183609448,
+      "end": 1706183609452,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/ConnectMain.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/weigo/whitemedia/components/ConnectMain.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n  <div class=\"bg-white\">\r\n    <br />\r\n    <v-container fluid>\r\n      <v-row>\r\n        <v-col class=\"text-center my-auto\" cols=\"12\" lg=\"6\">\r\n          <img class=\"images\" src=\"/images/connect1.png\" alt=\"\" />\r\n        </v-col>\r\n        <v-col class=\"mt-5\" cols=\"12\" lg=\"6\">\r\n          <v-row>\r\n            <v-col cols=\"12\">\r\n              <h1>Connect</h1>\r\n            </v-col>\r\n            <v-col cols=\"10\">\r\n              <p class=\"para mb-5\">\r\n                From the pulsating heart of Bangalore, we’re crafting,\r\n                strategizing, and subtly sprinkling marketing magic into the\r\n                river of digital influence. Are you ready to dive in?\r\n              </p>\r\n            </v-col>\r\n            <v-col cols=\"12\" class=\"mt-5\">\r\n              <h1 class=\"heading\">Are you ready to dive in ?</h1>\r\n            </v-col>\r\n          </v-row>\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<style scoped>\r\n.images {\r\n  /* height: 450px; */\r\n  border-radius: 20px;\r\n}\r\n.para {\r\n  font-size: 25px;\r\n  font-style: normal;\r\n  font-weight: 500;\r\n  line-height: 48px;\r\n}\r\n@media (max-width: 420px) {\r\n  .images {\r\n    width: 350px;\r\n  }\r\n  .heading {\r\n    font-size: 29px;\r\n  }\r\n}\r\n@media (max-width: 380px) {\r\n  .images {\r\n    width: 300px;\r\n  }\r\n}\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183609452,
+      "end": 1706183609452,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609452,
+      "end": 1706183609452,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609452,
+      "end": 1706183609452,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609452,
+      "end": 1706183609452,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609452,
+      "end": 1706183609452,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/connect1.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n                                                                 \n                                                     \n                                                     \n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"bg-white\" }, _attrs))} data-v-b1b1e194><br data-v-b1b1e194>`)\n  _push(_ssrRenderComponent(_component_v_container, { fluid: \"\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_v_row, null, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(_ssrRenderComponent(_component_v_col, {\n                class: \"text-center my-auto\",\n                cols: \"12\",\n                lg: \"6\"\n              }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(`<img class=\"images\"${\n                      _ssrRenderAttr(\"src\", _imports_0)\n                    } alt=\"\" data-v-b1b1e194${\n                      _scopeId\n                    }>`)\n                  } else {\n                    return [\n                      _createVNode(\"img\", {\n                        class: \"images\",\n                        src: _imports_0,\n                        alt: \"\"\n                      })\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n              _push(_ssrRenderComponent(_component_v_col, {\n                class: \"mt-5\",\n                cols: \"12\",\n                lg: \"6\"\n              }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(_ssrRenderComponent(_component_v_row, null, {\n                      default: _withCtx((_, _push, _parent, _scopeId) => {\n                        if (_push) {\n                          _push(_ssrRenderComponent(_component_v_col, { cols: \"12\" }, {\n                            default: _withCtx((_, _push, _parent, _scopeId) => {\n                              if (_push) {\n                                _push(`<h1 data-v-b1b1e194${_scopeId}>Connect</h1>`)\n                              } else {\n                                return [\n                                  _createVNode(\"h1\", null, \"Connect\")\n                                ]\n                              }\n                            }),\n                            _: 1\n                          }, _parent, _scopeId))\n                          _push(_ssrRenderComponent(_component_v_col, { cols: \"10\" }, {\n                            default: _withCtx((_, _push, _parent, _scopeId) => {\n                              if (_push) {\n                                _push(`<p class=\"para mb-5\" data-v-b1b1e194${_scopeId}> From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? </p>`)\n                              } else {\n                                return [\n                                  _createVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \")\n                                ]\n                              }\n                            }),\n                            _: 1\n                          }, _parent, _scopeId))\n                          _push(_ssrRenderComponent(_component_v_col, {\n                            cols: \"12\",\n                            class: \"mt-5\"\n                          }, {\n                            default: _withCtx((_, _push, _parent, _scopeId) => {\n                              if (_push) {\n                                _push(`<h1 class=\"heading\" data-v-b1b1e194${_scopeId}>Are you ready to dive in ?</h1>`)\n                              } else {\n                                return [\n                                  _createVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\")\n                                ]\n                              }\n                            }),\n                            _: 1\n                          }, _parent, _scopeId))\n                        } else {\n                          return [\n                            _createVNode(_component_v_col, { cols: \"12\" }, {\n                              default: _withCtx(() => [\n                                _createVNode(\"h1\", null, \"Connect\")\n                              ]),\n                              _: 1\n                            }),\n                            _createVNode(_component_v_col, { cols: \"10\" }, {\n                              default: _withCtx(() => [\n                                _createVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \")\n                              ]),\n                              _: 1\n                            }),\n                            _createVNode(_component_v_col, {\n                              cols: \"12\",\n                              class: \"mt-5\"\n                            }, {\n                              default: _withCtx(() => [\n                                _createVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\")\n                              ]),\n                              _: 1\n                            })\n                          ]\n                        }\n                      }),\n                      _: 1\n                    }, _parent, _scopeId))\n                  } else {\n                    return [\n                      _createVNode(_component_v_row, null, {\n                        default: _withCtx(() => [\n                          _createVNode(_component_v_col, { cols: \"12\" }, {\n                            default: _withCtx(() => [\n                              _createVNode(\"h1\", null, \"Connect\")\n                            ]),\n                            _: 1\n                          }),\n                          _createVNode(_component_v_col, { cols: \"10\" }, {\n                            default: _withCtx(() => [\n                              _createVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \")\n                            ]),\n                            _: 1\n                          }),\n                          _createVNode(_component_v_col, {\n                            cols: \"12\",\n                            class: \"mt-5\"\n                          }, {\n                            default: _withCtx(() => [\n                              _createVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\")\n                            ]),\n                            _: 1\n                          })\n                        ]),\n                        _: 1\n                      })\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n            } else {\n              return [\n                _createVNode(_component_v_col, {\n                  class: \"text-center my-auto\",\n                  cols: \"12\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(\"img\", {\n                      class: \"images\",\n                      src: _imports_0,\n                      alt: \"\"\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  class: \"mt-5\",\n                  cols: \"12\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_row, null, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_col, { cols: \"12\" }, {\n                          default: _withCtx(() => [\n                            _createVNode(\"h1\", null, \"Connect\")\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, { cols: \"10\" }, {\n                          default: _withCtx(() => [\n                            _createVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \")\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, {\n                          cols: \"12\",\n                          class: \"mt-5\"\n                        }, {\n                          default: _withCtx(() => [\n                            _createVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\")\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_v_row, null, {\n            default: _withCtx(() => [\n              _createVNode(_component_v_col, {\n                class: \"text-center my-auto\",\n                cols: \"12\",\n                lg: \"6\"\n              }, {\n                default: _withCtx(() => [\n                  _createVNode(\"img\", {\n                    class: \"images\",\n                    src: _imports_0,\n                    alt: \"\"\n                  })\n                ]),\n                _: 1\n              }),\n              _createVNode(_component_v_col, {\n                class: \"mt-5\",\n                cols: \"12\",\n                lg: \"6\"\n              }, {\n                default: _withCtx(() => [\n                  _createVNode(_component_v_row, null, {\n                    default: _withCtx(() => [\n                      _createVNode(_component_v_col, { cols: \"12\" }, {\n                        default: _withCtx(() => [\n                          _createVNode(\"h1\", null, \"Connect\")\n                        ]),\n                        _: 1\n                      }),\n                      _createVNode(_component_v_col, { cols: \"10\" }, {\n                        default: _withCtx(() => [\n                          _createVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \")\n                        ]),\n                        _: 1\n                      }),\n                      _createVNode(_component_v_col, {\n                        cols: \"12\",\n                        class: \"mt-5\"\n                      }, {\n                        default: _withCtx(() => [\n                          _createVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\")\n                        ]),\n                        _: 1\n                      })\n                    ]),\n                    _: 1\n                  })\n                ]),\n                _: 1\n              })\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div>`)\n}\n\nimport \"C:/Users/weigo/whitemedia/components/ConnectMain.vue?vue&type=style&index=0&scoped=b1b1e194&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/ConnectMain.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-b1b1e194\"]])\n\n/* Vuetify */\nimport { VContainer as _component_v_container, VRow as _component_v_row, VCol as _component_v_col } from \"vuetify/lib/components/VGrid/index.mjs\"\n\n",
+      "start": 1706183609452,
+      "end": 1706183609452,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183609452,
+      "end": 1706183609452,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609452,
+      "end": 1706183609452,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183609452,
+      "end": 1706183609452,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183609452,
+      "end": 1706183609453,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1706183609453,
+      "end": 1706183609453,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183609453,
+      "end": 1706183609453,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183609453,
+      "end": 1706183609453,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183609453,
+      "end": 1706183609453,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183609453,
+      "end": 1706183609453,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183609453,
+      "end": 1706183609453,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183609453,
+      "end": 1706183609453,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609453,
+      "end": 1706183609453,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609453,
+      "end": 1706183609453,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609453,
+      "end": 1706183609456,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609453,
+      "end": 1706183609456,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609456,
+      "end": 1706183609456,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609456,
+      "end": 1706183609456,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609456,
+      "end": 1706183609456,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609456,
+      "end": 1706183609456,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1706183609456,
+      "end": 1706183609456,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183609456,
+      "end": 1706183609456,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183609456,
+      "end": 1706183609456,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183609456,
+      "end": 1706183609457,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183609457,
+      "end": 1706183609457,
+      "order": "normal"
+    }
+  ]
+}

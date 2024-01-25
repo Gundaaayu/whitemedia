@@ -1,0 +1,294 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/Maestros.vue?vue&type=style&index=0&scoped=345587e9&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.text-left {\r\n  text-align: left;\r\n}\r\n\r\n.sharpsans-h2 {\r\n  font-size: 24px; /* Adjust the font size as needed */\r\n  font-weight: 900; /* Adjust the font weight as needed */\r\n}\r\n\r\n.sharpsans-h4 {\r\n  font-size: 18px; /* Adjust the font size as needed */\r\n  font-weight: 400; /* Adjust the font weight as needed */\r\n}\r\n\r\n.head {\r\n  line-height: 32.64px; /* 81.6% */\r\n  letter-spacing: 8px;\r\n}\r\n.carousel {\r\n  display: flex;\r\n  width: 100%;\r\n  height: 100%;\r\n  align-items: center;\r\n  font-family: Arial;\r\n}\r\n\r\n.carousel__list {\r\n  display: flex;\r\n  list-style: none;\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100px;\r\n  justify-content: center;\r\n  perspective: 300px;\r\n}\r\n\r\n.carousel__item {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  color: #fff;\r\n  font-size: 0px;\r\n  width: 300px;\r\n  height: 150px;\r\n  border-radius: 12px;\r\n  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);\r\n  position: absolute;\r\n  transition: all 0.3s ease-in;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n  .carousel__item {\r\n    width: 200px;\r\n    height: 100px;\r\n  }\r\n}\r\n\r\n@media (max-width: 576px) {\r\n  .carousel__item {\r\n    width: 120px;\r\n    height: 75px;\r\n  }\r\n}\r\n@media (max-width: 380px) {\r\n  .carousel__item {\r\n    width: 80px;\r\n    height: 55px;\r\n  }\r\n}\r\n\r\n.carousel__item:nth-child(1) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item:nth-child(2) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #fdbb2d 100%);\r\n}\r\n\r\n.carousel__item:nth-child(3) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #22c1c3 100%);\r\n}\r\n\r\n.carousel__item:nth-child(4) {\r\n  background: linear-gradient(45deg, #fdbb2d 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item:nth-child(5) {\r\n  background: linear-gradient(45deg, #22c1c3 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item_active {\r\n  z-index: 5;\r\n}\r\n\r\n.carousel__item[data-pos=\"-1\"],\r\n.carousel__item[data-pos=\"1\"] {\r\n  opacity: 0.7;\r\n  filter: blur(1px) grayscale(10%);\r\n}\r\n\r\n.carousel__item[data-pos=\"-1\"] {\r\n  transform: translateX(-40%) scale(0.9);\r\n  z-index: 4;\r\n}\r\n\r\n.carousel__item[data-pos=\"1\"] {\r\n  transform: translateX(40%) scale(0.9);\r\n  z-index: 4;\r\n}\r\n\r\n.carousel__item[data-pos=\"-2\"],\r\n.carousel__item[data-pos=\"2\"] {\r\n  opacity: 0.4;\r\n  filter: blur(3px) grayscale(20%);\r\n}\r\n\r\n.carousel__item[data-pos=\"-2\"] {\r\n  transform: translateX(-70%) scale(0.8);\r\n  z-index: 3;\r\n}\r\n\r\n.carousel__item[data-pos=\"2\"] {\r\n  transform: translateX(70%) scale(0.8);\r\n  z-index: 3;\r\n}\r\n",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Maestros.vue"
+        ],
+        "names": [],
+        "mappings": ";AAuMA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;AAClB;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;EACpD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;AACzD;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;EACpD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CA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C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9D;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9D;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9D;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9D;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EAC3B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9D;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;AACZ;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,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",
+        "file": "C:/Users/weigo/whitemedia/components/Maestros.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n  <div class=\"bg-primary ml-lg-3\">\r\n    <v-container class=\"pa-0 ml-lg-16 d-none d-md-block\">\r\n      <v-row>\r\n        <v-col\r\n          cols=\"12\"\r\n          lg=\"5\"\r\n          class=\"d-flex flex-column justify-space-between pa-5 pt-15 pb-16 ml-lg-15\"\r\n        >\r\n          <div class=\"mainblock\">\r\n            <div class=\"block\" />\r\n            <h1 class=\"text-left sharpsans-h2 head my-auto mb-10\">\r\n              OUR MAESTROS\r\n            </h1>\r\n          </div>\r\n          <br />\r\n          <br />\r\n\r\n          <h1 class=\"text-left sharpsans-h1 ml-lg-5 mb-10\">\r\n            {{ getActiveItem().name }}\r\n            <p style=\"font-size: 12px\" class=\"ml-1\">Partner</p>\r\n          </h1>\r\n          <br />\r\n          <br />\r\n          <br />\r\n          <br />\r\n          <br />\r\n\r\n          <p class=\"text-left ml-lg-5 sharpsans-h4\">\r\n            {{ getActiveItem().description }}\r\n          </p>\r\n        </v-col>\r\n\r\n        <v-col class=\"mx-auto\" cols=\"12\" lg=\"6\">\r\n          <br />\r\n          <br />\r\n          <br />\r\n          <br />\r\n\r\n          <div class=\"mt-14 mb-14 ml-lg-14\" style=\"height: 50vh\">\r\n            <div class=\"carousel\">\r\n              <ul class=\"carousel__list\">\r\n                <li\r\n                  v-for=\"(item, index) in items\"\r\n                  :key=\"index\"\r\n                  :class=\"[\r\n                    'carousel__item',\r\n                    { carousel__item_active: item.active },\r\n                  ]\"\r\n                  :data-pos=\"item.pos\"\r\n                  @click=\"update(item)\"\r\n                >\r\n                  <img\r\n                    style=\"height: 480px\"\r\n                    :src=\"getImageUrl(item.text)\"\r\n                    alt=\"carousel-item\"\r\n                  />\r\n                </li>\r\n              </ul>\r\n            </div>\r\n          </div>\r\n          <br />\r\n          <br />\r\n          <br />\r\n\r\n          <!-- <v-img src=\"images/logo.png\" /> -->\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n    <v-container fluid class=\"pa-0 ml-lg-6 d-block d-md-none\">\r\n      <v-row>\r\n        <v-col\r\n          cols=\"12\"\r\n          lg=\"4\"\r\n          class=\"d-flex flex-column justify-space-between pa-5 pt-15 pb-16 ml-lg-15\"\r\n        >\r\n          <div class=\"mainblock\">\r\n            <div class=\"block ml-2\" />\r\n            <h1 class=\"text-left sharpsans-h2 head my-auto mb-10\">\r\n              OUR MAESTROS\r\n            </h1>\r\n          </div>\r\n\r\n          <h1 class=\"text-left sharpsans-h1 mb-10 pa-2\">\r\n            {{ getActiveItem().name }}\r\n          </h1>\r\n          <p>Partner</p>\r\n\r\n          <p class=\"text-left sharpsans-h4 pa-2\">\r\n            {{ getActiveItem().description }}\r\n          </p>\r\n        </v-col>\r\n\r\n        <v-col cols=\"12\" lg=\"6\">\r\n          <div class=\"mt-14 mb-14\" style=\"height: 50vh\">\r\n            <div class=\"carousel\">\r\n              <ul class=\"carousel__list\">\r\n                <li\r\n                  v-for=\"(item, index) in items\"\r\n                  :key=\"index\"\r\n                  :class=\"[\r\n                    'carousel__item',\r\n                    { carousel__item_active: item.active },\r\n                  ]\"\r\n                  :data-pos=\"item.pos\"\r\n                  @click=\"update(item)\"\r\n                >\r\n                  <img\r\n                    style=\"height: 480px\"\r\n                    :src=\"getImageUrl(item.text)\"\r\n                    alt=\"carousel-item\"\r\n                  />\r\n                </li>\r\n              </ul>\r\n            </div>\r\n          </div>\r\n          <br />\r\n\r\n          <!-- <v-img src=\"images/logo.png\" /> -->\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\nconst items = ref([\r\n  {\r\n    text: \"1\",\r\n    pos: -2,\r\n    active: false,\r\n    name: \"Sapna Padmanabhan\",\r\n    description:\r\n      \"An acclaimed leadership coach and communication expert, her experience nurtures each new relationship we build. Her years in TV, Radio and Corporate put her in a unique position to liaise between your business and ours. Hit her up if you want to know what we can do for you.\",\r\n  },\r\n  {\r\n    text: \"2\",\r\n    pos: -1,\r\n    active: false,\r\n    name: \"Rony Joe\",\r\n    description:\r\n      \"The yogi with an obsession for business strategy. He approaches each brand with the same care he has for our finances. A salesman and smooth talker who tells the tale of each brand like it was a thing of legend. He’ll be sending you an invoice for that.\",\r\n  },\r\n  {\r\n    text: \"3\",\r\n    pos: 0,\r\n    active: true,\r\n    name: \"Sapna Padmanabhan\",\r\n    description:\r\n      \"An acclaimed leadership coach and communication expert, her experience nurtures each new relationship we build. Her years in TV, Radio and Corporate put her in a unique position to liaise between your business and ours. Hit her up if you want to know what we can do for you.\",\r\n  },\r\n  {\r\n    text: \"4\",\r\n    pos: 1,\r\n    active: false,\r\n    name: \"Sapna Padmanabhan\",\r\n    description:\r\n      \"An acclaimed leadership coach and communication expert, her experience nurtures each new relationship we build. Her years in TV, Radio and Corporate put her in a unique position to liaise between your business and ours. Hit her up if you want to know what we can do for you.\",\r\n  },\r\n  {\r\n    text: \"5\",\r\n    pos: 2,\r\n    active: false,\r\n    name: \"Sapna Padmanabhan\",\r\n    description:\r\n      \"An acclaimed leadership coach and communication expert, her experience nurtures each new relationship we build. Her years in TV, Radio and Corporate put her in a unique position to liaise between your business and ours. Hit her up if you want to know what we can do for you.\",\r\n  },\r\n]);\r\n\r\nconst update = (newActive) => {\r\n  const newActivePos = newActive.pos;\r\n\r\n  items.value.forEach((item) => {\r\n    item.active = item.pos === newActivePos;\r\n    item.pos = getPos(item.pos, newActivePos);\r\n  });\r\n};\r\n\r\nconst getPos = (current, active) => {\r\n  const diff = current - active;\r\n\r\n  if (Math.abs(current - active) > 2) {\r\n    return -current;\r\n  }\r\n\r\n  return diff;\r\n};\r\n\r\nconst getImageUrl = (index) => {\r\n  // Define your image URLs based on the index or any other logic\r\n  return `/images/carousel/${index}.png`;\r\n};\r\n\r\nconst getActiveItem = () => {\r\n  return items.value.find((item) => item.active);\r\n};\r\n</script>\r\n\r\n<style scoped>\r\n.text-left {\r\n  text-align: left;\r\n}\r\n\r\n.sharpsans-h2 {\r\n  font-size: 24px; /* Adjust the font size as needed */\r\n  font-weight: 900; /* Adjust the font weight as needed */\r\n}\r\n\r\n.sharpsans-h4 {\r\n  font-size: 18px; /* Adjust the font size as needed */\r\n  font-weight: 400; /* Adjust the font weight as needed */\r\n}\r\n\r\n.head {\r\n  line-height: 32.64px; /* 81.6% */\r\n  letter-spacing: 8px;\r\n}\r\n.carousel {\r\n  display: flex;\r\n  width: 100%;\r\n  height: 100%;\r\n  align-items: center;\r\n  font-family: Arial;\r\n}\r\n\r\n.carousel__list {\r\n  display: flex;\r\n  list-style: none;\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100px;\r\n  justify-content: center;\r\n  perspective: 300px;\r\n}\r\n\r\n.carousel__item {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  color: #fff;\r\n  font-size: 0px;\r\n  width: 300px;\r\n  height: 150px;\r\n  border-radius: 12px;\r\n  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);\r\n  position: absolute;\r\n  transition: all 0.3s ease-in;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n  .carousel__item {\r\n    width: 200px;\r\n    height: 100px;\r\n  }\r\n}\r\n\r\n@media (max-width: 576px) {\r\n  .carousel__item {\r\n    width: 120px;\r\n    height: 75px;\r\n  }\r\n}\r\n@media (max-width: 380px) {\r\n  .carousel__item {\r\n    width: 80px;\r\n    height: 55px;\r\n  }\r\n}\r\n\r\n.carousel__item:nth-child(1) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item:nth-child(2) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #fdbb2d 100%);\r\n}\r\n\r\n.carousel__item:nth-child(3) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #22c1c3 100%);\r\n}\r\n\r\n.carousel__item:nth-child(4) {\r\n  background: linear-gradient(45deg, #fdbb2d 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item:nth-child(5) {\r\n  background: linear-gradient(45deg, #22c1c3 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item_active {\r\n  z-index: 5;\r\n}\r\n\r\n.carousel__item[data-pos=\"-1\"],\r\n.carousel__item[data-pos=\"1\"] {\r\n  opacity: 0.7;\r\n  filter: blur(1px) grayscale(10%);\r\n}\r\n\r\n.carousel__item[data-pos=\"-1\"] {\r\n  transform: translateX(-40%) scale(0.9);\r\n  z-index: 4;\r\n}\r\n\r\n.carousel__item[data-pos=\"1\"] {\r\n  transform: translateX(40%) scale(0.9);\r\n  z-index: 4;\r\n}\r\n\r\n.carousel__item[data-pos=\"-2\"],\r\n.carousel__item[data-pos=\"2\"] {\r\n  opacity: 0.4;\r\n  filter: blur(3px) grayscale(20%);\r\n}\r\n\r\n.carousel__item[data-pos=\"-2\"] {\r\n  transform: translateX(-70%) scale(0.8);\r\n  z-index: 3;\r\n}\r\n\r\n.carousel__item[data-pos=\"2\"] {\r\n  transform: translateX(70%) scale(0.8);\r\n  z-index: 3;\r\n}\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609541,
+      "end": 1706183609541,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609541,
+      "end": 1706183609541,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609541,
+      "end": 1706183609541,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609541,
+      "end": 1706183609541,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183609541,
+      "end": 1706183609541,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".text-left{text-align:left}.sharpsans-h2{font-size:24px;font-weight:900}.sharpsans-h4{font-size:18px;font-weight:400}.head{letter-spacing:8px;line-height:32.64px}.carousel{align-items:center;display:flex;font-family:Arial;height:100%;width:100%}.carousel__list{height:100px;list-style:none;perspective:300px;position:relative;width:100%}.carousel__item,.carousel__list{display:flex;justify-content:center}.carousel__item{align-items:center;border-radius:12px;box-shadow:0 2px 8px 0 rgba(50,50,50,.5);color:#fff;font-size:0;height:150px;position:absolute;transition:all .3s ease-in;width:300px}@media (max-width:768px){.carousel__item{height:100px;width:200px}}@media (max-width:576px){.carousel__item{height:75px;width:120px}}@media (max-width:380px){.carousel__item{height:55px;width:80px}}.carousel__item:first-child{background:linear-gradient(45deg,#2d35eb,#904ed4)}.carousel__item:nth-child(2){background:linear-gradient(45deg,#2d35eb,#fdbb2d)}.carousel__item:nth-child(3){background:linear-gradient(45deg,#2d35eb,#22c1c3)}.carousel__item:nth-child(4){background:linear-gradient(45deg,#fdbb2d,#904ed4)}.carousel__item:nth-child(5){background:linear-gradient(45deg,#22c1c3,#904ed4)}.carousel__item_active{z-index:5}.carousel__item[data-pos=\"-1\"],.carousel__item[data-pos=\"1\"]{filter:blur(1px) grayscale(10%);opacity:.7}.carousel__item[data-pos=\"-1\"]{transform:translateX(-40%) scale(.9);z-index:4}.carousel__item[data-pos=\"1\"]{transform:translateX(40%) scale(.9);z-index:4}.carousel__item[data-pos=\"-2\"],.carousel__item[data-pos=\"2\"]{filter:blur(3px) grayscale(20%);opacity:.4}.carousel__item[data-pos=\"-2\"]{transform:translateX(-70%) scale(.8);z-index:3}.carousel__item[data-pos=\"2\"]{transform:translateX(70%) scale(.8);z-index:3}",
+      "start": 1706183609541,
+      "end": 1706183609548,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/weigo/whitemedia/components/Maestros.vue",
+        "mappings": "AACA,WACE,eACF,CAEA,cACE,cAAe,CACf,eACF,CAEA,cACE,cAAe,CACf,eACF,CAEA,MAEE,kBAAmB,CADnB,mBAEF,CACA,UAIE,kBAAmB,CAHnB,YAAa,CAIb,iBAAkB,CAFlB,WAAY,CADZ,UAIF,CAEA,gBAKE,YAAa,CAHb,eAAgB,CAKhB,iBAAkB,CAJlB,iBAAkB,CAClB,UAIF,CAEA,gCATE,YAAa,CAKb,sBAgBF,CAZA,gBAEE,kBAAmB,CAMnB,kBAAmB,CACnB,wCAAiD,CALjD,UAAW,CACX,WAAc,CAEd,YAAa,CAGb,iBAAkB,CAClB,0BAA4B,CAL5B,WAMF,CAEA,yBACE,gBAEE,YAAa,CADb,WAEF,CACF,CAEA,yBACE,gBAEE,WAAY,CADZ,WAEF,CACF,CACA,yBACE,gBAEE,WAAY,CADZ,UAEF,CACF,CAEA,4BACE,iDACF,CAEA,6BACE,iDACF,CAEA,6BACE,iDACF,CAEA,6BACE,iDACF,CAEA,6BACE,iDACF,CAEA,uBACE,SACF,CAEA,6DAGE,+BAAgC,CADhC,UAEF,CAEA,+BACE,oCAAsC,CACtC,SACF,CAEA,8BACE,mCAAqC,CACrC,SACF,CAEA,6DAGE,+BAAgC,CADhC,UAEF,CAEA,+BACE,oCAAsC,CACtC,SACF,CAEA,8BACE,mCAAqC,CACrC,SACF",
+        "names": [],
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Maestros.vue"
+        ],
+        "sourcesContent": [
+          "\r\n.text-left {\r\n  text-align: left;\r\n}\r\n\r\n.sharpsans-h2 {\r\n  font-size: 24px; /* Adjust the font size as needed */\r\n  font-weight: 900; /* Adjust the font weight as needed */\r\n}\r\n\r\n.sharpsans-h4 {\r\n  font-size: 18px; /* Adjust the font size as needed */\r\n  font-weight: 400; /* Adjust the font weight as needed */\r\n}\r\n\r\n.head {\r\n  line-height: 32.64px; /* 81.6% */\r\n  letter-spacing: 8px;\r\n}\r\n.carousel {\r\n  display: flex;\r\n  width: 100%;\r\n  height: 100%;\r\n  align-items: center;\r\n  font-family: Arial;\r\n}\r\n\r\n.carousel__list {\r\n  display: flex;\r\n  list-style: none;\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100px;\r\n  justify-content: center;\r\n  perspective: 300px;\r\n}\r\n\r\n.carousel__item {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  color: #fff;\r\n  font-size: 0px;\r\n  width: 300px;\r\n  height: 150px;\r\n  border-radius: 12px;\r\n  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);\r\n  position: absolute;\r\n  transition: all 0.3s ease-in;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n  .carousel__item {\r\n    width: 200px;\r\n    height: 100px;\r\n  }\r\n}\r\n\r\n@media (max-width: 576px) {\r\n  .carousel__item {\r\n    width: 120px;\r\n    height: 75px;\r\n  }\r\n}\r\n@media (max-width: 380px) {\r\n  .carousel__item {\r\n    width: 80px;\r\n    height: 55px;\r\n  }\r\n}\r\n\r\n.carousel__item:nth-child(1) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item:nth-child(2) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #fdbb2d 100%);\r\n}\r\n\r\n.carousel__item:nth-child(3) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #22c1c3 100%);\r\n}\r\n\r\n.carousel__item:nth-child(4) {\r\n  background: linear-gradient(45deg, #fdbb2d 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item:nth-child(5) {\r\n  background: linear-gradient(45deg, #22c1c3 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item_active {\r\n  z-index: 5;\r\n}\r\n\r\n.carousel__item[data-pos=\"-1\"],\r\n.carousel__item[data-pos=\"1\"] {\r\n  opacity: 0.7;\r\n  filter: blur(1px) grayscale(10%);\r\n}\r\n\r\n.carousel__item[data-pos=\"-1\"] {\r\n  transform: translateX(-40%) scale(0.9);\r\n  z-index: 4;\r\n}\r\n\r\n.carousel__item[data-pos=\"1\"] {\r\n  transform: translateX(40%) scale(0.9);\r\n  z-index: 4;\r\n}\r\n\r\n.carousel__item[data-pos=\"-2\"],\r\n.carousel__item[data-pos=\"2\"] {\r\n  opacity: 0.4;\r\n  filter: blur(3px) grayscale(20%);\r\n}\r\n\r\n.carousel__item[data-pos=\"-2\"] {\r\n  transform: translateX(-70%) scale(0.8);\r\n  z-index: 3;\r\n}\r\n\r\n.carousel__item[data-pos=\"2\"] {\r\n  transform: translateX(70%) scale(0.8);\r\n  z-index: 3;\r\n}\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183609548,
+      "end": 1706183609548,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183609548,
+      "end": 1706183609548,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183609548,
+      "end": 1706183609548,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".text-left[data-v-345587e9]{text-align:left}.sharpsans-h2[data-v-345587e9]{font-size:24px;font-weight:900}.sharpsans-h4[data-v-345587e9]{font-size:18px;font-weight:400}.head[data-v-345587e9]{letter-spacing:8px;line-height:32.64px}.carousel[data-v-345587e9]{align-items:center;display:flex;font-family:Arial;height:100%;width:100%}.carousel__list[data-v-345587e9]{height:100px;list-style:none;perspective:300px;position:relative;width:100%}.carousel__item[data-v-345587e9],.carousel__list[data-v-345587e9]{display:flex;justify-content:center}.carousel__item[data-v-345587e9]{align-items:center;border-radius:12px;box-shadow:0 2px 8px 0 rgba(50,50,50,.5);color:#fff;font-size:0;height:150px;position:absolute;transition:all .3s ease-in;width:300px}@media (max-width:768px){.carousel__item[data-v-345587e9]{height:100px;width:200px}}@media (max-width:576px){.carousel__item[data-v-345587e9]{height:75px;width:120px}}@media (max-width:380px){.carousel__item[data-v-345587e9]{height:55px;width:80px}}.carousel__item[data-v-345587e9]:first-child{background:linear-gradient(45deg,#2d35eb,#904ed4)}.carousel__item[data-v-345587e9]:nth-child(2){background:linear-gradient(45deg,#2d35eb,#fdbb2d)}.carousel__item[data-v-345587e9]:nth-child(3){background:linear-gradient(45deg,#2d35eb,#22c1c3)}.carousel__item[data-v-345587e9]:nth-child(4){background:linear-gradient(45deg,#fdbb2d,#904ed4)}.carousel__item[data-v-345587e9]:nth-child(5){background:linear-gradient(45deg,#22c1c3,#904ed4)}.carousel__item_active[data-v-345587e9]{z-index:5}.carousel__item[data-pos=\"-1\"][data-v-345587e9],.carousel__item[data-pos=\"1\"][data-v-345587e9]{filter:blur(1px) grayscale(10%);opacity:.7}.carousel__item[data-pos=\"-1\"][data-v-345587e9]{transform:translateX(-40%) scale(.9);z-index:4}.carousel__item[data-pos=\"1\"][data-v-345587e9]{transform:translateX(40%) scale(.9);z-index:4}.carousel__item[data-pos=\"-2\"][data-v-345587e9],.carousel__item[data-pos=\"2\"][data-v-345587e9]{filter:blur(3px) grayscale(20%);opacity:.4}.carousel__item[data-pos=\"-2\"][data-v-345587e9]{transform:translateX(-70%) scale(.8);z-index:3}.carousel__item[data-pos=\"2\"][data-v-345587e9]{transform:translateX(70%) scale(.8);z-index:3}",
+      "start": 1706183609548,
+      "end": 1706183609552,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/weigo/whitemedia/components/Maestros.vue",
+        "mappings": "AAAA,4BAAW,eAAe,CAAC,+BAAc,cAAc,CAAC,eAAe,CAAC,+BAAc,cAAc,CAAC,eAAe,CAAC,uBAAM,kBAAkB,CAAC,mBAAmB,CAAC,2BAAU,kBAAkB,CAAC,YAAY,CAAC,iBAAiB,CAAC,WAAW,CAAC,UAAU,CAAC,iCAAgB,YAAY,CAAC,eAAe,CAAC,iBAAiB,CAAC,iBAAiB,CAAC,UAAU,CAAC,kEAAgC,YAAY,CAAC,sBAAsB,CAAC,iCAAgB,kBAAkB,CAAC,kBAAkB,CAAC,wCAAwC,CAAC,UAAU,CAAC,WAAW,CAAC,YAAY,CAAC,iBAAiB,CAAC,0BAA0B,CAAC,WAAW,CAAC,yBAAyB,iCAAgB,YAAY,CAAC,WAAW,CAAC,CAAC,yBAAyB,iCAAgB,WAAW,CAAC,WAAW,CAAC,CAAC,yBAAyB,iCAAgB,WAAW,CAAC,UAAU,CAAC,CAAC,6CAA4B,iDAAiD,CAAC,8CAA6B,iDAAiD,CAAC,8CAA6B,iDAAiD,CAAC,8CAA6B,iDAAiD,CAAC,8CAA6B,iDAAiD,CAAC,wCAAuB,SAAS,CAAC,+FAA6D,+BAA+B,CAAC,UAAU,CAAC,gDAA+B,oCAAoC,CAAC,SAAS,CAAC,+CAA8B,mCAAmC,CAAC,SAAS,CAAC,+FAA6D,+BAA+B,CAAC,UAAU,CAAC,gDAA+B,oCAAoC,CAAC,SAAS,CAAC,+CAA8B,mCAAmC,CAAC,SAAS",
+        "names": [],
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Maestros.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183609552,
+      "end": 1706183609552,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609552,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609552,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609553,
+      "end": 1706183609553,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609553,
+      "end": 1706183609554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609553,
+      "end": 1706183609554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1706183609554,
+      "end": 1706183609554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183609554,
+      "end": 1706183609554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183609554,
+      "end": 1706183609554,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183609554,
+      "end": 1706183609554,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183609554,
+      "end": 1706183609554,
+      "order": "normal"
+    }
+  ]
+}

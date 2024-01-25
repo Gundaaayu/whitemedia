@@ -1,0 +1,266 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/Hero.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div>\r\n    <!-- <v-container fluid>\r\n      <v-row class=\"justify-center\">\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img1.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img2.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img3.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img4.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img5.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img6.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img7.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img8.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img9.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img10.png\" />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container> -->\r\n    <v-container class=\"pa-0 d-none d-md-block\" fluid>\r\n      <v-row>\r\n        <v-col cols=\"12\">\r\n          <v-img src=\"/images/banner.jpg\" />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n    <v-container class=\"pa-0 d-block d-md-none\" fluid>\r\n      <v-row>\r\n        <v-col cols=\"12\">\r\n          <v-img src=\"/images/banner-small.png\" />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\n// const { $anime } = useNuxtApp();\r\n\r\n// onMounted(() => {\r\n//   $anime({\r\n//     targets: \".title\",\r\n//     translateX: 270,\r\n//     direction: \"alternate\",\r\n//     loop: false,\r\n//     duration: 2000,\r\n//     easing: function (el, i, total) {\r\n//       return function (t) {\r\n//         return Math.pow(Math.sin(t * (i + 1)), total);\r\n//       };\r\n//     },\r\n//   });\r\n// });\r\n</script>\r\n",
+      "start": 1706183608930,
+      "end": 1706183609155,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609155,
+      "end": 1706183609155,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609155,
+      "end": 1706183609155,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609155,
+      "end": 1706183609155,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609155,
+      "end": 1706183609155,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183609155,
+      "end": 1706183609155,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1706183609155,
+      "end": 1706183609155,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183609155,
+      "end": 1706183609155,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183609155,
+      "end": 1706183609155,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183609155,
+      "end": 1706183609155,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/banner.jpg'\nimport _imports_1 from '/images/banner-small.png'\n\n\n\nconst _sfc_main = {\n  __name: 'Hero',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n// const { $anime } = useNuxtApp();\r\n\r\n// onMounted(() => {\r\n//   $anime({\r\n//     targets: \".title\",\r\n//     translateX: 270,\r\n//     direction: \"alternate\",\r\n//     loop: false,\r\n//     duration: 2000,\r\n//     easing: function (el, i, total) {\r\n//       return function (t) {\r\n//         return Math.pow(Math.sin(t * (i + 1)), total);\r\n//       };\r\n//     },\r\n//   });\r\n// });\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  const _component_v_container = _resolveComponent(\"v-container\")\n  const _component_v_row = _resolveComponent(\"v-row\")\n  const _component_v_col = _resolveComponent(\"v-col\")\n  const _component_v_img = _resolveComponent(\"v-img\")\n\n  _push(`<div${_ssrRenderAttrs(_attrs)}>`)\n  _push(_ssrRenderComponent(_component_v_container, {\n    class: \"pa-0 d-none d-md-block\",\n    fluid: \"\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_v_row, null, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(_ssrRenderComponent(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(_ssrRenderComponent(_component_v_img, { src: _imports_0 }, null, _parent, _scopeId))\n                  } else {\n                    return [\n                      _createVNode(_component_v_img, { src: _imports_0 })\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n            } else {\n              return [\n                _createVNode(_component_v_col, { cols: \"12\" }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, { src: _imports_0 })\n                  ]),\n                  _: 1\n                })\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_v_row, null, {\n            default: _withCtx(() => [\n              _createVNode(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx(() => [\n                  _createVNode(_component_v_img, { src: _imports_0 })\n                ]),\n                _: 1\n              })\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(_ssrRenderComponent(_component_v_container, {\n    class: \"pa-0 d-block d-md-none\",\n    fluid: \"\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_v_row, null, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(_ssrRenderComponent(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(_ssrRenderComponent(_component_v_img, { src: _imports_1 }, null, _parent, _scopeId))\n                  } else {\n                    return [\n                      _createVNode(_component_v_img, { src: _imports_1 })\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n            } else {\n              return [\n                _createVNode(_component_v_col, { cols: \"12\" }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, { src: _imports_1 })\n                  ]),\n                  _: 1\n                })\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_v_row, null, {\n            default: _withCtx(() => [\n              _createVNode(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx(() => [\n                  _createVNode(_component_v_img, { src: _imports_1 })\n                ]),\n                _: 1\n              })\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/Hero.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
+      "start": 1706183609155,
+      "end": 1706183609163,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Hero.vue"
+        ],
+        "sourcesContent": [
+          "<template>\r\n  <div>\r\n    <!-- <v-container fluid>\r\n      <v-row class=\"justify-center\">\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img1.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img2.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img3.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img4.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img5.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img6.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img7.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img8.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img9.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img10.png\" />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container> -->\r\n    <v-container class=\"pa-0 d-none d-md-block\" fluid>\r\n      <v-row>\r\n        <v-col cols=\"12\">\r\n          <v-img src=\"/images/banner.jpg\" />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n    <v-container class=\"pa-0 d-block d-md-none\" fluid>\r\n      <v-row>\r\n        <v-col cols=\"12\">\r\n          <v-img src=\"/images/banner-small.png\" />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\n// const { $anime } = useNuxtApp();\r\n\r\n// onMounted(() => {\r\n//   $anime({\r\n//     targets: \".title\",\r\n//     translateX: 270,\r\n//     direction: \"alternate\",\r\n//     loop: false,\r\n//     duration: 2000,\r\n//     easing: function (el, i, total) {\r\n//       return function (t) {\r\n//         return Math.pow(Math.sin(t * (i + 1)), total);\r\n//       };\r\n//     },\r\n//   });\r\n// });\r\n</script>\r\n"
+        ],
+        "names": [],
+        "mappings": ";;;;;;;;;;;AAqDc,CAAC;AACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpC,CAAC;AACD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACxB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACvB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "result": "import { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/banner.jpg'\nimport _imports_1 from '/images/banner-small.png'\n\n\n\nconst _sfc_main = {\n  __name: 'Hero',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n// const { $anime } = useNuxtApp();\r\n\r\n// onMounted(() => {\r\n//   $anime({\r\n//     targets: \".title\",\r\n//     translateX: 270,\r\n//     direction: \"alternate\",\r\n//     loop: false,\r\n//     duration: 2000,\r\n//     easing: function (el, i, total) {\r\n//       return function (t) {\r\n//         return Math.pow(Math.sin(t * (i + 1)), total);\r\n//       };\r\n//     },\r\n//   });\r\n// });\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n                                                                 \n                                                     \n                                                     \n                                                     \n\n  _push(`<div${_ssrRenderAttrs(_attrs)}>`)\n  _push(_ssrRenderComponent(_component_v_container, {\n    class: \"pa-0 d-none d-md-block\",\n    fluid: \"\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_v_row, null, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(_ssrRenderComponent(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(_ssrRenderComponent(_component_v_img, { src: _imports_0 }, null, _parent, _scopeId))\n                  } else {\n                    return [\n                      _createVNode(_component_v_img, { src: _imports_0 })\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n            } else {\n              return [\n                _createVNode(_component_v_col, { cols: \"12\" }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, { src: _imports_0 })\n                  ]),\n                  _: 1\n                })\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_v_row, null, {\n            default: _withCtx(() => [\n              _createVNode(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx(() => [\n                  _createVNode(_component_v_img, { src: _imports_0 })\n                ]),\n                _: 1\n              })\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(_ssrRenderComponent(_component_v_container, {\n    class: \"pa-0 d-block d-md-none\",\n    fluid: \"\"\n  }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_v_row, null, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(_ssrRenderComponent(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(_ssrRenderComponent(_component_v_img, { src: _imports_1 }, null, _parent, _scopeId))\n                  } else {\n                    return [\n                      _createVNode(_component_v_img, { src: _imports_1 })\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n            } else {\n              return [\n                _createVNode(_component_v_col, { cols: \"12\" }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, { src: _imports_1 })\n                  ]),\n                  _: 1\n                })\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_v_row, null, {\n            default: _withCtx(() => [\n              _createVNode(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx(() => [\n                  _createVNode(_component_v_img, { src: _imports_1 })\n                ]),\n                _: 1\n              })\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/Hero.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main\n\n/* Vuetify */\nimport { VContainer as _component_v_container, VRow as _component_v_row, VCol as _component_v_col } from \"vuetify/lib/components/VGrid/index.mjs\"\nimport { VImg as _component_v_img } from \"vuetify/lib/components/VImg/index.mjs\"\n\n",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609163,
+      "end": 1706183609163,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609163,
+      "end": 1706183609165,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609163,
+      "end": 1706183609165,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609165,
+      "end": 1706183609165,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609165,
+      "end": 1706183609165,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609165,
+      "end": 1706183609165,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609165,
+      "end": 1706183609165,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1706183609166,
+      "end": 1706183609166,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183609166,
+      "end": 1706183609166,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183609166,
+      "end": 1706183609166,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183609166,
+      "end": 1706183609166,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183609166,
+      "end": 1706183609166,
+      "order": "normal"
+    }
+  ]
+}

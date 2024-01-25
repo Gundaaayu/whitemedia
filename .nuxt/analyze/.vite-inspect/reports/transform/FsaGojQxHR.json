@@ -1,0 +1,222 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/FooterMain.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div>\r\n    <div class=\"d-none d-md-block\">\r\n      <div>\r\n        <v-container fluid>\r\n          <v-row>\r\n            <v-col cols=\"12\">\r\n              <div class=\"scrolling-container\">\r\n                <div class=\"scrolling-images\">\r\n                  <v-img src=\"/images/scrolllogo.png\" />\r\n                  <v-img src=\"/images/scrolllogo2.png\" />\r\n                </div>\r\n\r\n                <!-- <v-img src=\"/images/scrolllogo2.png\"></v-img> -->\r\n              </div>\r\n            </v-col>\r\n          </v-row>\r\n        </v-container>\r\n        <v-container fluid class=\"pa-10 mb-10\">\r\n          <v-row class=\"mx-auto ml-lg-10\">\r\n            <v-col class=\"text-left\" cols=\"12\" xxl=\"6\" xl=\"6\" lg=\"6\">\r\n              <h1>Promise</h1>\r\n              <p class=\"para\">\r\n                With White Water Media, transformation is as natural and\r\n                powerful as the course of a river. Experience the magic as your\r\n                brand not only grows but flourishes abundantl.\r\n              </p>\r\n            </v-col>\r\n            <v-col class=\"mx-auto\" cols=\"12\" xxl=\"6\" xl=\"6\" lg=\"6\">\r\n              <v-img class=\"mx-auto\" src=\"/images/footerlogo.png\" width=\"400\" />\r\n            </v-col>\r\n          </v-row>\r\n        </v-container>\r\n      </div>\r\n      <div style=\"background-color: #0b0f26\">\r\n        <v-container fluid>\r\n          <v-row>\r\n            <v-col class=\"text-center ml-lg-10\" cols=\"12\" lg=\"5\">\r\n              <v-row>\r\n                <v-col cols=\"6\">\r\n                  <p>2023 White Water Media.</p>\r\n                </v-col>\r\n                <v-col class=\"text-left\" cols=\"6\">\r\n                  <p>All rights reserved.</p>\r\n                </v-col>\r\n              </v-row>\r\n            </v-col>\r\n            <v-col class=\"text-center\" cols=\"12\" lg=\"6\">\r\n              <v-row>\r\n                <v-col class=\"text-right\" cols=\"6\">\r\n                  <p>Privacy Policy</p>\r\n                </v-col>\r\n                <v-col cols=\"6\">\r\n                  <p>Terms of Service</p>\r\n                </v-col>\r\n              </v-row>\r\n            </v-col>\r\n          </v-row>\r\n        </v-container>\r\n      </div>\r\n    </div>\r\n    <div class=\"d-block d-md-none\">\r\n      <div>\r\n        <v-container fluid>\r\n          <v-row>\r\n            <v-col cols=\"12\">\r\n              <div class=\"scrolling-container\">\r\n                <div class=\"scrolling-images\">\r\n                  <v-img src=\"/images/scrolllogo.png\" />\r\n                  <v-img src=\"/images/scrolllogo2.png\" />\r\n                </div>\r\n\r\n                <!-- <v-img src=\"/images/scrolllogo2.png\"></v-img> -->\r\n              </div>\r\n            </v-col>\r\n          </v-row>\r\n        </v-container>\r\n        <v-container fluid class=\"pa-5 mb-10\">\r\n          <v-row class=\"mx-auto ml-lg-10\">\r\n            <v-col class=\"text-left\" cols=\"12\" xxl=\"6\" xl=\"6\" lg=\"6\">\r\n              <h1 class=\"text-center\">Promise</h1>\r\n              <p class=\"para text-center mt-2 mb-5\">\r\n                With White Water Media, transformation is as natural and\r\n                powerful as the course of a river. Experience the magic as your\r\n                brand not only grows but flourishes abundantl.\r\n              </p>\r\n            </v-col>\r\n            <v-col class=\"mx-auto mt-10\" cols=\"12\" xxl=\"6\" xl=\"6\" lg=\"6\">\r\n              <v-img class=\"mx-auto\" src=\"/images/footerlogo.png\" width=\"400\" />\r\n            </v-col>\r\n          </v-row>\r\n        </v-container>\r\n      </div>\r\n      <div style=\"background-color: #0b0f26\">\r\n        <v-container fluid>\r\n          <v-row>\r\n            <v-col class=\"text-center\" cols=\"12\" lg=\"6\">\r\n              <v-row>\r\n                <v-col cols=\"6\">\r\n                  <p>2023 White Water Media.</p>\r\n                </v-col>\r\n                <v-col class=\"text-center\" cols=\"6\">\r\n                  <p>All rights reserved.</p>\r\n                </v-col>\r\n              </v-row>\r\n            </v-col>\r\n            <v-col class=\"text-center\" cols=\"12\" lg=\"6\">\r\n              <v-row>\r\n                <v-col class=\"text-center\" cols=\"6\">\r\n                  <p>Privacy Policy</p>\r\n                </v-col>\r\n                <v-col cols=\"6\">\r\n                  <p>Terms of Service</p>\r\n                </v-col>\r\n              </v-row>\r\n            </v-col>\r\n          </v-row>\r\n        </v-container>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<style scoped>\r\n.para {\r\n  font-size: 22px;\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  /* line-height: 41.78px; */\r\n}\r\n.scrolling-container {\r\n  overflow: hidden;\r\n}\r\n.scrolling-images {\r\n  display: flex;\r\n  width: 200%;\r\n  max-width: 200%;\r\n  animation: scroll 10s linear infinite;\r\n}\r\n\r\n@keyframes scroll {\r\n  0% {\r\n    transform: translateX(0);\r\n  }\r\n  100% {\r\n    transform: translateX(-50%);\r\n  }\r\n}\r\n\r\n.animated-text {\r\n  display: block;\r\n  animation: slide-up 1s ease-out forwards;\r\n  animation-delay: var(--delay);\r\n  opacity: 0;\r\n}\r\n\r\n@keyframes slide-up {\r\n  0% {\r\n    transform: translateY(100%);\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    transform: translateY(0);\r\n    opacity: 1;\r\n  }\r\n}\r\n</style>\r\n",
+      "start": 1706183598036,
+      "end": 1706183598406,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183598406,
+      "end": 1706183598406,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183598406,
+      "end": 1706183598406,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183598406,
+      "end": 1706183598406,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1706183598406,
+      "end": 1706183598406,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183598406,
+      "end": 1706183598406,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183598406,
+      "end": 1706183598406,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183598406,
+      "end": 1706183598406,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, withCtx as _withCtx, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/images/scrolllogo.png'\nimport _imports_1 from '/images/scrolllogo2.png'\nimport _imports_2 from '/images/footerlogo.png'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-e65289e7\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"d-none d-md-block\" }\nconst _hoisted_2 = { class: \"scrolling-container\" }\nconst _hoisted_3 = { class: \"scrolling-images\" }\nconst _hoisted_4 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", null, \"Promise\", -1))\nconst _hoisted_5 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"para\" }, \" With White Water Media, transformation is as natural and powerful as the course of a river. Experience the magic as your brand not only grows but flourishes abundantl. \", -1))\nconst _hoisted_6 = { style: {\"background-color\":\"#0b0f26\"} }\nconst _hoisted_7 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"2023 White Water Media.\", -1))\nconst _hoisted_8 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"All rights reserved.\", -1))\nconst _hoisted_9 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"Privacy Policy\", -1))\nconst _hoisted_10 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"Terms of Service\", -1))\nconst _hoisted_11 = { class: \"d-block d-md-none\" }\nconst _hoisted_12 = { class: \"scrolling-container\" }\nconst _hoisted_13 = { class: \"scrolling-images\" }\nconst _hoisted_14 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", { class: \"text-center\" }, \"Promise\", -1))\nconst _hoisted_15 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"para text-center mt-2 mb-5\" }, \" With White Water Media, transformation is as natural and powerful as the course of a river. Experience the magic as your brand not only grows but flourishes abundantl. \", -1))\nconst _hoisted_16 = { style: {\"background-color\":\"#0b0f26\"} }\nconst _hoisted_17 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"2023 White Water Media.\", -1))\nconst _hoisted_18 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"All rights reserved.\", -1))\nconst _hoisted_19 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"Privacy Policy\", -1))\nconst _hoisted_20 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"Terms of Service\", -1))\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_v_img = _resolveComponent(\"v-img\")\n  const _component_v_col = _resolveComponent(\"v-col\")\n  const _component_v_row = _resolveComponent(\"v-row\")\n  const _component_v_container = _resolveComponent(\"v-container\")\n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", null, [\n        _createVNode(_component_v_container, { fluid: \"\" }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, null, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, { cols: \"12\" }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_2, [\n                      _createElementVNode(\"div\", _hoisted_3, [\n                        _createVNode(_component_v_img, { src: _imports_0 }),\n                        _createVNode(_component_v_img, { src: _imports_1 })\n                      ])\n                    ])\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_v_container, {\n          fluid: \"\",\n          class: \"pa-10 mb-10\"\n        }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, { class: \"mx-auto ml-lg-10\" }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, {\n                  class: \"text-left\",\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_4,\n                    _hoisted_5\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  class: \"mx-auto\",\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, {\n                      class: \"mx-auto\",\n                      src: _imports_2,\n                      width: \"400\"\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"div\", _hoisted_6, [\n        _createVNode(_component_v_container, { fluid: \"\" }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, null, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, {\n                  class: \"text-center ml-lg-10\",\n                  cols: \"12\",\n                  lg: \"5\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_row, null, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_col, { cols: \"6\" }, {\n                          default: _withCtx(() => [\n                            _hoisted_7\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, {\n                          class: \"text-left\",\n                          cols: \"6\"\n                        }, {\n                          default: _withCtx(() => [\n                            _hoisted_8\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  class: \"text-center\",\n                  cols: \"12\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_row, null, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_col, {\n                          class: \"text-right\",\n                          cols: \"6\"\n                        }, {\n                          default: _withCtx(() => [\n                            _hoisted_9\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, { cols: \"6\" }, {\n                          default: _withCtx(() => [\n                            _hoisted_10\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ])\n    ]),\n    _createElementVNode(\"div\", _hoisted_11, [\n      _createElementVNode(\"div\", null, [\n        _createVNode(_component_v_container, { fluid: \"\" }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, null, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, { cols: \"12\" }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_12, [\n                      _createElementVNode(\"div\", _hoisted_13, [\n                        _createVNode(_component_v_img, { src: _imports_0 }),\n                        _createVNode(_component_v_img, { src: _imports_1 })\n                      ])\n                    ])\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_v_container, {\n          fluid: \"\",\n          class: \"pa-5 mb-10\"\n        }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, { class: \"mx-auto ml-lg-10\" }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, {\n                  class: \"text-left\",\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_14,\n                    _hoisted_15\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  class: \"mx-auto mt-10\",\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, {\n                      class: \"mx-auto\",\n                      src: _imports_2,\n                      width: \"400\"\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"div\", _hoisted_16, [\n        _createVNode(_component_v_container, { fluid: \"\" }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, null, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, {\n                  class: \"text-center\",\n                  cols: \"12\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_row, null, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_col, { cols: \"6\" }, {\n                          default: _withCtx(() => [\n                            _hoisted_17\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, {\n                          class: \"text-center\",\n                          cols: \"6\"\n                        }, {\n                          default: _withCtx(() => [\n                            _hoisted_18\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  class: \"text-center\",\n                  cols: \"12\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_row, null, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_col, {\n                          class: \"text-center\",\n                          cols: \"6\"\n                        }, {\n                          default: _withCtx(() => [\n                            _hoisted_19\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, { cols: \"6\" }, {\n                          default: _withCtx(() => [\n                            _hoisted_20\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ])\n    ])\n  ]))\n}\n\nimport \"C:/Users/weigo/whitemedia/components/FooterMain.vue?vue&type=style&index=0&scoped=e65289e7&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-e65289e7\"]])",
+      "start": 1706183598406,
+      "end": 1706183598412,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183598412,
+      "end": 1706183598412,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183598412,
+      "end": 1706183598412,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183598412,
+      "end": 1706183598412,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1706183598412,
+      "end": 1706183598412,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, withCtx as _withCtx, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/images/scrolllogo.png'\nimport _imports_1 from '/images/scrolllogo2.png'\nimport _imports_2 from '/images/footerlogo.png'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-e65289e7\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"d-none d-md-block\" }\nconst _hoisted_2 = { class: \"scrolling-container\" }\nconst _hoisted_3 = { class: \"scrolling-images\" }\nconst _hoisted_4 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", null, \"Promise\", -1))\nconst _hoisted_5 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"para\" }, \" With White Water Media, transformation is as natural and powerful as the course of a river. Experience the magic as your brand not only grows but flourishes abundantl. \", -1))\nconst _hoisted_6 = { style: {\"background-color\":\"#0b0f26\"} }\nconst _hoisted_7 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"2023 White Water Media.\", -1))\nconst _hoisted_8 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"All rights reserved.\", -1))\nconst _hoisted_9 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"Privacy Policy\", -1))\nconst _hoisted_10 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"Terms of Service\", -1))\nconst _hoisted_11 = { class: \"d-block d-md-none\" }\nconst _hoisted_12 = { class: \"scrolling-container\" }\nconst _hoisted_13 = { class: \"scrolling-images\" }\nconst _hoisted_14 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", { class: \"text-center\" }, \"Promise\", -1))\nconst _hoisted_15 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"para text-center mt-2 mb-5\" }, \" With White Water Media, transformation is as natural and powerful as the course of a river. Experience the magic as your brand not only grows but flourishes abundantl. \", -1))\nconst _hoisted_16 = { style: {\"background-color\":\"#0b0f26\"} }\nconst _hoisted_17 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"2023 White Water Media.\", -1))\nconst _hoisted_18 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"All rights reserved.\", -1))\nconst _hoisted_19 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"Privacy Policy\", -1))\nconst _hoisted_20 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", null, \"Terms of Service\", -1))\n\nfunction _sfc_render(_ctx, _cache) {\n                                                     \n                                                     \n                                                     \n                                                                 \n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", null, [\n        _createVNode(_component_v_container, { fluid: \"\" }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, null, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, { cols: \"12\" }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_2, [\n                      _createElementVNode(\"div\", _hoisted_3, [\n                        _createVNode(_component_v_img, { src: _imports_0 }),\n                        _createVNode(_component_v_img, { src: _imports_1 })\n                      ])\n                    ])\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_v_container, {\n          fluid: \"\",\n          class: \"pa-10 mb-10\"\n        }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, { class: \"mx-auto ml-lg-10\" }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, {\n                  class: \"text-left\",\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_4,\n                    _hoisted_5\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  class: \"mx-auto\",\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, {\n                      class: \"mx-auto\",\n                      src: _imports_2,\n                      width: \"400\"\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"div\", _hoisted_6, [\n        _createVNode(_component_v_container, { fluid: \"\" }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, null, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, {\n                  class: \"text-center ml-lg-10\",\n                  cols: \"12\",\n                  lg: \"5\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_row, null, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_col, { cols: \"6\" }, {\n                          default: _withCtx(() => [\n                            _hoisted_7\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, {\n                          class: \"text-left\",\n                          cols: \"6\"\n                        }, {\n                          default: _withCtx(() => [\n                            _hoisted_8\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  class: \"text-center\",\n                  cols: \"12\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_row, null, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_col, {\n                          class: \"text-right\",\n                          cols: \"6\"\n                        }, {\n                          default: _withCtx(() => [\n                            _hoisted_9\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, { cols: \"6\" }, {\n                          default: _withCtx(() => [\n                            _hoisted_10\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ])\n    ]),\n    _createElementVNode(\"div\", _hoisted_11, [\n      _createElementVNode(\"div\", null, [\n        _createVNode(_component_v_container, { fluid: \"\" }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, null, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, { cols: \"12\" }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_12, [\n                      _createElementVNode(\"div\", _hoisted_13, [\n                        _createVNode(_component_v_img, { src: _imports_0 }),\n                        _createVNode(_component_v_img, { src: _imports_1 })\n                      ])\n                    ])\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        }),\n        _createVNode(_component_v_container, {\n          fluid: \"\",\n          class: \"pa-5 mb-10\"\n        }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, { class: \"mx-auto ml-lg-10\" }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, {\n                  class: \"text-left\",\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _hoisted_14,\n                    _hoisted_15\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  class: \"mx-auto mt-10\",\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, {\n                      class: \"mx-auto\",\n                      src: _imports_2,\n                      width: \"400\"\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"div\", _hoisted_16, [\n        _createVNode(_component_v_container, { fluid: \"\" }, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_row, null, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_col, {\n                  class: \"text-center\",\n                  cols: \"12\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_row, null, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_col, { cols: \"6\" }, {\n                          default: _withCtx(() => [\n                            _hoisted_17\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, {\n                          class: \"text-center\",\n                          cols: \"6\"\n                        }, {\n                          default: _withCtx(() => [\n                            _hoisted_18\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  class: \"text-center\",\n                  cols: \"12\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_row, null, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_col, {\n                          class: \"text-center\",\n                          cols: \"6\"\n                        }, {\n                          default: _withCtx(() => [\n                            _hoisted_19\n                          ]),\n                          _: 1\n                        }),\n                        _createVNode(_component_v_col, { cols: \"6\" }, {\n                          default: _withCtx(() => [\n                            _hoisted_20\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ])\n    ])\n  ]))\n}\n\nimport \"C:/Users/weigo/whitemedia/components/FooterMain.vue?vue&type=style&index=0&scoped=e65289e7&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-e65289e7\"]])\n\n/* Vuetify */\nimport { VCol as _component_v_col, VRow as _component_v_row, VContainer as _component_v_container } from \"vuetify/lib/components/VGrid/index.mjs\"\nimport { VImg as _component_v_img } from \"vuetify/lib/components/VImg/index.mjs\"\n\n",
+      "start": 1706183598412,
+      "end": 1706183598412,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183598412,
+      "end": 1706183598412,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183598412,
+      "end": 1706183598412,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183598412,
+      "end": 1706183598412,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183598412,
+      "end": 1706183598412,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1706183598413,
+      "end": 1706183598413,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183598413,
+      "end": 1706183598413,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183598413,
+      "end": 1706183598413,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183598413,
+      "end": 1706183598413,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183598413,
+      "end": 1706183598413,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183598413,
+      "end": 1706183598413,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183598413,
+      "end": 1706183598413,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183598413,
+      "end": 1706183598413,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183598413,
+      "end": 1706183598416,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183598416,
+      "end": 1706183598417,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183598417,
+      "end": 1706183598417,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1706183598417,
+      "end": 1706183598417,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1706183598417,
+      "end": 1706183598417,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183598417,
+      "end": 1706183598417,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183598417,
+      "end": 1706183598417,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183598417,
+      "end": 1706183598417,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183598417,
+      "end": 1706183598417,
+      "order": "normal"
+    }
+  ]
+}

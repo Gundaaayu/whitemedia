@@ -1,0 +1,294 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/Aboutus.vue?vue&type=style&index=0&scoped=8ed5eb06&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.paraAbout {\r\n  font-size: 30px;\r\n  font-style: normal;\r\n  font-weight: 300;\r\n  line-height: 61px;\r\n}\r\n.sideHead {\r\n  font-size: 30px;\r\n  font-weight: 700;\r\n  line-height: 32.64px; /* 81.6% */\r\n  letter-spacing: 8px;\r\n}\r\n.thinLine {\r\n  height: 100px;\r\n  width: 2px;\r\n  background-color: #616161;\r\n}\r\n\r\n.block-with-margin {\r\n  width: 5px;\r\n  height: 30px;\r\n  background-color: #138064;\r\n  margin-right: 16px;\r\n}\r\n.image-move {\r\n  animation: slide-in 2s forwards;\r\n}\r\n\r\n@keyframes slide-in {\r\n  from {\r\n    transform: translateX(-100%);\r\n  }\r\n  to {\r\n    transform: translateX(0);\r\n  }\r\n}\r\n",
+      "start": 1706183609528,
+      "end": 1706183609528,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Aboutus.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/weigo/whitemedia/components/Aboutus.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n  <div class=\"bg-white\">\r\n    <div class=\"d-none d-md-block align-center justify-center\">\r\n      <v-container class=\"pt-lg-8\">\r\n        <br />\r\n        <v-row>\r\n          <v-col cols=\"4\" class=\"mt-5\">\r\n            <div class=\"mainblock\">\r\n              <div class=\"thinLine\" />\r\n              <div\r\n                :class=\"{\r\n                  block: !data.showVisionContent,\r\n                  'block-with-margin': data.showVisionContent,\r\n                }\"\r\n              />\r\n              <div class=\"\">\r\n                <h2 class=\"sideHead\" @click=\"toggleContent('about')\">\r\n                  ABOUT US\r\n                </h2>\r\n                <h2 class=\"sideHead mt-8\" @click=\"toggleContent('vision')\">\r\n                  VISION\r\n                </h2>\r\n              </div>\r\n            </div>\r\n          </v-col>\r\n          <v-col cols=\"8\" class=\"mt-3\">\r\n            <p\r\n              style=\"line-height: 50px\"\r\n              v-if=\"!data.showVisionContent\"\r\n              class=\"sharpsans-h1\"\r\n            >\r\n              At\r\n              <span style=\"color: #138064; font-weight: 600\"\r\n                >White Water Media</span\r\n              >, marketing magic and business growth flow together like a\r\n              harmonious river. With a unique blend of marketing insight and\r\n              creative flair, we're here to turn the tides in your favor, making\r\n              your brand's presence felt strongly and sustainably in the\r\n              marketplace.\r\n            </p>\r\n            <p v-if=\"data.showVisionContent\" class=\"sharpsans-h1\">\r\n              Visualize a dynamic confluence where marketing innovation meets\r\n              compelling brand stories, creating a powerful current that leads\r\n              and transforms, making waves in the market.\r\n            </p>\r\n          </v-col>\r\n        </v-row>\r\n      </v-container>\r\n    </div>\r\n    <div class=\"d-block d-md-none\">\r\n      <h2 class=\"sideHead text-center pa-5\">ABOUT US</h2>\r\n      <p class=\"sharpsans-h1 text-center mt-2 pa-2\">\r\n        At\r\n        <span style=\"color: #138064; font-weight: 600\">White Water Media</span>,\r\n        marketing magic and business growth flow together like a harmonious\r\n        river. With a unique blend of marketing insight and creative flair,\r\n        we're here to turn the tides in your favor, making your brand's presence\r\n        felt strongly and sustainably in the marketplace.\r\n      </p>\r\n      <h2 class=\"sideHead text-center mt-8 mb-5\">VISION</h2>\r\n      <p class=\"sharpsans-h1 mt-2 text-center pa-2\">\r\n        Visualize a dynamic confluence where marketing innovation meets\r\n        compelling brand stories, creating a powerful current that leads and\r\n        transforms, making waves in the market.\r\n      </p>\r\n    </div>\r\n    <br />\r\n    <br />\r\n    <br />\r\n    <br />\r\n    <br />\r\n\r\n    <v-container fluid>\r\n      <v-row>\r\n        <v-col>\r\n          <v-img\r\n            class=\"image-move\"\r\n            src=\"/images/craftingimpact.png\"\r\n            width=\"900\"\r\n          />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\nimport { onMounted } from \"vue\";\r\n\r\nonMounted(() => {\r\n  window.addEventListener(\"scroll\", function () {\r\n    let scrollPosition = window.scrollY;\r\n\r\n    if (scrollPosition >= document.querySelector(\".image-move\").offsetHeight) {\r\n      document.querySelector(\".image-move\").classList.add(\"image-move\");\r\n    }\r\n  });\r\n});\r\nconst data = reactive({\r\n  showVisionContent: false,\r\n});\r\n\r\nconst toggleContent = (section) => {\r\n  console.log(\"Clicked\");\r\n  if (section === \"vision\") {\r\n    console.log(\"Inside vision\");\r\n    data.showVisionContent = true;\r\n    console.log(data.showVisionContent);\r\n  } else {\r\n    data.showVisionContent = false;\r\n  }\r\n};\r\n</script>\r\n\r\n<style scoped>\r\n.paraAbout {\r\n  font-size: 30px;\r\n  font-style: normal;\r\n  font-weight: 300;\r\n  line-height: 61px;\r\n}\r\n.sideHead {\r\n  font-size: 30px;\r\n  font-weight: 700;\r\n  line-height: 32.64px; /* 81.6% */\r\n  letter-spacing: 8px;\r\n}\r\n.thinLine {\r\n  height: 100px;\r\n  width: 2px;\r\n  background-color: #616161;\r\n}\r\n\r\n.block-with-margin {\r\n  width: 5px;\r\n  height: 30px;\r\n  background-color: #138064;\r\n  margin-right: 16px;\r\n}\r\n.image-move {\r\n  animation: slide-in 2s forwards;\r\n}\r\n\r\n@keyframes slide-in {\r\n  from {\r\n    transform: translateX(-100%);\r\n  }\r\n  to {\r\n    transform: translateX(0);\r\n  }\r\n}\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609528,
+      "end": 1706183609528,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609528,
+      "end": 1706183609529,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609529,
+      "end": 1706183609529,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609529,
+      "end": 1706183609529,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183609529,
+      "end": 1706183609529,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".paraAbout{font-size:30px;font-style:normal;font-weight:300;line-height:61px}.sideHead{font-size:30px;font-weight:700;letter-spacing:8px;line-height:32.64px}.thinLine{background-color:#616161;height:100px;width:2px}.block-with-margin{background-color:#138064;height:30px;margin-right:16px;width:5px}.image-move{animation:slide-in 2s forwards}@keyframes slide-in{0%{transform:translateX(-100%)}to{transform:translateX(0)}}",
+      "start": 1706183609529,
+      "end": 1706183609532,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/weigo/whitemedia/components/Aboutus.vue",
+        "mappings": "AACA,WACE,cAAe,CACf,iBAAkB,CAClB,eAAgB,CAChB,gBACF,CACA,UACE,cAAe,CACf,eAAgB,CAEhB,kBAAmB,CADnB,mBAEF,CACA,UAGE,wBAAyB,CAFzB,YAAa,CACb,SAEF,CAEA,mBAGE,wBAAyB,CADzB,WAAY,CAEZ,iBAAkB,CAHlB,SAIF,CACA,YACE,8BACF,CAEA,oBACE,GACE,2BACF,CACA,GACE,uBACF,CACF",
+        "names": [],
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Aboutus.vue"
+        ],
+        "sourcesContent": [
+          "\r\n.paraAbout {\r\n  font-size: 30px;\r\n  font-style: normal;\r\n  font-weight: 300;\r\n  line-height: 61px;\r\n}\r\n.sideHead {\r\n  font-size: 30px;\r\n  font-weight: 700;\r\n  line-height: 32.64px; /* 81.6% */\r\n  letter-spacing: 8px;\r\n}\r\n.thinLine {\r\n  height: 100px;\r\n  width: 2px;\r\n  background-color: #616161;\r\n}\r\n\r\n.block-with-margin {\r\n  width: 5px;\r\n  height: 30px;\r\n  background-color: #138064;\r\n  margin-right: 16px;\r\n}\r\n.image-move {\r\n  animation: slide-in 2s forwards;\r\n}\r\n\r\n@keyframes slide-in {\r\n  from {\r\n    transform: translateX(-100%);\r\n  }\r\n  to {\r\n    transform: translateX(0);\r\n  }\r\n}\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183609533,
+      "end": 1706183609533,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183609533,
+      "end": 1706183609533,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183609533,
+      "end": 1706183609533,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".paraAbout[data-v-8ed5eb06]{font-size:30px;font-style:normal;font-weight:300;line-height:61px}.sideHead[data-v-8ed5eb06]{font-size:30px;font-weight:700;letter-spacing:8px;line-height:32.64px}.thinLine[data-v-8ed5eb06]{background-color:#616161;height:100px;width:2px}.block-with-margin[data-v-8ed5eb06]{background-color:#138064;height:30px;margin-right:16px;width:5px}.image-move[data-v-8ed5eb06]{animation:slide-in-8ed5eb06 2s forwards}@keyframes slide-in-8ed5eb06{0%{transform:translateX(-100%)}to{transform:translateX(0)}}",
+      "start": 1706183609533,
+      "end": 1706183609534,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/weigo/whitemedia/components/Aboutus.vue",
+        "mappings": "AAAA,4BAAW,cAAc,CAAC,iBAAiB,CAAC,eAAe,CAAC,gBAAgB,CAAC,2BAAU,cAAc,CAAC,eAAe,CAAC,kBAAkB,CAAC,mBAAmB,CAAC,2BAAU,wBAAwB,CAAC,YAAY,CAAC,SAAS,CAAC,oCAAmB,wBAAwB,CAAC,WAAW,CAAC,iBAAiB,CAAC,SAAS,CAAC,6BAAY,uCAA8B,CAAC,6BAAoB,GAAG,2BAA2B,CAAC,GAAG,uBAAuB,CAAC",
+        "names": [],
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Aboutus.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183609534,
+      "end": 1706183609534,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609534,
+      "end": 1706183609535,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609534,
+      "end": 1706183609535,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609535,
+      "end": 1706183609535,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609535,
+      "end": 1706183609535,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "start": 1706183609536,
+      "end": 1706183609536,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183609537,
+      "end": 1706183609537,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609537,
+      "end": 1706183609537,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183609537,
+      "end": 1706183609537,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183609538,
+      "end": 1706183609538,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1706183609538,
+      "end": 1706183609538,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183609538,
+      "end": 1706183609538,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183609538,
+      "end": 1706183609538,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183609539,
+      "end": 1706183609539,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183609539,
+      "end": 1706183609539,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183609539,
+      "end": 1706183609539,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183609539,
+      "end": 1706183609539,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609539,
+      "end": 1706183609539,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609539,
+      "end": 1706183609540,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183609540,
+      "end": 1706183609541,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183609541,
+      "end": 1706183609541,
+      "order": "normal"
+    }
+  ]
+}

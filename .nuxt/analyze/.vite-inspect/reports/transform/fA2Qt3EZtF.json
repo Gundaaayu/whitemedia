@@ -1,0 +1,222 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/ConnectMain.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div class=\"bg-white\">\r\n    <br />\r\n    <v-container fluid>\r\n      <v-row>\r\n        <v-col class=\"text-center my-auto\" cols=\"12\" lg=\"6\">\r\n          <img class=\"images\" src=\"/images/connect1.png\" alt=\"\" />\r\n        </v-col>\r\n        <v-col class=\"mt-5\" cols=\"12\" lg=\"6\">\r\n          <v-row>\r\n            <v-col cols=\"12\">\r\n              <h1>Connect</h1>\r\n            </v-col>\r\n            <v-col cols=\"10\">\r\n              <p class=\"para mb-5\">\r\n                From the pulsating heart of Bangalore, we’re crafting,\r\n                strategizing, and subtly sprinkling marketing magic into the\r\n                river of digital influence. Are you ready to dive in?\r\n              </p>\r\n            </v-col>\r\n            <v-col cols=\"12\" class=\"mt-5\">\r\n              <h1 class=\"heading\">Are you ready to dive in ?</h1>\r\n            </v-col>\r\n          </v-row>\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<style scoped>\r\n.images {\r\n  /* height: 450px; */\r\n  border-radius: 20px;\r\n}\r\n.para {\r\n  font-size: 25px;\r\n  font-style: normal;\r\n  font-weight: 500;\r\n  line-height: 48px;\r\n}\r\n@media (max-width: 420px) {\r\n  .images {\r\n    width: 350px;\r\n  }\r\n  .heading {\r\n    font-size: 29px;\r\n  }\r\n}\r\n@media (max-width: 380px) {\r\n  .images {\r\n    width: 300px;\r\n  }\r\n}\r\n</style>\r\n",
+      "start": 1706183598035,
+      "end": 1706183598382,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183598382,
+      "end": 1706183598382,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183598382,
+      "end": 1706183598382,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183598382,
+      "end": 1706183598382,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1706183598382,
+      "end": 1706183598382,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183598382,
+      "end": 1706183598382,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183598382,
+      "end": 1706183598382,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183598382,
+      "end": 1706183598382,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/images/connect1.png'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-b1b1e194\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"bg-white\" }\nconst _hoisted_2 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"br\", null, null, -1))\nconst _hoisted_3 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"img\", {\n  class: \"images\",\n  src: _imports_0,\n  alt: \"\"\n}, null, -1))\nconst _hoisted_4 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", null, \"Connect\", -1))\nconst _hoisted_5 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \", -1))\nconst _hoisted_6 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\", -1))\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_v_col = _resolveComponent(\"v-col\")\n  const _component_v_row = _resolveComponent(\"v-row\")\n  const _component_v_container = _resolveComponent(\"v-container\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createVNode(_component_v_container, { fluid: \"\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, {\n              class: \"text-center my-auto\",\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _hoisted_3\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              class: \"mt-5\",\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, { cols: \"12\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_4\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, { cols: \"10\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_5\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      class: \"mt-5\"\n                    }, {\n                      default: _withCtx(() => [\n                        _hoisted_6\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    })\n  ]))\n}\n\nimport \"C:/Users/weigo/whitemedia/components/ConnectMain.vue?vue&type=style&index=0&scoped=b1b1e194&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-b1b1e194\"]])",
+      "start": 1706183598382,
+      "end": 1706183598384,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183598384,
+      "end": 1706183598384,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183598384,
+      "end": 1706183598384,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183598384,
+      "end": 1706183598384,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1706183598384,
+      "end": 1706183598384,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/images/connect1.png'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-b1b1e194\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"bg-white\" }\nconst _hoisted_2 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"br\", null, null, -1))\nconst _hoisted_3 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"img\", {\n  class: \"images\",\n  src: _imports_0,\n  alt: \"\"\n}, null, -1))\nconst _hoisted_4 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", null, \"Connect\", -1))\nconst _hoisted_5 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"para mb-5\" }, \" From the pulsating heart of Bangalore, we’re crafting, strategizing, and subtly sprinkling marketing magic into the river of digital influence. Are you ready to dive in? \", -1))\nconst _hoisted_6 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", { class: \"heading\" }, \"Are you ready to dive in ?\", -1))\n\nfunction _sfc_render(_ctx, _cache) {\n                                                     \n                                                     \n                                                                 \n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _hoisted_2,\n    _createVNode(_component_v_container, { fluid: \"\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, {\n              class: \"text-center my-auto\",\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _hoisted_3\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              class: \"mt-5\",\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, { cols: \"12\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_4\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, { cols: \"10\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_5\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      class: \"mt-5\"\n                    }, {\n                      default: _withCtx(() => [\n                        _hoisted_6\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    })\n  ]))\n}\n\nimport \"C:/Users/weigo/whitemedia/components/ConnectMain.vue?vue&type=style&index=0&scoped=b1b1e194&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-b1b1e194\"]])\n\n/* Vuetify */\nimport { VCol as _component_v_col, VRow as _component_v_row, VContainer as _component_v_container } from \"vuetify/lib/components/VGrid/index.mjs\"\n\n",
+      "start": 1706183598384,
+      "end": 1706183598384,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183598384,
+      "end": 1706183598385,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183598385,
+      "end": 1706183598385,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183598385,
+      "end": 1706183598385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183598385,
+      "end": 1706183598385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1706183598385,
+      "end": 1706183598385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183598385,
+      "end": 1706183598385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183598385,
+      "end": 1706183598385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183598385,
+      "end": 1706183598385,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183598385,
+      "end": 1706183598385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183598385,
+      "end": 1706183598385,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183598385,
+      "end": 1706183598385,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183598385,
+      "end": 1706183598385,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183598385,
+      "end": 1706183598386,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183598386,
+      "end": 1706183598386,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183598386,
+      "end": 1706183598386,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1706183598386,
+      "end": 1706183598386,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1706183598386,
+      "end": 1706183598386,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183598386,
+      "end": 1706183598386,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183598386,
+      "end": 1706183598386,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183598386,
+      "end": 1706183598387,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183598387,
+      "end": 1706183598387,
+      "order": "normal"
+    }
+  ]
+}

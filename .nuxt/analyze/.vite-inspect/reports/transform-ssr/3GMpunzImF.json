@@ -1,0 +1,294 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/Collaborate.vue?vue&type=style&index=0&scoped=314dbf7c&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.heading {\r\n  font-size: 40px;\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  line-height: 83.28px; /* 166.56% */\r\n  letter-spacing: 1.92px;\r\n}\r\n.headingsmall {\r\n  font-size: 26px;\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  line-height: 83.28px; /* 166.56% */\r\n  letter-spacing: 1.92px;\r\n}\r\n.para {\r\n  font-size: 18px;\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  line-height: 34px;\r\n}\r\n\r\n.globe {\r\n  position: relative;\r\n}\r\n\r\n.logosmall {\r\n  position: absolute;\r\n  top: 80%;\r\n  left: 80%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n}\r\n@media (max-width: 390px) {\r\n  .headingsmall {\r\n    font-size: 22px;\r\n    font-style: normal;\r\n    font-weight: 700;\r\n    line-height: 83.28px; /* 166.56% */\r\n    letter-spacing: 1.92px;\r\n  }\r\n}\r\n.roundlogo {\r\n  animation-name: rotation;\r\n  animation-duration: 5s;\r\n  animation-iteration-count: infinite;\r\n  animation-timing-function: linear;\r\n}\r\n.roundlogo {\r\n  transition: transform 0.5s ease-in-out;\r\n}\r\n\r\n@keyframes rotation {\r\n  0% {\r\n    transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n",
+      "start": 1706183609564,
+      "end": 1706183609564,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Collaborate.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/weigo/whitemedia/components/Collaborate.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n  <div class=\"bg-primary\">\r\n    <v-container class=\"d-none d-md-block\">\r\n      <v-row>\r\n        <v-col class=\"my-auto\" cols=\"12\" lg=\"6\">\r\n          <div class=\"globe\">\r\n            <v-img src=\"/images/globeround.png\" height=\"400\" />\r\n            <div class=\"logosmall\">\r\n              <v-img src=\"/images/smalllogo.png\" width=\"70\" />\r\n            </div>\r\n            <div class=\"logosmall\">\r\n              <v-img src=\"/images/roundlogo.png\" width=\"100\"  class=\"roundlogo\"  />\r\n            </div>\r\n          </div>\r\n        </v-col>\r\n        <v-col cols=\"12\" lg=\"6\">\r\n          <v-row>\r\n            <v-col cols=\"10\">\r\n              <h1 class=\"heading\">Collaborate With Us</h1>\r\n              <p class=\"para\">\r\n                Join us at the confluence where creativity and strategy blend,\r\n                charting courses through the captivating waters of the market,\r\n                navigating towards unparalleled success.\r\n              </p>\r\n            </v-col>\r\n          </v-row>\r\n          <v-row>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Name\" variant=\"outlined\" class=\"mt-5\" />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Email ID\" variant=\"outlined\" class=\"mt-5\" />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field\r\n                label=\"Company Name\"\r\n                variant=\"outlined\"\r\n                class=\"pa-0\"\r\n              />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Mobile Number\" variant=\"outlined\" />\r\n            </v-col>\r\n          </v-row>\r\n          <v-row>\r\n            <v-col cols=\"12\">\r\n              <v-btn\r\n                style=\"\r\n                  background-color: #138064e5;\r\n                  color: white;\r\n                  font-weight: 600;\r\n                \"\r\n              >\r\n                Submit\r\n              </v-btn>\r\n            </v-col>\r\n          </v-row>\r\n        </v-col>\r\n      </v-row>\r\n      <br />\r\n    </v-container>\r\n    <v-container class=\"d-block d-md-none\">\r\n      <v-row>\r\n        <v-col class=\"my-auto\" cols=\"12\" lg=\"6\">\r\n          <div class=\"globe\">\r\n            <v-img src=\"/images/globeround.png\" height=\"400\" />\r\n            <div class=\"logosmall\">\r\n              <v-img src=\"/images/smalllogo.png\" width=\"70\" />\r\n            </div>\r\n            <div class=\"logosmall\">\r\n              <v-img src=\"/images/roundlogo.png\" width=\"100\" />\r\n            </div>\r\n          </div>\r\n        </v-col>\r\n        <v-col cols=\"12\" lg=\"6\">\r\n          <v-row>\r\n            <v-col cols=\"10\">\r\n              <div class=\"d-flex\">\r\n                <div class=\"block my-auto\" />\r\n\r\n                <h1 class=\"headingsmall\">Collaborate With Us</h1>\r\n              </div>\r\n              <p class=\"para text-left\">\r\n                Join us at the confluence where creativity and strategy blend,\r\n                charting courses through the captivating waters of the market,\r\n                navigating towards unparalleled success.\r\n              </p>\r\n            </v-col>\r\n          </v-row>\r\n          <v-row>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Name\" variant=\"outlined\" class=\"mt-5\" />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Email ID\" variant=\"outlined\" class=\"mt-5\" />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field\r\n                label=\"Company Name\"\r\n                variant=\"outlined\"\r\n                class=\"pa-0\"\r\n              />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Mobile Number\" variant=\"outlined\" />\r\n            </v-col>\r\n          </v-row>\r\n          <v-row>\r\n            <v-col class=\"text-center\" cols=\"12\">\r\n              <v-btn\r\n                style=\"\r\n                  background-color: #138064e5;\r\n                  color: white;\r\n                  font-weight: 600;\r\n                \"\r\n              >\r\n                Submit\r\n              </v-btn>\r\n            </v-col>\r\n          </v-row>\r\n        </v-col>\r\n      </v-row>\r\n      <br />\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<style scoped>\r\n.heading {\r\n  font-size: 40px;\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  line-height: 83.28px; /* 166.56% */\r\n  letter-spacing: 1.92px;\r\n}\r\n.headingsmall {\r\n  font-size: 26px;\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  line-height: 83.28px; /* 166.56% */\r\n  letter-spacing: 1.92px;\r\n}\r\n.para {\r\n  font-size: 18px;\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  line-height: 34px;\r\n}\r\n\r\n.globe {\r\n  position: relative;\r\n}\r\n\r\n.logosmall {\r\n  position: absolute;\r\n  top: 80%;\r\n  left: 80%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n}\r\n@media (max-width: 390px) {\r\n  .headingsmall {\r\n    font-size: 22px;\r\n    font-style: normal;\r\n    font-weight: 700;\r\n    line-height: 83.28px; /* 166.56% */\r\n    letter-spacing: 1.92px;\r\n  }\r\n}\r\n.roundlogo {\r\n  animation-name: rotation;\r\n  animation-duration: 5s;\r\n  animation-iteration-count: infinite;\r\n  animation-timing-function: linear;\r\n}\r\n.roundlogo {\r\n  transition: transform 0.5s ease-in-out;\r\n}\r\n\r\n@keyframes rotation {\r\n  0% {\r\n    transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609565,
+      "end": 1706183609565,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609565,
+      "end": 1706183609565,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609565,
+      "end": 1706183609565,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609565,
+      "end": 1706183609565,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183609565,
+      "end": 1706183609565,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".heading{font-size:40px}.heading,.headingsmall{font-style:normal;font-weight:700;letter-spacing:1.92px;line-height:83.28px}.headingsmall{font-size:26px}.para{font-size:18px;font-style:normal;font-weight:400;line-height:34px}.globe{position:relative}.logosmall{left:80%;position:absolute;text-align:center;top:80%;transform:translate(-50%,-50%)}@media (max-width:390px){.headingsmall{font-size:22px;font-style:normal;font-weight:700;letter-spacing:1.92px;line-height:83.28px}}.roundlogo{animation-duration:5s;animation-iteration-count:infinite;animation-name:rotation;animation-timing-function:linear;transition:transform .5s ease-in-out}@keyframes rotation{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}",
+      "start": 1706183609565,
+      "end": 1706183609568,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/weigo/whitemedia/components/Collaborate.vue",
+        "mappings": "AACA,SACE,cAKF,CACA,uBALE,iBAAkB,CAClB,eAAgB,CAEhB,qBAAsB,CADtB,mBASF,CANA,cACE,cAKF,CACA,MACE,cAAe,CACf,iBAAkB,CAClB,eAAgB,CAChB,gBACF,CAEA,OACE,iBACF,CAEA,WAGE,QAAS,CAFT,iBAAkB,CAIlB,iBAAkB,CAHlB,OAAQ,CAER,8BAEF,CACA,yBACE,cACE,cAAe,CACf,iBAAkB,CAClB,eAAgB,CAEhB,qBAAsB,CADtB,mBAEF,CACF,CACA,WAEE,qBAAsB,CACtB,kCAAmC,CAFnC,uBAAwB,CAGxB,gCAAiC,CAGjC,oCAFF,CAKA,oBACE,GACE,sBACF,CACA,GACE,uBACF,CACF",
+        "names": [],
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Collaborate.vue"
+        ],
+        "sourcesContent": [
+          "\r\n.heading {\r\n  font-size: 40px;\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  line-height: 83.28px; /* 166.56% */\r\n  letter-spacing: 1.92px;\r\n}\r\n.headingsmall {\r\n  font-size: 26px;\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  line-height: 83.28px; /* 166.56% */\r\n  letter-spacing: 1.92px;\r\n}\r\n.para {\r\n  font-size: 18px;\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  line-height: 34px;\r\n}\r\n\r\n.globe {\r\n  position: relative;\r\n}\r\n\r\n.logosmall {\r\n  position: absolute;\r\n  top: 80%;\r\n  left: 80%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n}\r\n@media (max-width: 390px) {\r\n  .headingsmall {\r\n    font-size: 22px;\r\n    font-style: normal;\r\n    font-weight: 700;\r\n    line-height: 83.28px; /* 166.56% */\r\n    letter-spacing: 1.92px;\r\n  }\r\n}\r\n.roundlogo {\r\n  animation-name: rotation;\r\n  animation-duration: 5s;\r\n  animation-iteration-count: infinite;\r\n  animation-timing-function: linear;\r\n}\r\n.roundlogo {\r\n  transition: transform 0.5s ease-in-out;\r\n}\r\n\r\n@keyframes rotation {\r\n  0% {\r\n    transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183609568,
+      "end": 1706183609568,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183609568,
+      "end": 1706183609568,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183609568,
+      "end": 1706183609568,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".heading[data-v-314dbf7c]{font-size:40px}.heading[data-v-314dbf7c],.headingsmall[data-v-314dbf7c]{font-style:normal;font-weight:700;letter-spacing:1.92px;line-height:83.28px}.headingsmall[data-v-314dbf7c]{font-size:26px}.para[data-v-314dbf7c]{font-size:18px;font-style:normal;font-weight:400;line-height:34px}.globe[data-v-314dbf7c]{position:relative}.logosmall[data-v-314dbf7c]{left:80%;position:absolute;text-align:center;top:80%;transform:translate(-50%,-50%)}@media (max-width:390px){.headingsmall[data-v-314dbf7c]{font-size:22px;font-style:normal;font-weight:700;letter-spacing:1.92px;line-height:83.28px}}.roundlogo[data-v-314dbf7c]{animation-duration:5s;animation-iteration-count:infinite;animation-name:rotation-314dbf7c;animation-timing-function:linear;transition:transform .5s ease-in-out}@keyframes rotation-314dbf7c{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}",
+      "start": 1706183609568,
+      "end": 1706183609569,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/weigo/whitemedia/components/Collaborate.vue",
+        "mappings": "AAAA,0BAAS,cAAc,CAAC,yDAAuB,iBAAiB,CAAC,eAAe,CAAC,qBAAqB,CAAC,mBAAmB,CAAC,+BAAc,cAAc,CAAC,uBAAM,cAAc,CAAC,iBAAiB,CAAC,eAAe,CAAC,gBAAgB,CAAC,wBAAO,iBAAiB,CAAC,4BAAW,QAAQ,CAAC,iBAAiB,CAAC,iBAAiB,CAAC,OAAO,CAAC,8BAA8B,CAAC,yBAAyB,+BAAc,cAAc,CAAC,iBAAiB,CAAC,eAAe,CAAC,qBAAqB,CAAC,mBAAmB,CAAC,CAAC,4BAAW,qBAAqB,CAAC,kCAAkC,CAAC,gCAAuB,CAAC,gCAAgC,CAAC,oCAAoC,CAAC,6BAAoB,GAAG,sBAAsB,CAAC,GAAG,uBAAuB,CAAC",
+        "names": [],
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Collaborate.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183609569,
+      "end": 1706183609569,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609569,
+      "end": 1706183609569,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609569,
+      "end": 1706183609569,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609569,
+      "end": 1706183609569,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609569,
+      "end": 1706183609569,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "start": 1706183609570,
+      "end": 1706183609570,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183609570,
+      "end": 1706183609570,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609570,
+      "end": 1706183609570,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183609570,
+      "end": 1706183609570,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183609570,
+      "end": 1706183609570,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1706183609570,
+      "end": 1706183609570,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183609570,
+      "end": 1706183609570,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183609570,
+      "end": 1706183609570,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183609570,
+      "end": 1706183609570,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183609570,
+      "end": 1706183609571,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183609571,
+      "end": 1706183609571,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183609571,
+      "end": 1706183609571,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609572,
+      "end": 1706183609572,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609572,
+      "end": 1706183609572,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609573,
+      "end": 1706183609573,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609573,
+      "end": 1706183609573,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609573,
+      "end": 1706183609573,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609573,
+      "end": 1706183609573,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609573,
+      "end": 1706183609573,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609573,
+      "end": 1706183609573,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1706183609574,
+      "end": 1706183609574,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183609574,
+      "end": 1706183609574,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183609574,
+      "end": 1706183609574,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183609574,
+      "end": 1706183609574,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183609575,
+      "end": 1706183609575,
+      "order": "normal"
+    }
+  ]
+}

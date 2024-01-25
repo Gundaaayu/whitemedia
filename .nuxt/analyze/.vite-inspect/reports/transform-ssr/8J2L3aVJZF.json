@@ -1,0 +1,281 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/Maestros.vue?vue&type=style&index=0&scoped=345587e9&lang.css?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.text-left {\r\n  text-align: left;\r\n}\r\n\r\n.sharpsans-h2 {\r\n  font-size: 24px; /* Adjust the font size as needed */\r\n  font-weight: 900; /* Adjust the font weight as needed */\r\n}\r\n\r\n.sharpsans-h4 {\r\n  font-size: 18px; /* Adjust the font size as needed */\r\n  font-weight: 400; /* Adjust the font weight as needed */\r\n}\r\n\r\n.head {\r\n  line-height: 32.64px; /* 81.6% */\r\n  letter-spacing: 8px;\r\n}\r\n.carousel {\r\n  display: flex;\r\n  width: 100%;\r\n  height: 100%;\r\n  align-items: center;\r\n  font-family: Arial;\r\n}\r\n\r\n.carousel__list {\r\n  display: flex;\r\n  list-style: none;\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100px;\r\n  justify-content: center;\r\n  perspective: 300px;\r\n}\r\n\r\n.carousel__item {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  color: #fff;\r\n  font-size: 0px;\r\n  width: 300px;\r\n  height: 150px;\r\n  border-radius: 12px;\r\n  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);\r\n  position: absolute;\r\n  transition: all 0.3s ease-in;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n  .carousel__item {\r\n    width: 200px;\r\n    height: 100px;\r\n  }\r\n}\r\n\r\n@media (max-width: 576px) {\r\n  .carousel__item {\r\n    width: 120px;\r\n    height: 75px;\r\n  }\r\n}\r\n@media (max-width: 380px) {\r\n  .carousel__item {\r\n    width: 80px;\r\n    height: 55px;\r\n  }\r\n}\r\n\r\n.carousel__item:nth-child(1) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item:nth-child(2) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #fdbb2d 100%);\r\n}\r\n\r\n.carousel__item:nth-child(3) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #22c1c3 100%);\r\n}\r\n\r\n.carousel__item:nth-child(4) {\r\n  background: linear-gradient(45deg, #fdbb2d 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item:nth-child(5) {\r\n  background: linear-gradient(45deg, #22c1c3 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item_active {\r\n  z-index: 5;\r\n}\r\n\r\n.carousel__item[data-pos=\"-1\"],\r\n.carousel__item[data-pos=\"1\"] {\r\n  opacity: 0.7;\r\n  filter: blur(1px) grayscale(10%);\r\n}\r\n\r\n.carousel__item[data-pos=\"-1\"] {\r\n  transform: translateX(-40%) scale(0.9);\r\n  z-index: 4;\r\n}\r\n\r\n.carousel__item[data-pos=\"1\"] {\r\n  transform: translateX(40%) scale(0.9);\r\n  z-index: 4;\r\n}\r\n\r\n.carousel__item[data-pos=\"-2\"],\r\n.carousel__item[data-pos=\"2\"] {\r\n  opacity: 0.4;\r\n  filter: blur(3px) grayscale(20%);\r\n}\r\n\r\n.carousel__item[data-pos=\"-2\"] {\r\n  transform: translateX(-70%) scale(0.8);\r\n  z-index: 3;\r\n}\r\n\r\n.carousel__item[data-pos=\"2\"] {\r\n  transform: translateX(70%) scale(0.8);\r\n  z-index: 3;\r\n}\r\n",
+      "start": 1706183608849,
+      "end": 1706183608849
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183608849,
+      "end": 1706183608849,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183608849,
+      "end": 1706183608849,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183608850,
+      "end": 1706183608850,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183608850,
+      "end": 1706183608850,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183608850,
+      "end": 1706183608850,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".text-left{text-align:left}.sharpsans-h2{font-size:24px;font-weight:900}.sharpsans-h4{font-size:18px;font-weight:400}.head{letter-spacing:8px;line-height:32.64px}.carousel{align-items:center;display:flex;font-family:Arial;height:100%;width:100%}.carousel__list{height:100px;list-style:none;perspective:300px;position:relative;width:100%}.carousel__item,.carousel__list{display:flex;justify-content:center}.carousel__item{align-items:center;border-radius:12px;box-shadow:0 2px 8px 0 rgba(50,50,50,.5);color:#fff;font-size:0;height:150px;position:absolute;transition:all .3s ease-in;width:300px}@media (max-width:768px){.carousel__item{height:100px;width:200px}}@media (max-width:576px){.carousel__item{height:75px;width:120px}}@media (max-width:380px){.carousel__item{height:55px;width:80px}}.carousel__item:first-child{background:linear-gradient(45deg,#2d35eb,#904ed4)}.carousel__item:nth-child(2){background:linear-gradient(45deg,#2d35eb,#fdbb2d)}.carousel__item:nth-child(3){background:linear-gradient(45deg,#2d35eb,#22c1c3)}.carousel__item:nth-child(4){background:linear-gradient(45deg,#fdbb2d,#904ed4)}.carousel__item:nth-child(5){background:linear-gradient(45deg,#22c1c3,#904ed4)}.carousel__item_active{z-index:5}.carousel__item[data-pos=\"-1\"],.carousel__item[data-pos=\"1\"]{filter:blur(1px) grayscale(10%);opacity:.7}.carousel__item[data-pos=\"-1\"]{transform:translateX(-40%) scale(.9);z-index:4}.carousel__item[data-pos=\"1\"]{transform:translateX(40%) scale(.9);z-index:4}.carousel__item[data-pos=\"-2\"],.carousel__item[data-pos=\"2\"]{filter:blur(3px) grayscale(20%);opacity:.4}.carousel__item[data-pos=\"-2\"]{transform:translateX(-70%) scale(.8);z-index:3}.carousel__item[data-pos=\"2\"]{transform:translateX(70%) scale(.8);z-index:3}",
+      "start": 1706183608850,
+      "end": 1706183608860,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/weigo/whitemedia/components/Maestros.vue",
+        "mappings": "AACA,WACE,eACF,CAEA,cACE,cAAe,CACf,eACF,CAEA,cACE,cAAe,CACf,eACF,CAEA,MAEE,kBAAmB,CADnB,mBAEF,CACA,UAIE,kBAAmB,CAHnB,YAAa,CAIb,iBAAkB,CAFlB,WAAY,CADZ,UAIF,CAEA,gBAKE,YAAa,CAHb,eAAgB,CAKhB,iBAAkB,CAJlB,iBAAkB,CAClB,UAIF,CAEA,gCATE,YAAa,CAKb,sBAgBF,CAZA,gBAEE,kBAAmB,CAMnB,kBAAmB,CACnB,wCAAiD,CALjD,UAAW,CACX,WAAc,CAEd,YAAa,CAGb,iBAAkB,CAClB,0BAA4B,CAL5B,WAMF,CAEA,yBACE,gBAEE,YAAa,CADb,WAEF,CACF,CAEA,yBACE,gBAEE,WAAY,CADZ,WAEF,CACF,CACA,yBACE,gBAEE,WAAY,CADZ,UAEF,CACF,CAEA,4BACE,iDACF,CAEA,6BACE,iDACF,CAEA,6BACE,iDACF,CAEA,6BACE,iDACF,CAEA,6BACE,iDACF,CAEA,uBACE,SACF,CAEA,6DAGE,+BAAgC,CADhC,UAEF,CAEA,+BACE,oCAAsC,CACtC,SACF,CAEA,8BACE,mCAAqC,CACrC,SACF,CAEA,6DAGE,+BAAgC,CADhC,UAEF,CAEA,+BACE,oCAAsC,CACtC,SACF,CAEA,8BACE,mCAAqC,CACrC,SACF",
+        "names": [],
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Maestros.vue"
+        ],
+        "sourcesContent": [
+          "\r\n.text-left {\r\n  text-align: left;\r\n}\r\n\r\n.sharpsans-h2 {\r\n  font-size: 24px; /* Adjust the font size as needed */\r\n  font-weight: 900; /* Adjust the font weight as needed */\r\n}\r\n\r\n.sharpsans-h4 {\r\n  font-size: 18px; /* Adjust the font size as needed */\r\n  font-weight: 400; /* Adjust the font weight as needed */\r\n}\r\n\r\n.head {\r\n  line-height: 32.64px; /* 81.6% */\r\n  letter-spacing: 8px;\r\n}\r\n.carousel {\r\n  display: flex;\r\n  width: 100%;\r\n  height: 100%;\r\n  align-items: center;\r\n  font-family: Arial;\r\n}\r\n\r\n.carousel__list {\r\n  display: flex;\r\n  list-style: none;\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100px;\r\n  justify-content: center;\r\n  perspective: 300px;\r\n}\r\n\r\n.carousel__item {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  color: #fff;\r\n  font-size: 0px;\r\n  width: 300px;\r\n  height: 150px;\r\n  border-radius: 12px;\r\n  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);\r\n  position: absolute;\r\n  transition: all 0.3s ease-in;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n  .carousel__item {\r\n    width: 200px;\r\n    height: 100px;\r\n  }\r\n}\r\n\r\n@media (max-width: 576px) {\r\n  .carousel__item {\r\n    width: 120px;\r\n    height: 75px;\r\n  }\r\n}\r\n@media (max-width: 380px) {\r\n  .carousel__item {\r\n    width: 80px;\r\n    height: 55px;\r\n  }\r\n}\r\n\r\n.carousel__item:nth-child(1) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item:nth-child(2) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #fdbb2d 100%);\r\n}\r\n\r\n.carousel__item:nth-child(3) {\r\n  background: linear-gradient(45deg, #2d35eb 0%, #22c1c3 100%);\r\n}\r\n\r\n.carousel__item:nth-child(4) {\r\n  background: linear-gradient(45deg, #fdbb2d 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item:nth-child(5) {\r\n  background: linear-gradient(45deg, #22c1c3 0%, #904ed4 100%);\r\n}\r\n\r\n.carousel__item_active {\r\n  z-index: 5;\r\n}\r\n\r\n.carousel__item[data-pos=\"-1\"],\r\n.carousel__item[data-pos=\"1\"] {\r\n  opacity: 0.7;\r\n  filter: blur(1px) grayscale(10%);\r\n}\r\n\r\n.carousel__item[data-pos=\"-1\"] {\r\n  transform: translateX(-40%) scale(0.9);\r\n  z-index: 4;\r\n}\r\n\r\n.carousel__item[data-pos=\"1\"] {\r\n  transform: translateX(40%) scale(0.9);\r\n  z-index: 4;\r\n}\r\n\r\n.carousel__item[data-pos=\"-2\"],\r\n.carousel__item[data-pos=\"2\"] {\r\n  opacity: 0.4;\r\n  filter: blur(3px) grayscale(20%);\r\n}\r\n\r\n.carousel__item[data-pos=\"-2\"] {\r\n  transform: translateX(-70%) scale(0.8);\r\n  z-index: 3;\r\n}\r\n\r\n.carousel__item[data-pos=\"2\"] {\r\n  transform: translateX(70%) scale(0.8);\r\n  z-index: 3;\r\n}\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183608861,
+      "end": 1706183608861,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183608861,
+      "end": 1706183608861,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183608861,
+      "end": 1706183608861,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".text-left[data-v-345587e9]{text-align:left}.sharpsans-h2[data-v-345587e9]{font-size:24px;font-weight:900}.sharpsans-h4[data-v-345587e9]{font-size:18px;font-weight:400}.head[data-v-345587e9]{letter-spacing:8px;line-height:32.64px}.carousel[data-v-345587e9]{align-items:center;display:flex;font-family:Arial;height:100%;width:100%}.carousel__list[data-v-345587e9]{height:100px;list-style:none;perspective:300px;position:relative;width:100%}.carousel__item[data-v-345587e9],.carousel__list[data-v-345587e9]{display:flex;justify-content:center}.carousel__item[data-v-345587e9]{align-items:center;border-radius:12px;box-shadow:0 2px 8px 0 rgba(50,50,50,.5);color:#fff;font-size:0;height:150px;position:absolute;transition:all .3s ease-in;width:300px}@media (max-width:768px){.carousel__item[data-v-345587e9]{height:100px;width:200px}}@media (max-width:576px){.carousel__item[data-v-345587e9]{height:75px;width:120px}}@media (max-width:380px){.carousel__item[data-v-345587e9]{height:55px;width:80px}}.carousel__item[data-v-345587e9]:first-child{background:linear-gradient(45deg,#2d35eb,#904ed4)}.carousel__item[data-v-345587e9]:nth-child(2){background:linear-gradient(45deg,#2d35eb,#fdbb2d)}.carousel__item[data-v-345587e9]:nth-child(3){background:linear-gradient(45deg,#2d35eb,#22c1c3)}.carousel__item[data-v-345587e9]:nth-child(4){background:linear-gradient(45deg,#fdbb2d,#904ed4)}.carousel__item[data-v-345587e9]:nth-child(5){background:linear-gradient(45deg,#22c1c3,#904ed4)}.carousel__item_active[data-v-345587e9]{z-index:5}.carousel__item[data-pos=\"-1\"][data-v-345587e9],.carousel__item[data-pos=\"1\"][data-v-345587e9]{filter:blur(1px) grayscale(10%);opacity:.7}.carousel__item[data-pos=\"-1\"][data-v-345587e9]{transform:translateX(-40%) scale(.9);z-index:4}.carousel__item[data-pos=\"1\"][data-v-345587e9]{transform:translateX(40%) scale(.9);z-index:4}.carousel__item[data-pos=\"-2\"][data-v-345587e9],.carousel__item[data-pos=\"2\"][data-v-345587e9]{filter:blur(3px) grayscale(20%);opacity:.4}.carousel__item[data-pos=\"-2\"][data-v-345587e9]{transform:translateX(-70%) scale(.8);z-index:3}.carousel__item[data-pos=\"2\"][data-v-345587e9]{transform:translateX(70%) scale(.8);z-index:3}",
+      "start": 1706183608861,
+      "end": 1706183608864,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/weigo/whitemedia/components/Maestros.vue",
+        "mappings": "AAAA,4BAAW,eAAe,CAAC,+BAAc,cAAc,CAAC,eAAe,CAAC,+BAAc,cAAc,CAAC,eAAe,CAAC,uBAAM,kBAAkB,CAAC,mBAAmB,CAAC,2BAAU,kBAAkB,CAAC,YAAY,CAAC,iBAAiB,CAAC,WAAW,CAAC,UAAU,CAAC,iCAAgB,YAAY,CAAC,eAAe,CAAC,iBAAiB,CAAC,iBAAiB,CAAC,UAAU,CAAC,kEAAgC,YAAY,CAAC,sBAAsB,CAAC,iCAAgB,kBAAkB,CAAC,kBAAkB,CAAC,wCAAwC,CAAC,UAAU,CAAC,WAAW,CAAC,YAAY,CAAC,iBAAiB,CAAC,0BAA0B,CAAC,WAAW,CAAC,yBAAyB,iCAAgB,YAAY,CAAC,WAAW,CAAC,CAAC,yBAAyB,iCAAgB,WAAW,CAAC,WAAW,CAAC,CAAC,yBAAyB,iCAAgB,WAAW,CAAC,UAAU,CAAC,CAAC,6CAA4B,iDAAiD,CAAC,8CAA6B,iDAAiD,CAAC,8CAA6B,iDAAiD,CAAC,8CAA6B,iDAAiD,CAAC,8CAA6B,iDAAiD,CAAC,wCAAuB,SAAS,CAAC,+FAA6D,+BAA+B,CAAC,UAAU,CAAC,gDAA+B,oCAAoC,CAAC,SAAS,CAAC,+CAA8B,mCAAmC,CAAC,SAAS,CAAC,+FAA6D,+BAA+B,CAAC,UAAU,CAAC,gDAA+B,oCAAoC,CAAC,SAAS,CAAC,+CAA8B,mCAAmC,CAAC,SAAS",
+        "names": [],
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/Maestros.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183608864,
+      "end": 1706183608864,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183608864,
+      "end": 1706183608864,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183608864,
+      "end": 1706183608864,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183608864,
+      "end": 1706183608865,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183608864,
+      "end": 1706183608865,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "start": 1706183608865,
+      "end": 1706183608865,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183608865,
+      "end": 1706183608865,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183608865,
+      "end": 1706183608866,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183608869,
+      "end": 1706183608870,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183608870,
+      "end": 1706183608870,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".text-left[data-v-345587e9]{text-align:left}.sharpsans-h2[data-v-345587e9]{font-size:24px;font-weight:900}.sharpsans-h4[data-v-345587e9]{font-size:18px;font-weight:400}.head[data-v-345587e9]{letter-spacing:8px;line-height:32.64px}.carousel[data-v-345587e9]{align-items:center;display:flex;font-family:Arial;height:100%;width:100%}.carousel__list[data-v-345587e9]{height:100px;list-style:none;perspective:300px;position:relative;width:100%}.carousel__item[data-v-345587e9],.carousel__list[data-v-345587e9]{display:flex;justify-content:center}.carousel__item[data-v-345587e9]{align-items:center;border-radius:12px;box-shadow:0 2px 8px 0 rgba(50,50,50,.5);color:#fff;font-size:0;height:150px;position:absolute;transition:all .3s ease-in;width:300px}@media (max-width:768px){.carousel__item[data-v-345587e9]{height:100px;width:200px}}@media (max-width:576px){.carousel__item[data-v-345587e9]{height:75px;width:120px}}@media (max-width:380px){.carousel__item[data-v-345587e9]{height:55px;width:80px}}.carousel__item[data-v-345587e9]:first-child{background:linear-gradient(45deg,#2d35eb,#904ed4)}.carousel__item[data-v-345587e9]:nth-child(2){background:linear-gradient(45deg,#2d35eb,#fdbb2d)}.carousel__item[data-v-345587e9]:nth-child(3){background:linear-gradient(45deg,#2d35eb,#22c1c3)}.carousel__item[data-v-345587e9]:nth-child(4){background:linear-gradient(45deg,#fdbb2d,#904ed4)}.carousel__item[data-v-345587e9]:nth-child(5){background:linear-gradient(45deg,#22c1c3,#904ed4)}.carousel__item_active[data-v-345587e9]{z-index:5}.carousel__item[data-pos=\\\"-1\\\"][data-v-345587e9],.carousel__item[data-pos=\\\"1\\\"][data-v-345587e9]{filter:blur(1px) grayscale(10%);opacity:.7}.carousel__item[data-pos=\\\"-1\\\"][data-v-345587e9]{transform:translateX(-40%) scale(.9);z-index:4}.carousel__item[data-pos=\\\"1\\\"][data-v-345587e9]{transform:translateX(40%) scale(.9);z-index:4}.carousel__item[data-pos=\\\"-2\\\"][data-v-345587e9],.carousel__item[data-pos=\\\"2\\\"][data-v-345587e9]{filter:blur(3px) grayscale(20%);opacity:.4}.carousel__item[data-pos=\\\"-2\\\"][data-v-345587e9]{transform:translateX(-70%) scale(.8);z-index:3}.carousel__item[data-pos=\\\"2\\\"][data-v-345587e9]{transform:translateX(70%) scale(.8);z-index:3}\"",
+      "start": 1706183608873,
+      "end": 1706183608873,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183608874,
+      "end": 1706183608874,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183608874,
+      "end": 1706183608874,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183608875,
+      "end": 1706183608875,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183608876,
+      "end": 1706183608876,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183608876,
+      "end": 1706183608876,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183608876,
+      "end": 1706183608876,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183608877,
+      "end": 1706183608877,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183608877,
+      "end": 1706183608877,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183608877,
+      "end": 1706183608878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183608877,
+      "end": 1706183608878,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183608878,
+      "end": 1706183608878,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183608878,
+      "end": 1706183608878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183608878,
+      "end": 1706183608878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183608878,
+      "end": 1706183608878,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1706183608879,
+      "end": 1706183608879,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183608879,
+      "end": 1706183608879,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183608879,
+      "end": 1706183608879,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183608879,
+      "end": 1706183608879,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183608879,
+      "end": 1706183608879,
+      "order": "normal"
+    }
+  ]
+}

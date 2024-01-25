@@ -1,0 +1,5 @@
+const Collaborate_vue_vue_type_style_index_0_scoped_314dbf7c_lang = ".heading[data-v-314dbf7c]{font-size:40px}.heading[data-v-314dbf7c],.headingsmall[data-v-314dbf7c]{font-style:normal;font-weight:700;letter-spacing:1.92px;line-height:83.28px}.headingsmall[data-v-314dbf7c]{font-size:26px}.para[data-v-314dbf7c]{font-size:18px;font-style:normal;font-weight:400;line-height:34px}.globe[data-v-314dbf7c]{position:relative}.logosmall[data-v-314dbf7c]{left:80%;position:absolute;text-align:center;top:80%;transform:translate(-50%,-50%)}@media (max-width:390px){.headingsmall[data-v-314dbf7c]{font-size:22px;font-style:normal;font-weight:700;letter-spacing:1.92px;line-height:83.28px}}.roundlogo[data-v-314dbf7c]{animation-duration:5s;animation-iteration-count:infinite;animation-name:rotation-314dbf7c;animation-timing-function:linear;transition:transform .5s ease-in-out}@keyframes rotation-314dbf7c{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}";
+export {
+  Collaborate_vue_vue_type_style_index_0_scoped_314dbf7c_lang as default
+};
+//# sourceMappingURL=index-styles-5.mjs-db57737b.js.map

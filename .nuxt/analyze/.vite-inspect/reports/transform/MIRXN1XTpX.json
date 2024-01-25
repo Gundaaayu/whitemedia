@@ -1,0 +1,222 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/Hero.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div>\r\n    <!-- <v-container fluid>\r\n      <v-row class=\"justify-center\">\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img1.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img2.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img3.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img4.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img5.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img6.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img7.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img8.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img9.png\" />\r\n        </v-col>\r\n        <v-col cols=\"1\">\r\n          <v-img src=\"/images/mainpage/img10.png\" />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container> -->\r\n    <v-container class=\"pa-0 d-none d-md-block\" fluid>\r\n      <v-row>\r\n        <v-col cols=\"12\">\r\n          <v-img src=\"/images/banner.jpg\" />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n    <v-container class=\"pa-0 d-block d-md-none\" fluid>\r\n      <v-row>\r\n        <v-col cols=\"12\">\r\n          <v-img src=\"/images/banner-small.png\" />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\n// const { $anime } = useNuxtApp();\r\n\r\n// onMounted(() => {\r\n//   $anime({\r\n//     targets: \".title\",\r\n//     translateX: 270,\r\n//     direction: \"alternate\",\r\n//     loop: false,\r\n//     duration: 2000,\r\n//     easing: function (el, i, total) {\r\n//       return function (t) {\r\n//         return Math.pow(Math.sin(t * (i + 1)), total);\r\n//       };\r\n//     },\r\n//   });\r\n// });\r\n</script>\r\n",
+      "start": 1706183598001,
+      "end": 1706183598268,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183598268,
+      "end": 1706183598268,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183598268,
+      "end": 1706183598268,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183598268,
+      "end": 1706183598268,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1706183598268,
+      "end": 1706183598268,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183598268,
+      "end": 1706183598268,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183598268,
+      "end": 1706183598268,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183598268,
+      "end": 1706183598268,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/banner.jpg'\nimport _imports_1 from '/images/banner-small.png'\n\n\n\nconst _sfc_main = {\n  __name: 'Hero',\n  setup(__props) {\n\r\n// const { $anime } = useNuxtApp();\r\n\r\n// onMounted(() => {\r\n//   $anime({\r\n//     targets: \".title\",\r\n//     translateX: 270,\r\n//     direction: \"alternate\",\r\n//     loop: false,\r\n//     duration: 2000,\r\n//     easing: function (el, i, total) {\r\n//       return function (t) {\r\n//         return Math.pow(Math.sin(t * (i + 1)), total);\r\n//       };\r\n//     },\r\n//   });\r\n// });\r\n\nreturn (_ctx, _cache) => {\n  const _component_v_img = _resolveComponent(\"v-img\")\n  const _component_v_col = _resolveComponent(\"v-col\")\n  const _component_v_row = _resolveComponent(\"v-row\")\n  const _component_v_container = _resolveComponent(\"v-container\")\n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createVNode(_component_v_container, {\n      class: \"pa-0 d-none d-md-block\",\n      fluid: \"\"\n    }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, { cols: \"12\" }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_img, { src: _imports_0 })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    }),\n    _createVNode(_component_v_container, {\n      class: \"pa-0 d-block d-md-none\",\n      fluid: \"\"\n    }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, { cols: \"12\" }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_img, { src: _imports_1 })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    })\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
+      "start": 1706183598268,
+      "end": 1706183598272,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183598272,
+      "end": 1706183598272,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183598272,
+      "end": 1706183598272,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183598272,
+      "end": 1706183598272,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1706183598272,
+      "end": 1706183598272,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "result": "import { resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\nimport _imports_0 from '/images/banner.jpg'\nimport _imports_1 from '/images/banner-small.png'\n\n\n\nconst _sfc_main = {\n  __name: 'Hero',\n  setup(__props) {\n\r\n// const { $anime } = useNuxtApp();\r\n\r\n// onMounted(() => {\r\n//   $anime({\r\n//     targets: \".title\",\r\n//     translateX: 270,\r\n//     direction: \"alternate\",\r\n//     loop: false,\r\n//     duration: 2000,\r\n//     easing: function (el, i, total) {\r\n//       return function (t) {\r\n//         return Math.pow(Math.sin(t * (i + 1)), total);\r\n//       };\r\n//     },\r\n//   });\r\n// });\r\n\nreturn (_ctx, _cache) => {\n                                                     \n                                                     \n                                                     \n                                                                 \n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createVNode(_component_v_container, {\n      class: \"pa-0 d-none d-md-block\",\n      fluid: \"\"\n    }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, { cols: \"12\" }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_img, { src: _imports_0 })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    }),\n    _createVNode(_component_v_container, {\n      class: \"pa-0 d-block d-md-none\",\n      fluid: \"\"\n    }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, { cols: \"12\" }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_img, { src: _imports_1 })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    })\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main\n\n/* Vuetify */\nimport { VCol as _component_v_col, VRow as _component_v_row, VContainer as _component_v_container } from \"vuetify/lib/components/VGrid/index.mjs\"\nimport { VImg as _component_v_img } from \"vuetify/lib/components/VImg/index.mjs\"\n\n",
+      "start": 1706183598272,
+      "end": 1706183598272,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183598272,
+      "end": 1706183598272,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183598272,
+      "end": 1706183598272,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183598272,
+      "end": 1706183598272,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183598272,
+      "end": 1706183598272,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1706183598272,
+      "end": 1706183598272,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183598273,
+      "end": 1706183598273,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183598273,
+      "end": 1706183598273,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183598273,
+      "end": 1706183598273,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183598273,
+      "end": 1706183598273,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183598273,
+      "end": 1706183598273,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183598273,
+      "end": 1706183598273,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183598273,
+      "end": 1706183598273,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183598273,
+      "end": 1706183598274,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183598274,
+      "end": 1706183598274,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183598274,
+      "end": 1706183598274,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1706183598274,
+      "end": 1706183598274,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1706183598274,
+      "end": 1706183598274,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183598274,
+      "end": 1706183598274,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183598274,
+      "end": 1706183598274,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183598274,
+      "end": 1706183598274,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183598274,
+      "end": 1706183598274,
+      "order": "normal"
+    }
+  ]
+}

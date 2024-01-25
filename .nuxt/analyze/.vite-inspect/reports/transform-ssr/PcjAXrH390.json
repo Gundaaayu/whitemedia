@@ -1,0 +1,286 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/pages/index.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div class=\"bg-primary\">\r\n    <Hero />\r\n    <ScrollAnime />\r\n    <br />\r\n    <Aboutus />\r\n    <!-- <Servicesblock /> -->\r\n    <div id=\"services\">\r\n      <ServicesMain />\r\n    </div>\r\n    <div id=\"maestros\">\r\n      <Maestros />\r\n    </div>\r\n    <div id=\"collaborate\">\r\n      <Collaborate />\r\n    </div>\r\n    <!-- <OurWork /> -->\r\n    <!-- <ConnectBlock /> -->\r\n    <ConnectMain />\r\n    <FooterMain />\r\n  </div>\r\n</template>\r\n<style scoped></style>\r\n",
+      "start": 1706183602841,
+      "end": 1706183608816,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183608816,
+      "end": 1706183608816,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183608816,
+      "end": 1706183608816,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183608816,
+      "end": 1706183608816,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183608816,
+      "end": 1706183608816,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183608816,
+      "end": 1706183608816,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1706183608816,
+      "end": 1706183608816,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183608816,
+      "end": 1706183608816,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183608816,
+      "end": 1706183608816,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183608816,
+      "end": 1706183608816,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_Hero = _resolveComponent(\"Hero\")\n  const _component_ScrollAnime = _resolveComponent(\"ScrollAnime\")\n  const _component_Aboutus = _resolveComponent(\"Aboutus\")\n  const _component_ServicesMain = _resolveComponent(\"ServicesMain\")\n  const _component_Maestros = _resolveComponent(\"Maestros\")\n  const _component_Collaborate = _resolveComponent(\"Collaborate\")\n  const _component_ConnectMain = _resolveComponent(\"ConnectMain\")\n  const _component_FooterMain = _resolveComponent(\"FooterMain\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"bg-primary\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_Hero, null, null, _parent))\n  _push(_ssrRenderComponent(_component_ScrollAnime, null, null, _parent))\n  _push(`<br>`)\n  _push(_ssrRenderComponent(_component_Aboutus, null, null, _parent))\n  _push(`<div id=\"services\">`)\n  _push(_ssrRenderComponent(_component_ServicesMain, null, null, _parent))\n  _push(`</div><div id=\"maestros\">`)\n  _push(_ssrRenderComponent(_component_Maestros, null, null, _parent))\n  _push(`</div><div id=\"collaborate\">`)\n  _push(_ssrRenderComponent(_component_Collaborate, null, null, _parent))\n  _push(`</div>`)\n  _push(_ssrRenderComponent(_component_ConnectMain, null, null, _parent))\n  _push(_ssrRenderComponent(_component_FooterMain, null, null, _parent))\n  _push(`</div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/index.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1706183608816,
+      "end": 1706183608820,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/weigo/whitemedia/pages/index.vue"
+        ],
+        "names": [],
+        "mappings": ";;;;;;;;;;;;;6CACO,KAAK,EAAC,YAAY",
+        "file": "C:/Users/weigo/whitemedia/pages/index.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n  <div class=\"bg-primary\">\r\n    <Hero />\r\n    <ScrollAnime />\r\n    <br />\r\n    <Aboutus />\r\n    <!-- <Servicesblock /> -->\r\n    <div id=\"services\">\r\n      <ServicesMain />\r\n    </div>\r\n    <div id=\"maestros\">\r\n      <Maestros />\r\n    </div>\r\n    <div id=\"collaborate\">\r\n      <Collaborate />\r\n    </div>\r\n    <!-- <OurWork /> -->\r\n    <!-- <ConnectBlock /> -->\r\n    <ConnectMain />\r\n    <FooterMain />\r\n  </div>\r\n</template>\r\n<style scoped></style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183608820,
+      "end": 1706183608820,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183608820,
+      "end": 1706183608820,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183608820,
+      "end": 1706183608820,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183608820,
+      "end": 1706183608820,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183608820,
+      "end": 1706183608820,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_Hero = _resolveComponent(\"Hero\")\n  const _component_ScrollAnime = _resolveComponent(\"ScrollAnime\")\n  const _component_Aboutus = _resolveComponent(\"Aboutus\")\n  const _component_ServicesMain = _resolveComponent(\"ServicesMain\")\n  const _component_Maestros = _resolveComponent(\"Maestros\")\n  const _component_Collaborate = _resolveComponent(\"Collaborate\")\n  const _component_ConnectMain = _resolveComponent(\"ConnectMain\")\n  const _component_FooterMain = _resolveComponent(\"FooterMain\")\n\n  _push(`<div${_ssrRenderAttrs(_mergeProps({ class: \"bg-primary\" }, _attrs))}>`)\n  _push(_ssrRenderComponent(_component_Hero, null, null, _parent))\n  _push(_ssrRenderComponent(_component_ScrollAnime, null, null, _parent))\n  _push(`<br>`)\n  _push(_ssrRenderComponent(_component_Aboutus, null, null, _parent))\n  _push(`<div id=\"services\">`)\n  _push(_ssrRenderComponent(_component_ServicesMain, null, null, _parent))\n  _push(`</div><div id=\"maestros\">`)\n  _push(_ssrRenderComponent(_component_Maestros, null, null, _parent))\n  _push(`</div><div id=\"collaborate\">`)\n  _push(_ssrRenderComponent(_component_Collaborate, null, null, _parent))\n  _push(`</div>`)\n  _push(_ssrRenderComponent(_component_ConnectMain, null, null, _parent))\n  _push(_ssrRenderComponent(_component_FooterMain, null, null, _parent))\n  _push(`</div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/index.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1706183608820,
+      "end": 1706183608820,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183608821,
+      "end": 1706183608821,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183608821,
+      "end": 1706183608822,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183608821,
+      "end": 1706183608822,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183608822,
+      "end": 1706183608822,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183608822,
+      "end": 1706183608822,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1706183608822,
+      "end": 1706183608823,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1706183608822,
+      "end": 1706183608823,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1706183608823,
+      "end": 1706183608823,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183608823,
+      "end": 1706183608823,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183608823,
+      "end": 1706183608823,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183608823,
+      "end": 1706183608823,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183608823,
+      "end": 1706183608823,
+      "order": "normal"
+    }
+  ]
+}

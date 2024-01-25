@@ -1,0 +1,294 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/ServicesMain.vue?vue&type=style&index=0&scoped=0190ced0&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n.image-container {\r\n  position: relative;\r\n}\r\n\r\n.overlay {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  mix-blend-mode: multiply;\r\n  background: rgba(19, 128, 100, 0.9); /* Green color with 50% transparency */\r\n}\r\n\r\n.text-container {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n  width: 100%;\r\n  color: white; /* Set text color to white or a contrasting color */\r\n}\r\n\r\n.overlay-text {\r\n  font-size: 24px; /* Adjust the font size as needed */\r\n  font-weight: bold; /* Adjust the font weight as needed */\r\n}\r\n",
+      "start": 1706183609533,
+      "end": 1706183609533,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/ServicesMain.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/weigo/whitemedia/components/ServicesMain.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n  <div style=\"position: relative\" class=\"bg-white\">\r\n    <v-container fluid>\r\n      <v-row>\r\n        <v-col>\r\n          <div class=\"image-container d-none d-md-block\" style=\"height: 100vh\">\r\n            <v-img src=\"/images/forest.png\" cover />\r\n            <div class=\"overlay\" />\r\n            <div class=\"text-container\">\r\n              <v-container>\r\n                <v-row>\r\n                  <v-col cols=\"12\" lg=\"6\">\r\n                    <p class=\"overlay-text sharpsans-h2 text-left\">\r\n                      / Services\r\n                    </p>\r\n                  </v-col>\r\n                  <v-col cols=\"6\">\r\n                    <v-row>\r\n                      <v-col cols=\"2\" class=\"pa-0\">\r\n                        <v-img\r\n                          src=\"/images/arrow-left.png\"\r\n                          style=\"cursor: pointer\"\r\n                          width=\"50\"\r\n                          @click=\"previousContent\"\r\n                        />\r\n                      </v-col>\r\n                      <v-col cols=\"2\" class=\"pa-0\">\r\n                        <v-img\r\n                          src=\"/images/arrow.png\"\r\n                          style=\"cursor: pointer\"\r\n                          width=\"50\"\r\n                          @click=\"nextContent\"\r\n                        />\r\n                      </v-col>\r\n                    </v-row>\r\n                  </v-col>\r\n                </v-row>\r\n                <v-row class=\"justify-end\">\r\n                  <v-col cols=\"12\" lg=\"6\">\r\n                    <h1 class=\"text-left sharpsans-h2\">\r\n                      {{ currentContent.title }}\r\n                    </h1>\r\n                  </v-col>\r\n                </v-row>\r\n                <v-row>\r\n                  <v-col cols=\"12\" lg=\"6\">\r\n                    <v-row>\r\n                      <v-col cols=\"12\" lg=\"6\">\r\n                        <h1 class=\"text-left sharpsans-h1\">Unblocking</h1>\r\n                        <h1 class=\"text-left sharpsans-h1\">\r\n                          Your Brand's Potential\r\n                        </h1>\r\n                      </v-col>\r\n                    </v-row>\r\n                  </v-col>\r\n                  <v-col cols=\"12\" lg=\"6\">\r\n                    <p class=\"text-left sharpsans-h3\">\r\n                      {{ currentContent.description }}\r\n                    </p>\r\n                  </v-col>\r\n                </v-row>\r\n              </v-container>\r\n            </div>\r\n          </div>\r\n          <div class=\"image-container d-block d-md-none\">\r\n            <v-img src=\"/images/forest.png\" cover />\r\n            <div class=\"overlay\" />\r\n            <div class=\"text-container\">\r\n              <v-container>\r\n                <v-row>\r\n                  <v-col cols=\"12\" lg=\"6\">\r\n                    <p class=\"overlay-text sharpsans-h2 text-left\">\r\n                      / Services\r\n                    </p>\r\n                  </v-col>\r\n                  <v-col cols=\"6\">\r\n                    <v-row>\r\n                      <v-col cols=\"2\" class=\"pa-0 ml-2\">\r\n                        <v-img\r\n                          src=\"/images/arrow-left.png\"\r\n                          width=\"50\"\r\n                          @click=\"previousContent\"\r\n                        />\r\n                      </v-col>\r\n                      <v-col cols=\"2\" class=\"pa-0 ml-3\">\r\n                        <v-img\r\n                          src=\"/images/arrow.png\"\r\n                          width=\"50\"\r\n                          @click=\"nextContent\"\r\n                        />\r\n                      </v-col>\r\n                    </v-row>\r\n                  </v-col>\r\n                </v-row>\r\n                <v-row class=\"justify-end\">\r\n                  <v-col cols=\"12\" lg=\"6\">\r\n                    <h1 class=\"text-left sharpsans-h2\">\r\n                      {{ currentContent.title }}\r\n                    </h1>\r\n                  </v-col>\r\n                </v-row>\r\n                <v-row>\r\n                  <v-col cols=\"12\" lg=\"6\">\r\n                    <v-row>\r\n                      <v-col cols=\"12\" lg=\"6\">\r\n                        <h1 class=\"text-left sharpsans-h1\">Unblocking</h1>\r\n                        <h1 class=\"text-left sharpsans-h1\">\r\n                          Your Brand's Potential\r\n                        </h1>\r\n                      </v-col>\r\n                    </v-row>\r\n                  </v-col>\r\n                  <v-col cols=\"12\" lg=\"6\">\r\n                    <p class=\"text-left sharpsans-h3\">\r\n                      {{ currentContent.description }}\r\n                    </p>\r\n                  </v-col>\r\n                </v-row>\r\n              </v-container>\r\n            </div>\r\n          </div>\r\n        </v-col>\r\n      </v-row>\r\n      <br />\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\nconst contents = [\r\n  {\r\n    title: \"Social Media and Performance Marketing\",\r\n    description:\r\n      \"Each of our services, from crafting engaging social content to designing compelling digital ad campaigns, creates ripples of influence, impact and ROI.\",\r\n  },\r\n  {\r\n    title: \"Media Production and Graphic Design\",\r\n    description:\r\n      \"With a lens that captures and crafts, we merge the traditional with the digital, weaving visual tales that flow smoothly, speaking and resonating with your audience.\",\r\n  },\r\n  {\r\n    title: \"Digital Transformation\",\r\n    description:\r\n      \"Beyond mere websites, we craft portals of engaging digital experiences, where each interaction is a step deeper into the captivating waters of your brand.\",\r\n  },\r\n  // Add more content here\r\n];\r\n\r\nlet currentContentIndex = 0;\r\n\r\nconst currentContent = ref(contents[currentContentIndex]);\r\n\r\nconst nextContent = () => {\r\n  if (currentContentIndex < contents.length - 1) {\r\n    currentContentIndex++;\r\n    currentContent.value = contents[currentContentIndex];\r\n  }\r\n};\r\n\r\nconst previousContent = () => {\r\n  if (currentContentIndex > 0) {\r\n    currentContentIndex--;\r\n    currentContent.value = contents[currentContentIndex];\r\n  }\r\n};\r\n</script>\r\n\r\n<style scoped>\r\n.image-container {\r\n  position: relative;\r\n}\r\n\r\n.overlay {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  mix-blend-mode: multiply;\r\n  background: rgba(19, 128, 100, 0.9); /* Green color with 50% transparency */\r\n}\r\n\r\n.text-container {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n  width: 100%;\r\n  color: white; /* Set text color to white or a contrasting color */\r\n}\r\n\r\n.overlay-text {\r\n  font-size: 24px; /* Adjust the font size as needed */\r\n  font-weight: bold; /* Adjust the font weight as needed */\r\n}\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609534,
+      "end": 1706183609534,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609534,
+      "end": 1706183609534,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609534,
+      "end": 1706183609534,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609534,
+      "end": 1706183609534,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183609534,
+      "end": 1706183609535,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".image-container{position:relative}.overlay{background:rgba(19,128,100,.9);height:100%;left:0;mix-blend-mode:multiply;top:0}.overlay,.text-container{position:absolute;width:100%}.text-container{color:#fff;left:50%;text-align:center;top:50%;transform:translate(-50%,-50%)}.overlay-text{font-size:24px;font-weight:700}",
+      "start": 1706183609535,
+      "end": 1706183609538,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/weigo/whitemedia/components/ServicesMain.vue",
+        "mappings": "AACA,iBACE,iBACF,CAEA,SAOE,8BAAmC,CAFnC,WAAY,CAFZ,MAAO,CAGP,uBAAwB,CAJxB,KAMF,CAEA,yBATE,iBAAkB,CAGlB,UAcF,CARA,gBAOE,UAAY,CAJZ,QAAS,CAET,iBAAkB,CAHlB,OAAQ,CAER,8BAIF,CAEA,cACE,cAAe,CACf,eACF",
+        "names": [],
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/ServicesMain.vue"
+        ],
+        "sourcesContent": [
+          "\r\n.image-container {\r\n  position: relative;\r\n}\r\n\r\n.overlay {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  width: 100%;\r\n  height: 100%;\r\n  mix-blend-mode: multiply;\r\n  background: rgba(19, 128, 100, 0.9); /* Green color with 50% transparency */\r\n}\r\n\r\n.text-container {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n  width: 100%;\r\n  color: white; /* Set text color to white or a contrasting color */\r\n}\r\n\r\n.overlay-text {\r\n  font-size: 24px; /* Adjust the font size as needed */\r\n  font-weight: bold; /* Adjust the font weight as needed */\r\n}\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183609538,
+      "end": 1706183609538,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183609538,
+      "end": 1706183609538,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183609538,
+      "end": 1706183609538,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".image-container[data-v-0190ced0]{position:relative}.overlay[data-v-0190ced0]{background:rgba(19,128,100,.9);height:100%;left:0;mix-blend-mode:multiply;top:0}.overlay[data-v-0190ced0],.text-container[data-v-0190ced0]{position:absolute;width:100%}.text-container[data-v-0190ced0]{color:#fff;left:50%;text-align:center;top:50%;transform:translate(-50%,-50%)}.overlay-text[data-v-0190ced0]{font-size:24px;font-weight:700}",
+      "start": 1706183609538,
+      "end": 1706183609539,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/weigo/whitemedia/components/ServicesMain.vue",
+        "mappings": "AAAA,kCAAiB,iBAAiB,CAAC,0BAAS,8BAA8B,CAAC,WAAW,CAAC,MAAM,CAAC,uBAAuB,CAAC,KAAK,CAAC,2DAAyB,iBAAiB,CAAC,UAAU,CAAC,iCAAgB,UAAU,CAAC,QAAQ,CAAC,iBAAiB,CAAC,OAAO,CAAC,8BAA8B,CAAC,+BAAc,cAAc,CAAC,eAAe",
+        "names": [],
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/ServicesMain.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183609539,
+      "end": 1706183609539,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609539,
+      "end": 1706183609539,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609539,
+      "end": 1706183609539,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609539,
+      "end": 1706183609539,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609539,
+      "end": 1706183609539,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183609540,
+      "end": 1706183609540,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183609541,
+      "end": 1706183609541,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183609541,
+      "end": 1706183609541,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183609541,
+      "end": 1706183609541,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183609541,
+      "end": 1706183609541,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183609541,
+      "end": 1706183609541,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609543,
+      "end": 1706183609543,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609543,
+      "end": 1706183609543,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609545,
+      "end": 1706183609545,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609545,
+      "end": 1706183609545,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609545,
+      "end": 1706183609546,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609545,
+      "end": 1706183609546,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609548,
+      "end": 1706183609548,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609548,
+      "end": 1706183609548,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1706183609548,
+      "end": 1706183609548,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183609548,
+      "end": 1706183609548,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183609548,
+      "end": 1706183609548,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183609548,
+      "end": 1706183609548,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183609552,
+      "end": 1706183609552,
+      "order": "normal"
+    }
+  ]
+}

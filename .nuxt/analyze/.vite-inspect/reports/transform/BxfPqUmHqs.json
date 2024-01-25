@@ -1,0 +1,222 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/Collaborate.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div class=\"bg-primary\">\r\n    <v-container class=\"d-none d-md-block\">\r\n      <v-row>\r\n        <v-col class=\"my-auto\" cols=\"12\" lg=\"6\">\r\n          <div class=\"globe\">\r\n            <v-img src=\"/images/globeround.png\" height=\"400\" />\r\n            <div class=\"logosmall\">\r\n              <v-img src=\"/images/smalllogo.png\" width=\"70\" />\r\n            </div>\r\n            <div class=\"logosmall\">\r\n              <v-img src=\"/images/roundlogo.png\" width=\"100\"  class=\"roundlogo\"  />\r\n            </div>\r\n          </div>\r\n        </v-col>\r\n        <v-col cols=\"12\" lg=\"6\">\r\n          <v-row>\r\n            <v-col cols=\"10\">\r\n              <h1 class=\"heading\">Collaborate With Us</h1>\r\n              <p class=\"para\">\r\n                Join us at the confluence where creativity and strategy blend,\r\n                charting courses through the captivating waters of the market,\r\n                navigating towards unparalleled success.\r\n              </p>\r\n            </v-col>\r\n          </v-row>\r\n          <v-row>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Name\" variant=\"outlined\" class=\"mt-5\" />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Email ID\" variant=\"outlined\" class=\"mt-5\" />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field\r\n                label=\"Company Name\"\r\n                variant=\"outlined\"\r\n                class=\"pa-0\"\r\n              />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Mobile Number\" variant=\"outlined\" />\r\n            </v-col>\r\n          </v-row>\r\n          <v-row>\r\n            <v-col cols=\"12\">\r\n              <v-btn\r\n                style=\"\r\n                  background-color: #138064e5;\r\n                  color: white;\r\n                  font-weight: 600;\r\n                \"\r\n              >\r\n                Submit\r\n              </v-btn>\r\n            </v-col>\r\n          </v-row>\r\n        </v-col>\r\n      </v-row>\r\n      <br />\r\n    </v-container>\r\n    <v-container class=\"d-block d-md-none\">\r\n      <v-row>\r\n        <v-col class=\"my-auto\" cols=\"12\" lg=\"6\">\r\n          <div class=\"globe\">\r\n            <v-img src=\"/images/globeround.png\" height=\"400\" />\r\n            <div class=\"logosmall\">\r\n              <v-img src=\"/images/smalllogo.png\" width=\"70\" />\r\n            </div>\r\n            <div class=\"logosmall\">\r\n              <v-img src=\"/images/roundlogo.png\" width=\"100\" />\r\n            </div>\r\n          </div>\r\n        </v-col>\r\n        <v-col cols=\"12\" lg=\"6\">\r\n          <v-row>\r\n            <v-col cols=\"10\">\r\n              <div class=\"d-flex\">\r\n                <div class=\"block my-auto\" />\r\n\r\n                <h1 class=\"headingsmall\">Collaborate With Us</h1>\r\n              </div>\r\n              <p class=\"para text-left\">\r\n                Join us at the confluence where creativity and strategy blend,\r\n                charting courses through the captivating waters of the market,\r\n                navigating towards unparalleled success.\r\n              </p>\r\n            </v-col>\r\n          </v-row>\r\n          <v-row>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Name\" variant=\"outlined\" class=\"mt-5\" />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Email ID\" variant=\"outlined\" class=\"mt-5\" />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field\r\n                label=\"Company Name\"\r\n                variant=\"outlined\"\r\n                class=\"pa-0\"\r\n              />\r\n            </v-col>\r\n            <v-col cols=\"12\" lg=\"6\">\r\n              <v-text-field label=\"Mobile Number\" variant=\"outlined\" />\r\n            </v-col>\r\n          </v-row>\r\n          <v-row>\r\n            <v-col class=\"text-center\" cols=\"12\">\r\n              <v-btn\r\n                style=\"\r\n                  background-color: #138064e5;\r\n                  color: white;\r\n                  font-weight: 600;\r\n                \"\r\n              >\r\n                Submit\r\n              </v-btn>\r\n            </v-col>\r\n          </v-row>\r\n        </v-col>\r\n      </v-row>\r\n      <br />\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<style scoped>\r\n.heading {\r\n  font-size: 40px;\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  line-height: 83.28px; /* 166.56% */\r\n  letter-spacing: 1.92px;\r\n}\r\n.headingsmall {\r\n  font-size: 26px;\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  line-height: 83.28px; /* 166.56% */\r\n  letter-spacing: 1.92px;\r\n}\r\n.para {\r\n  font-size: 18px;\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  line-height: 34px;\r\n}\r\n\r\n.globe {\r\n  position: relative;\r\n}\r\n\r\n.logosmall {\r\n  position: absolute;\r\n  top: 80%;\r\n  left: 80%;\r\n  transform: translate(-50%, -50%);\r\n  text-align: center;\r\n}\r\n@media (max-width: 390px) {\r\n  .headingsmall {\r\n    font-size: 22px;\r\n    font-style: normal;\r\n    font-weight: 700;\r\n    line-height: 83.28px; /* 166.56% */\r\n    letter-spacing: 1.92px;\r\n  }\r\n}\r\n.roundlogo {\r\n  animation-name: rotation;\r\n  animation-duration: 5s;\r\n  animation-iteration-count: infinite;\r\n  animation-timing-function: linear;\r\n}\r\n.roundlogo {\r\n  transition: transform 0.5s ease-in-out;\r\n}\r\n\r\n@keyframes rotation {\r\n  0% {\r\n    transform: rotate(0deg);\r\n  }\r\n  100% {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n</style>\r\n",
+      "start": 1706183598032,
+      "end": 1706183598389,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183598389,
+      "end": 1706183598389,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183598389,
+      "end": 1706183598390,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183598390,
+      "end": 1706183598390,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1706183598390,
+      "end": 1706183598390,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183598390,
+      "end": 1706183598390,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183598390,
+      "end": 1706183598390,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183598390,
+      "end": 1706183598390,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, withCtx as _withCtx, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/images/globeround.png'\nimport _imports_1 from '/images/smalllogo.png'\nimport _imports_2 from '/images/roundlogo.png'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-314dbf7c\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"bg-primary\" }\nconst _hoisted_2 = { class: \"globe\" }\nconst _hoisted_3 = { class: \"logosmall\" }\nconst _hoisted_4 = { class: \"logosmall\" }\nconst _hoisted_5 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", { class: \"heading\" }, \"Collaborate With Us\", -1))\nconst _hoisted_6 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"para\" }, \" Join us at the confluence where creativity and strategy blend, charting courses through the captivating waters of the market, navigating towards unparalleled success. \", -1))\nconst _hoisted_7 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"br\", null, null, -1))\nconst _hoisted_8 = { class: \"globe\" }\nconst _hoisted_9 = { class: \"logosmall\" }\nconst _hoisted_10 = { class: \"logosmall\" }\nconst _hoisted_11 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"d-flex\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"block my-auto\" }),\n  /*#__PURE__*/_createElementVNode(\"h1\", { class: \"headingsmall\" }, \"Collaborate With Us\")\n], -1))\nconst _hoisted_12 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"para text-left\" }, \" Join us at the confluence where creativity and strategy blend, charting courses through the captivating waters of the market, navigating towards unparalleled success. \", -1))\nconst _hoisted_13 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"br\", null, null, -1))\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_v_img = _resolveComponent(\"v-img\")\n  const _component_v_col = _resolveComponent(\"v-col\")\n  const _component_v_row = _resolveComponent(\"v-row\")\n  const _component_v_text_field = _resolveComponent(\"v-text-field\")\n  const _component_v_btn = _resolveComponent(\"v-btn\")\n  const _component_v_container = _resolveComponent(\"v-container\")\n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_v_container, { class: \"d-none d-md-block\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, {\n              class: \"my-auto\",\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _createElementVNode(\"div\", _hoisted_2, [\n                  _createVNode(_component_v_img, {\n                    src: _imports_0,\n                    height: \"400\"\n                  }),\n                  _createElementVNode(\"div\", _hoisted_3, [\n                    _createVNode(_component_v_img, {\n                      src: _imports_1,\n                      width: \"70\"\n                    })\n                  ]),\n                  _createElementVNode(\"div\", _hoisted_4, [\n                    _createVNode(_component_v_img, {\n                      src: _imports_2,\n                      width: \"100\",\n                      class: \"roundlogo\"\n                    })\n                  ])\n                ])\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, { cols: \"10\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_5,\n                        _hoisted_6\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Name\",\n                          variant: \"outlined\",\n                          class: \"mt-5\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Email ID\",\n                          variant: \"outlined\",\n                          class: \"mt-5\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Company Name\",\n                          variant: \"outlined\",\n                          class: \"pa-0\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Mobile Number\",\n                          variant: \"outlined\"\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, { cols: \"12\" }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_btn, { style: {\"background-color\":\"#138064e5\",\"color\":\"white\",\"font-weight\":\"600\"} }, {\n                          default: _withCtx(() => [\n                            _createTextVNode(\" Submit \")\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        }),\n        _hoisted_7\n      ]),\n      _: 1\n    }),\n    _createVNode(_component_v_container, { class: \"d-block d-md-none\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, {\n              class: \"my-auto\",\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _createElementVNode(\"div\", _hoisted_8, [\n                  _createVNode(_component_v_img, {\n                    src: _imports_0,\n                    height: \"400\"\n                  }),\n                  _createElementVNode(\"div\", _hoisted_9, [\n                    _createVNode(_component_v_img, {\n                      src: _imports_1,\n                      width: \"70\"\n                    })\n                  ]),\n                  _createElementVNode(\"div\", _hoisted_10, [\n                    _createVNode(_component_v_img, {\n                      src: _imports_2,\n                      width: \"100\"\n                    })\n                  ])\n                ])\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, { cols: \"10\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_11,\n                        _hoisted_12\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Name\",\n                          variant: \"outlined\",\n                          class: \"mt-5\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Email ID\",\n                          variant: \"outlined\",\n                          class: \"mt-5\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Company Name\",\n                          variant: \"outlined\",\n                          class: \"pa-0\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Mobile Number\",\n                          variant: \"outlined\"\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, {\n                      class: \"text-center\",\n                      cols: \"12\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_btn, { style: {\"background-color\":\"#138064e5\",\"color\":\"white\",\"font-weight\":\"600\"} }, {\n                          default: _withCtx(() => [\n                            _createTextVNode(\" Submit \")\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        }),\n        _hoisted_13\n      ]),\n      _: 1\n    })\n  ]))\n}\n\nimport \"C:/Users/weigo/whitemedia/components/Collaborate.vue?vue&type=style&index=0&scoped=314dbf7c&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-314dbf7c\"]])",
+      "start": 1706183598390,
+      "end": 1706183598393,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183598393,
+      "end": 1706183598393,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183598393,
+      "end": 1706183598393,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, createElementVNode as _createElementVNode, withCtx as _withCtx, createTextVNode as _createTextVNode, openBlock as _openBlock, createElementBlock as _createElementBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\nimport _imports_0 from '/images/globeround.png'\nimport _imports_1 from '/images/smalllogo.png'\nimport _imports_2 from '/images/roundlogo.png'\n\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-314dbf7c\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"bg-primary\" }\nconst _hoisted_2 = { class: \"globe\" }\nconst _hoisted_3 = { class: \"logosmall\" }\nconst _hoisted_4 = { class: \"logosmall\" }\nconst _hoisted_5 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"h1\", { class: \"heading\" }, \"Collaborate With Us\", -1))\nconst _hoisted_6 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"para\" }, \" Join us at the confluence where creativity and strategy blend, charting courses through the captivating waters of the market, navigating towards unparalleled success. \", -1))\nconst _hoisted_7 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"br\", null, null, -1))\nconst _hoisted_8 = { class: \"globe\" }\nconst _hoisted_9 = { class: \"logosmall\" }\nconst _hoisted_10 = { class: \"logosmall\" }\nconst _hoisted_11 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"d-flex\" }, [\n  /*#__PURE__*/_createElementVNode(\"div\", { class: \"block my-auto\" }),\n  /*#__PURE__*/_createElementVNode(\"h1\", { class: \"headingsmall\" }, \"Collaborate With Us\")\n], -1))\nconst _hoisted_12 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"p\", { class: \"para text-left\" }, \" Join us at the confluence where creativity and strategy blend, charting courses through the captivating waters of the market, navigating towards unparalleled success. \", -1))\nconst _hoisted_13 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"br\", null, null, -1))\n\nfunction _sfc_render(_ctx, _cache) {\n                                                     \n                                                     \n                                                     \n                                                                   \n                                                     \n                                                                 \n\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createVNode(_component_v_container, { class: \"d-none d-md-block\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, {\n              class: \"my-auto\",\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _createElementVNode(\"div\", _hoisted_2, [\n                  _createVNode(_component_v_img, {\n                    src: _imports_0,\n                    height: \"400\"\n                  }),\n                  _createElementVNode(\"div\", _hoisted_3, [\n                    _createVNode(_component_v_img, {\n                      src: _imports_1,\n                      width: \"70\"\n                    })\n                  ]),\n                  _createElementVNode(\"div\", _hoisted_4, [\n                    _createVNode(_component_v_img, {\n                      src: _imports_2,\n                      width: \"100\",\n                      class: \"roundlogo\"\n                    })\n                  ])\n                ])\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, { cols: \"10\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_5,\n                        _hoisted_6\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Name\",\n                          variant: \"outlined\",\n                          class: \"mt-5\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Email ID\",\n                          variant: \"outlined\",\n                          class: \"mt-5\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Company Name\",\n                          variant: \"outlined\",\n                          class: \"pa-0\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Mobile Number\",\n                          variant: \"outlined\"\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, { cols: \"12\" }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_btn, { style: {\"background-color\":\"#138064e5\",\"color\":\"white\",\"font-weight\":\"600\"} }, {\n                          default: _withCtx(() => [\n                            _createTextVNode(\" Submit \")\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        }),\n        _hoisted_7\n      ]),\n      _: 1\n    }),\n    _createVNode(_component_v_container, { class: \"d-block d-md-none\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, {\n              class: \"my-auto\",\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _createElementVNode(\"div\", _hoisted_8, [\n                  _createVNode(_component_v_img, {\n                    src: _imports_0,\n                    height: \"400\"\n                  }),\n                  _createElementVNode(\"div\", _hoisted_9, [\n                    _createVNode(_component_v_img, {\n                      src: _imports_1,\n                      width: \"70\"\n                    })\n                  ]),\n                  _createElementVNode(\"div\", _hoisted_10, [\n                    _createVNode(_component_v_img, {\n                      src: _imports_2,\n                      width: \"100\"\n                    })\n                  ])\n                ])\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              cols: \"12\",\n              lg: \"6\"\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, { cols: \"10\" }, {\n                      default: _withCtx(() => [\n                        _hoisted_11,\n                        _hoisted_12\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Name\",\n                          variant: \"outlined\",\n                          class: \"mt-5\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Email ID\",\n                          variant: \"outlined\",\n                          class: \"mt-5\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Company Name\",\n                          variant: \"outlined\",\n                          class: \"pa-0\"\n                        })\n                      ]),\n                      _: 1\n                    }),\n                    _createVNode(_component_v_col, {\n                      cols: \"12\",\n                      lg: \"6\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_text_field, {\n                          label: \"Mobile Number\",\n                          variant: \"outlined\"\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_row, null, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_col, {\n                      class: \"text-center\",\n                      cols: \"12\"\n                    }, {\n                      default: _withCtx(() => [\n                        _createVNode(_component_v_btn, { style: {\"background-color\":\"#138064e5\",\"color\":\"white\",\"font-weight\":\"600\"} }, {\n                          default: _withCtx(() => [\n                            _createTextVNode(\" Submit \")\n                          ]),\n                          _: 1\n                        })\n                      ]),\n                      _: 1\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        }),\n        _hoisted_13\n      ]),\n      _: 1\n    })\n  ]))\n}\n\nimport \"C:/Users/weigo/whitemedia/components/Collaborate.vue?vue&type=style&index=0&scoped=314dbf7c&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-314dbf7c\"]])\n\n/* Vuetify */\nimport { VBtn as _component_v_btn } from \"vuetify/lib/components/VBtn/index.mjs\"\nimport { VCol as _component_v_col, VRow as _component_v_row, VContainer as _component_v_container } from \"vuetify/lib/components/VGrid/index.mjs\"\nimport { VImg as _component_v_img } from \"vuetify/lib/components/VImg/index.mjs\"\nimport { VTextField as _component_v_text_field } from \"vuetify/lib/components/VTextField/index.mjs\"\n\n",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183598394,
+      "end": 1706183598394,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183598394,
+      "end": 1706183598397,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183598397,
+      "end": 1706183598397,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183598397,
+      "end": 1706183598397,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1706183598397,
+      "end": 1706183598397,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1706183598397,
+      "end": 1706183598397,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183598397,
+      "end": 1706183598397,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183598397,
+      "end": 1706183598397,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183598397,
+      "end": 1706183598398,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183598398,
+      "end": 1706183598398,
+      "order": "normal"
+    }
+  ]
+}

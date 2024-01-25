@@ -1,0 +1,269 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/assets/css/styles.css",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "* {\r\n  margin: 0;\r\n  padding: 0;\r\n\r\n  box-sizing: border-box;\r\n}\r\n\r\n@font-face {\r\n  font-family: \"dinbold\";\r\n  src: url(\"/fonts/dinbold.ttf\") format(\"truetype\");\r\n  font-style: normal;\r\n  font-display: swap;\r\n}\r\n\r\n@font-face {\r\n  font-family: \"dinlight\";\r\n  src: url(\"/fonts/dinlight.ttf\") format(\"truetype\");\r\n  font-style: normal;\r\n  font-display: swap;\r\n}\r\n@font-face {\r\n  font-family: \"sharpsans\";\r\n  src: url(\"/fonts/sharpsans.otf\") format(\"opentype\");\r\n  font-style: normal;\r\n  font-display: swap;\r\n}\r\n@font-face {\r\n  font-family: \"inter\";\r\n  src: url(\"/fonts/inter.ttf\") format(\"truetype\");\r\n  font-style: normal;\r\n  font-display: swap;\r\n}\r\n\r\n.block {\r\n  width: 5px;\r\n  height: 30px;\r\n  background-color: #138064;\r\n  margin-right: 16px;\r\n}\r\n.mainblock {\r\n  display: flex;\r\n}\r\n@media (max-width: 2560px) {\r\n  .dinbold-h1 {\r\n    font-size: 36px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h2 {\r\n    font-size: 32px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h3 {\r\n    font-size: 26px;\r\n    font-family: dinbold;\r\n  }\r\n  .dinbold-h4 {\r\n    font-size: 20px;\r\n    font-family: dinbold;\r\n    /* used */\r\n  }\r\n  .dinbold-h5 {\r\n    font-size: 14px;\r\n    font-family: dinbold;\r\n  }\r\n\r\n  .dinlight-h1 {\r\n    font-size: 40px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h2 {\r\n    font-size: 32px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h3 {\r\n    font-size: 26px;\r\n    font-family: dinlight;\r\n  }\r\n  .dinlight-h4 {\r\n    font-size: 20px;\r\n    font-family: dinlight;\r\n    /* used */\r\n  }\r\n  .dinlight-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h1 {\r\n    font-size: 28px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h2 {\r\n    font-size: 32px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h3 {\r\n    font-size: 26px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h4 {\r\n    font-size: 20px;\r\n    font-family: sharpsans;\r\n    /* used */\r\n  }\r\n  .sharpsans-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .inter-h1 {\r\n    font-size: 36px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h2 {\r\n    font-size: 32px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h3 {\r\n    font-size: 26px;\r\n    font-family: inter;\r\n  }\r\n  .inter-h4 {\r\n    font-size: 20px;\r\n    font-family: inter;\r\n    /* used */\r\n  }\r\n  .inter-h5 {\r\n    font-size: 14px;\r\n    font-family: inter;\r\n  }\r\n}\r\n@media (max-width: 1800px) {\r\n  .dinbold-h1 {\r\n    font-size: 36px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h2 {\r\n    font-size: 32px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h3 {\r\n    font-size: 26px;\r\n    font-family: dinbold;\r\n  }\r\n  .dinbold-h4 {\r\n    font-size: 20px;\r\n    font-family: dinbold;\r\n    /* used */\r\n  }\r\n  .dinbold-h5 {\r\n    font-size: 14px;\r\n    font-family: dinbold;\r\n  }\r\n\r\n  .dinlight-h1 {\r\n    font-size: 30px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h2 {\r\n    font-size: 32px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h3 {\r\n    font-size: 26px;\r\n    font-family: dinlight;\r\n  }\r\n  .dinlight-h4 {\r\n    font-size: 20px;\r\n    font-family: dinlight;\r\n    /* used */\r\n  }\r\n  .dinlight-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h1 {\r\n    font-size: 28px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h2 {\r\n    font-size: 32px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h3 {\r\n    font-size: 26px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h4 {\r\n    font-size: 20px;\r\n    font-family: sharpsans;\r\n    /* used */\r\n  }\r\n  .sharpsans-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .inter-h1 {\r\n    font-size: 36px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h2 {\r\n    font-size: 32px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h3 {\r\n    font-size: 26px;\r\n    font-family: inter;\r\n  }\r\n  .inter-h4 {\r\n    font-size: 20px;\r\n    font-family: inter;\r\n    /* used */\r\n  }\r\n  .inter-h5 {\r\n    font-size: 14px;\r\n    font-family: inter;\r\n  }\r\n}\r\n@media (max-width: 1440px) {\r\n  .dinbold-h1 {\r\n    font-size: 36px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h2 {\r\n    font-size: 32px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h3 {\r\n    font-size: 26px;\r\n    font-family: dinbold;\r\n  }\r\n  .dinbold-h4 {\r\n    font-size: 20px;\r\n    font-family: dinbold;\r\n    /* used */\r\n  }\r\n  .dinbold-h5 {\r\n    font-size: 14px;\r\n    font-family: dinbold;\r\n  }\r\n\r\n  .dinlight-h1 {\r\n    font-size: 30px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h2 {\r\n    font-size: 32px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h3 {\r\n    font-size: 26px;\r\n    font-family: dinlight;\r\n  }\r\n  .dinlight-h4 {\r\n    font-size: 20px;\r\n    font-family: dinlight;\r\n    /* used */\r\n  }\r\n  .dinlight-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h1 {\r\n    font-size: 28px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h2 {\r\n    font-size: 32px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h3 {\r\n    font-size: 26px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h4 {\r\n    font-size: 20px;\r\n    font-family: sharpsans;\r\n    /* used */\r\n  }\r\n  .sharpsans-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .inter-h1 {\r\n    font-size: 36px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h2 {\r\n    font-size: 32px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h3 {\r\n    font-size: 26px;\r\n    font-family: inter;\r\n  }\r\n  .inter-h4 {\r\n    font-size: 20px;\r\n    font-family: inter;\r\n    /* used */\r\n  }\r\n  .inter-h5 {\r\n    font-size: 14px;\r\n    font-family: inter;\r\n  }\r\n}\r\n@media (max-width: 480px) {\r\n  .dinbold-h1 {\r\n    font-size: 36px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h2 {\r\n    font-size: 32px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h3 {\r\n    font-size: 26px;\r\n    font-family: dinbold;\r\n  }\r\n  .dinbold-h4 {\r\n    font-size: 20px;\r\n    font-family: dinbold;\r\n    /* used */\r\n  }\r\n  .dinbold-h5 {\r\n    font-size: 14px;\r\n    font-family: dinbold;\r\n  }\r\n\r\n  .dinlight-h1 {\r\n    font-size: 28px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h2 {\r\n    font-size: 32px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h3 {\r\n    font-size: 26px;\r\n    font-family: dinlight;\r\n  }\r\n  .dinlight-h4 {\r\n    font-size: 20px;\r\n    font-family: dinlight;\r\n    /* used */\r\n  }\r\n  .dinlight-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h1 {\r\n    font-size: 26px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h2 {\r\n    font-size: 22px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h3 {\r\n    font-size: 20px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h4 {\r\n    font-size: 20px;\r\n    font-family: sharpsans;\r\n    /* used */\r\n  }\r\n  .sharpsans-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .inter-h1 {\r\n    font-size: 28px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h2 {\r\n    font-size: 32px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h3 {\r\n    font-size: 26px;\r\n    font-family: inter;\r\n  }\r\n  .inter-h4 {\r\n    font-size: 20px;\r\n    font-family: inter;\r\n    /* used */\r\n  }\r\n  .inter-h5 {\r\n    font-size: 14px;\r\n    font-family: inter;\r\n  }\r\n}\r\n",
+      "start": 1706183602720,
+      "end": 1706183608622,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183608622,
+      "end": 1706183608622,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183608622,
+      "end": 1706183608622,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183608622,
+      "end": 1706183608622,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183608622,
+      "end": 1706183608622,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183608622,
+      "end": 1706183608622,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "*{box-sizing:border-box;margin:0;padding:0}@font-face{font-display:swap;font-family:dinbold;font-style:normal;src:url(__VITE_PUBLIC_ASSET__1426e015__) format(\"truetype\")}@font-face{font-display:swap;font-family:dinlight;font-style:normal;src:url(__VITE_PUBLIC_ASSET__6a73463a__) format(\"truetype\")}@font-face{font-display:swap;font-family:sharpsans;font-style:normal;src:url(__VITE_PUBLIC_ASSET__9acf45a1__) format(\"opentype\")}@font-face{font-display:swap;font-family:inter;font-style:normal;src:url(__VITE_PUBLIC_ASSET__7b2343c7__) format(\"truetype\")}.block{background-color:#138064;height:30px;margin-right:16px;width:5px}.mainblock{display:flex}@media (max-width:2560px){.dinbold-h1{font-size:36px}.dinbold-h1,.dinbold-h2{font-family:dinbold;font-weight:800}.dinbold-h2{font-size:32px}.dinbold-h3{font-family:dinbold;font-size:26px}.dinbold-h4{font-family:dinbold;font-size:20px}.dinbold-h5{font-family:dinbold;font-size:14px}.dinlight-h1{font-size:40px}.dinlight-h1,.dinlight-h2{font-family:dinlight;font-weight:800}.dinlight-h2{font-size:32px}.dinlight-h3{font-family:dinlight;font-size:26px}.dinlight-h4{font-family:dinlight;font-size:20px}.dinlight-h5{font-family:sharpsans;font-size:14px}.sharpsans-h1{font-size:28px}.sharpsans-h1,.sharpsans-h2{font-family:sharpsans;font-weight:800}.sharpsans-h2{font-size:32px}.sharpsans-h3{font-family:sharpsans;font-size:26px}.sharpsans-h4{font-family:sharpsans;font-size:20px}.sharpsans-h5{font-family:sharpsans;font-size:14px}.inter-h1{font-size:36px}.inter-h1,.inter-h2{font-family:inter;font-weight:800}.inter-h2{font-size:32px}.inter-h3{font-family:inter;font-size:26px}.inter-h4{font-family:inter;font-size:20px}.inter-h5{font-family:inter;font-size:14px}}@media (max-width:1800px){.dinbold-h1{font-size:36px}.dinbold-h1,.dinbold-h2{font-family:dinbold;font-weight:800}.dinbold-h2{font-size:32px}.dinbold-h3{font-family:dinbold;font-size:26px}.dinbold-h4{font-family:dinbold;font-size:20px}.dinbold-h5{font-family:dinbold;font-size:14px}.dinlight-h1{font-size:30px}.dinlight-h1,.dinlight-h2{font-family:dinlight;font-weight:800}.dinlight-h2{font-size:32px}.dinlight-h3{font-family:dinlight;font-size:26px}.dinlight-h4{font-family:dinlight;font-size:20px}.dinlight-h5{font-family:sharpsans;font-size:14px}.sharpsans-h1{font-size:28px}.sharpsans-h1,.sharpsans-h2{font-family:sharpsans;font-weight:800}.sharpsans-h2{font-size:32px}.sharpsans-h3{font-family:sharpsans;font-size:26px}.sharpsans-h4{font-family:sharpsans;font-size:20px}.sharpsans-h5{font-family:sharpsans;font-size:14px}.inter-h1{font-size:36px}.inter-h1,.inter-h2{font-family:inter;font-weight:800}.inter-h2{font-size:32px}.inter-h3{font-family:inter;font-size:26px}.inter-h4{font-family:inter;font-size:20px}.inter-h5{font-family:inter;font-size:14px}}@media (max-width:1440px){.dinbold-h1{font-size:36px}.dinbold-h1,.dinbold-h2{font-family:dinbold;font-weight:800}.dinbold-h2{font-size:32px}.dinbold-h3{font-family:dinbold;font-size:26px}.dinbold-h4{font-family:dinbold;font-size:20px}.dinbold-h5{font-family:dinbold;font-size:14px}.dinlight-h1{font-size:30px}.dinlight-h1,.dinlight-h2{font-family:dinlight;font-weight:800}.dinlight-h2{font-size:32px}.dinlight-h3{font-family:dinlight;font-size:26px}.dinlight-h4{font-family:dinlight;font-size:20px}.dinlight-h5{font-family:sharpsans;font-size:14px}.sharpsans-h1{font-size:28px}.sharpsans-h1,.sharpsans-h2{font-family:sharpsans;font-weight:800}.sharpsans-h2{font-size:32px}.sharpsans-h3{font-family:sharpsans;font-size:26px}.sharpsans-h4{font-family:sharpsans;font-size:20px}.sharpsans-h5{font-family:sharpsans;font-size:14px}.inter-h1{font-size:36px}.inter-h1,.inter-h2{font-family:inter;font-weight:800}.inter-h2{font-size:32px}.inter-h3{font-family:inter;font-size:26px}.inter-h4{font-family:inter;font-size:20px}.inter-h5{font-family:inter;font-size:14px}}@media (max-width:480px){.dinbold-h1{font-size:36px}.dinbold-h1,.dinbold-h2{font-family:dinbold;font-weight:800}.dinbold-h2{font-size:32px}.dinbold-h3{font-family:dinbold;font-size:26px}.dinbold-h4{font-family:dinbold;font-size:20px}.dinbold-h5{font-family:dinbold;font-size:14px}.dinlight-h1{font-size:28px}.dinlight-h1,.dinlight-h2{font-family:dinlight;font-weight:800}.dinlight-h2{font-size:32px}.dinlight-h3{font-family:dinlight;font-size:26px}.dinlight-h4{font-family:dinlight;font-size:20px}.dinlight-h5{font-family:sharpsans;font-size:14px}.sharpsans-h1{font-size:26px}.sharpsans-h1,.sharpsans-h2{font-family:sharpsans;font-weight:800}.sharpsans-h2{font-size:22px}.sharpsans-h3,.sharpsans-h4{font-family:sharpsans;font-size:20px}.sharpsans-h5{font-family:sharpsans;font-size:14px}.inter-h1{font-size:28px}.inter-h1,.inter-h2{font-family:inter;font-weight:800}.inter-h2{font-size:32px}.inter-h3{font-family:inter;font-size:26px}.inter-h4{font-family:inter;font-size:20px}.inter-h5{font-family:inter;font-size:14px}}",
+      "start": 1706183608622,
+      "end": 1706183608635,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/weigo/whitemedia/assets/css/styles.css",
+        "mappings": "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",
+        "names": [],
+        "sources": [
+          "C:/Users/weigo/whitemedia/assets/css/styles.css"
+        ],
+        "sourcesContent": [
+          "* {\r\n  margin: 0;\r\n  padding: 0;\r\n\r\n  box-sizing: border-box;\r\n}\r\n\r\n@font-face {\r\n  font-family: \"dinbold\";\r\n  src: url(\"/fonts/dinbold.ttf\") format(\"truetype\");\r\n  font-style: normal;\r\n  font-display: swap;\r\n}\r\n\r\n@font-face {\r\n  font-family: \"dinlight\";\r\n  src: url(\"/fonts/dinlight.ttf\") format(\"truetype\");\r\n  font-style: normal;\r\n  font-display: swap;\r\n}\r\n@font-face {\r\n  font-family: \"sharpsans\";\r\n  src: url(\"/fonts/sharpsans.otf\") format(\"opentype\");\r\n  font-style: normal;\r\n  font-display: swap;\r\n}\r\n@font-face {\r\n  font-family: \"inter\";\r\n  src: url(\"/fonts/inter.ttf\") format(\"truetype\");\r\n  font-style: normal;\r\n  font-display: swap;\r\n}\r\n\r\n.block {\r\n  width: 5px;\r\n  height: 30px;\r\n  background-color: #138064;\r\n  margin-right: 16px;\r\n}\r\n.mainblock {\r\n  display: flex;\r\n}\r\n@media (max-width: 2560px) {\r\n  .dinbold-h1 {\r\n    font-size: 36px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h2 {\r\n    font-size: 32px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h3 {\r\n    font-size: 26px;\r\n    font-family: dinbold;\r\n  }\r\n  .dinbold-h4 {\r\n    font-size: 20px;\r\n    font-family: dinbold;\r\n    /* used */\r\n  }\r\n  .dinbold-h5 {\r\n    font-size: 14px;\r\n    font-family: dinbold;\r\n  }\r\n\r\n  .dinlight-h1 {\r\n    font-size: 40px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h2 {\r\n    font-size: 32px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h3 {\r\n    font-size: 26px;\r\n    font-family: dinlight;\r\n  }\r\n  .dinlight-h4 {\r\n    font-size: 20px;\r\n    font-family: dinlight;\r\n    /* used */\r\n  }\r\n  .dinlight-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h1 {\r\n    font-size: 28px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h2 {\r\n    font-size: 32px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h3 {\r\n    font-size: 26px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h4 {\r\n    font-size: 20px;\r\n    font-family: sharpsans;\r\n    /* used */\r\n  }\r\n  .sharpsans-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .inter-h1 {\r\n    font-size: 36px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h2 {\r\n    font-size: 32px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h3 {\r\n    font-size: 26px;\r\n    font-family: inter;\r\n  }\r\n  .inter-h4 {\r\n    font-size: 20px;\r\n    font-family: inter;\r\n    /* used */\r\n  }\r\n  .inter-h5 {\r\n    font-size: 14px;\r\n    font-family: inter;\r\n  }\r\n}\r\n@media (max-width: 1800px) {\r\n  .dinbold-h1 {\r\n    font-size: 36px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h2 {\r\n    font-size: 32px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h3 {\r\n    font-size: 26px;\r\n    font-family: dinbold;\r\n  }\r\n  .dinbold-h4 {\r\n    font-size: 20px;\r\n    font-family: dinbold;\r\n    /* used */\r\n  }\r\n  .dinbold-h5 {\r\n    font-size: 14px;\r\n    font-family: dinbold;\r\n  }\r\n\r\n  .dinlight-h1 {\r\n    font-size: 30px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h2 {\r\n    font-size: 32px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h3 {\r\n    font-size: 26px;\r\n    font-family: dinlight;\r\n  }\r\n  .dinlight-h4 {\r\n    font-size: 20px;\r\n    font-family: dinlight;\r\n    /* used */\r\n  }\r\n  .dinlight-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h1 {\r\n    font-size: 28px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h2 {\r\n    font-size: 32px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h3 {\r\n    font-size: 26px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h4 {\r\n    font-size: 20px;\r\n    font-family: sharpsans;\r\n    /* used */\r\n  }\r\n  .sharpsans-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .inter-h1 {\r\n    font-size: 36px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h2 {\r\n    font-size: 32px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h3 {\r\n    font-size: 26px;\r\n    font-family: inter;\r\n  }\r\n  .inter-h4 {\r\n    font-size: 20px;\r\n    font-family: inter;\r\n    /* used */\r\n  }\r\n  .inter-h5 {\r\n    font-size: 14px;\r\n    font-family: inter;\r\n  }\r\n}\r\n@media (max-width: 1440px) {\r\n  .dinbold-h1 {\r\n    font-size: 36px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h2 {\r\n    font-size: 32px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h3 {\r\n    font-size: 26px;\r\n    font-family: dinbold;\r\n  }\r\n  .dinbold-h4 {\r\n    font-size: 20px;\r\n    font-family: dinbold;\r\n    /* used */\r\n  }\r\n  .dinbold-h5 {\r\n    font-size: 14px;\r\n    font-family: dinbold;\r\n  }\r\n\r\n  .dinlight-h1 {\r\n    font-size: 30px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h2 {\r\n    font-size: 32px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h3 {\r\n    font-size: 26px;\r\n    font-family: dinlight;\r\n  }\r\n  .dinlight-h4 {\r\n    font-size: 20px;\r\n    font-family: dinlight;\r\n    /* used */\r\n  }\r\n  .dinlight-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h1 {\r\n    font-size: 28px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h2 {\r\n    font-size: 32px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h3 {\r\n    font-size: 26px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h4 {\r\n    font-size: 20px;\r\n    font-family: sharpsans;\r\n    /* used */\r\n  }\r\n  .sharpsans-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .inter-h1 {\r\n    font-size: 36px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h2 {\r\n    font-size: 32px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h3 {\r\n    font-size: 26px;\r\n    font-family: inter;\r\n  }\r\n  .inter-h4 {\r\n    font-size: 20px;\r\n    font-family: inter;\r\n    /* used */\r\n  }\r\n  .inter-h5 {\r\n    font-size: 14px;\r\n    font-family: inter;\r\n  }\r\n}\r\n@media (max-width: 480px) {\r\n  .dinbold-h1 {\r\n    font-size: 36px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h2 {\r\n    font-size: 32px;\r\n    font-family: dinbold;\r\n    font-weight: 800;\r\n  }\r\n  .dinbold-h3 {\r\n    font-size: 26px;\r\n    font-family: dinbold;\r\n  }\r\n  .dinbold-h4 {\r\n    font-size: 20px;\r\n    font-family: dinbold;\r\n    /* used */\r\n  }\r\n  .dinbold-h5 {\r\n    font-size: 14px;\r\n    font-family: dinbold;\r\n  }\r\n\r\n  .dinlight-h1 {\r\n    font-size: 28px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h2 {\r\n    font-size: 32px;\r\n    font-family: dinlight;\r\n    font-weight: 800;\r\n  }\r\n  .dinlight-h3 {\r\n    font-size: 26px;\r\n    font-family: dinlight;\r\n  }\r\n  .dinlight-h4 {\r\n    font-size: 20px;\r\n    font-family: dinlight;\r\n    /* used */\r\n  }\r\n  .dinlight-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h1 {\r\n    font-size: 26px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h2 {\r\n    font-size: 22px;\r\n    font-family: sharpsans;\r\n    font-weight: 800;\r\n  }\r\n  .sharpsans-h3 {\r\n    font-size: 20px;\r\n    font-family: sharpsans;\r\n  }\r\n  .sharpsans-h4 {\r\n    font-size: 20px;\r\n    font-family: sharpsans;\r\n    /* used */\r\n  }\r\n  .sharpsans-h5 {\r\n    font-size: 14px;\r\n    font-family: sharpsans;\r\n  }\r\n  .inter-h1 {\r\n    font-size: 28px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h2 {\r\n    font-size: 32px;\r\n    font-family: inter;\r\n    font-weight: 800;\r\n  }\r\n  .inter-h3 {\r\n    font-size: 26px;\r\n    font-family: inter;\r\n  }\r\n  .inter-h4 {\r\n    font-size: 20px;\r\n    font-family: inter;\r\n    /* used */\r\n  }\r\n  .inter-h5 {\r\n    font-size: 14px;\r\n    font-family: inter;\r\n  }\r\n}\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183608635,
+      "end": 1706183608635,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183608635,
+      "end": 1706183608635,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183608635,
+      "end": 1706183608635,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1706183608635,
+      "end": 1706183608635,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183608635,
+      "end": 1706183608635,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183608635,
+      "end": 1706183608635,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183608635,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1706183608636,
+      "end": 1706183608636,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183608636,
+      "end": 1706183608637,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183608637,
+      "end": 1706183608637,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183608637,
+      "end": 1706183608637,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183608637,
+      "end": 1706183608637,
+      "order": "normal"
+    }
+  ]
+}

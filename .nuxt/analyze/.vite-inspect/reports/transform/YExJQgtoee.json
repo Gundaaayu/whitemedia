@@ -1,0 +1,223 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/Navbar.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div>\r\n    <v-container class=\"d-none d-md-block\">\r\n      <v-row>\r\n        <v-col cols=\"6\">\r\n          <NuxtLink to=\"/\" style=\"text-decoration: none\">\r\n            <v-img src=\"/images/logo.png\" width=\"220\" contain />\r\n          </NuxtLink>\r\n        </v-col>\r\n        <v-col cols=\"6\" class=\"my-auto d-flex ga-10\">\r\n          <!-- <ul class=\"d-flex ga-14\" style=\"list-style-type: none\">\r\n            <li><v-icon>mdi-star-four-points</v-icon> Home</li>\r\n            <li><v-icon>mdi-star-four-points</v-icon> Service</li>\r\n            <li><v-icon>mdi-star-four-points</v-icon> Our Maestros</li>\r\n            <li><v-icon>mdi-star-four-points</v-icon> Contact Us</li>\r\n          </ul> -->\r\n          <NuxtLink to=\"/\" style=\"text-decoration: none; color: white\">\r\n            <div class=\"d-flex ga-3\">\r\n              <p>Home</p>\r\n              <v-icon class=\"my-auto\" style=\"font-size: 18px\">\r\n                mdi-star-four-points\r\n              </v-icon>\r\n            </div>\r\n          </NuxtLink>\r\n          <NuxtLink to=\"#services\" style=\"text-decoration: none; color: white\">\r\n            <div class=\"d-flex ga-3\">\r\n              <p>Service</p>\r\n              <v-icon class=\"my-auto\" style=\"font-size: 18px\">\r\n                mdi-star-four-points\r\n              </v-icon>\r\n            </div>\r\n          </NuxtLink>\r\n          <NuxtLink to=\"#maestros\" style=\"text-decoration: none; color: white\">\r\n            <div class=\"d-flex ga-3\">\r\n              <p>OurMaestros</p>\r\n              <v-icon class=\"my-auto\" style=\"font-size: 18px\">\r\n                mdi-star-four-points\r\n              </v-icon>\r\n            </div>\r\n          </NuxtLink>\r\n          <NuxtLink\r\n            to=\"#collaborate\"\r\n            style=\"text-decoration: none; color: white\"\r\n          >\r\n            <div class=\"d-flex ga-3\">\r\n              <p>ContactUs</p>\r\n              <v-icon class=\"my-auto\" style=\"font-size: 18px\">\r\n                mdi-star-four-points\r\n              </v-icon>\r\n            </div>\r\n          </NuxtLink>\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n    <v-container class=\"d-block d-md-none\">\r\n      <v-row class=\"justify-center\">\r\n        <NuxtLink to=\"/\" style=\"text-decoration: none\">\r\n          <v-img src=\"/images/logo.png\" width=\"180\" contain />\r\n        </NuxtLink>\r\n        <v-col cols=\"6\" class=\"my-auto\">\r\n          <ul class=\"d-flex ga-14 justify-end\" style=\"list-style-type: none\">\r\n            <li>\r\n              <v-menu v-if=\"showMenu\" activator=\"parent\">\r\n                <template #activator=\"{ on, attrs }\">\r\n                  <v-icon v-bind=\"attrs\" v-on=\"on\"> mdi-menu </v-icon>\r\n                </template>\r\n                <v-list>\r\n                  <v-list-item\r\n                    v-for=\"(item, index) in menuItems\"\r\n                    :key=\"index\"\r\n                    :value=\"index\"\r\n                  >\r\n                    <NuxtLink\r\n                      class=\"text-primary\"\r\n                      style=\"text-decoration: none\"\r\n                      :to=\"item.to\"\r\n                    >\r\n                      <v-list-item-title>{{ item.title }}</v-list-item-title>\r\n                    </NuxtLink>\r\n                  </v-list-item>\r\n                </v-list>\r\n              </v-menu>\r\n            </li>\r\n          </ul>\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\nimport { ref, onMounted, onUnmounted } from \"vue\";\r\nconst menuItems = ref([\r\n  { title: \"Home\", to: \"/\" },\r\n  { title: \"Service\", to: \"#services\" },\r\n  { title: \"Our Maestros\", to: \"#maestros\" },\r\n  { title: \"Contact Us\", to: \"#collaborate\" },\r\n\r\n  // add more items as needed\r\n]);\r\nconst showMenu = ref(true);\r\n\r\nconst handleScroll = () => {\r\n  showMenu.value = window.pageYOffset === 0;\r\n};\r\n\r\nonMounted(() => {\r\n  window.addEventListener(\"scroll\", handleScroll);\r\n});\r\n\r\nonUnmounted(() => {\r\n  window.removeEventListener(\"scroll\", handleScroll);\r\n});\r\n</script>\r\n",
+      "start": 1706183598272,
+      "end": 1706183598486,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183598486,
+      "end": 1706183598486,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183598486,
+      "end": 1706183598486,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183598486,
+      "end": 1706183598486,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1706183598486,
+      "end": 1706183598486,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183598486,
+      "end": 1706183598486,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183598486,
+      "end": 1706183598486,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183598486,
+      "end": 1706183598486,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, toHandlers as _toHandlers, mergeProps as _mergeProps, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createBlock as _createBlock, createCommentVNode as _createCommentVNode } from \"vue\"\nimport _imports_0 from '/images/logo.png'\n\n\nconst _hoisted_1 = { class: \"d-flex ga-3\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Home\", -1)\nconst _hoisted_3 = { class: \"d-flex ga-3\" }\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Service\", -1)\nconst _hoisted_5 = { class: \"d-flex ga-3\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"p\", null, \"OurMaestros\", -1)\nconst _hoisted_7 = { class: \"d-flex ga-3\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"p\", null, \"ContactUs\", -1)\nconst _hoisted_9 = {\n  class: \"d-flex ga-14 justify-end\",\n  style: {\"list-style-type\":\"none\"}\n}\n\nimport { ref, onMounted, onUnmounted } from \"vue\";\r\n\nconst _sfc_main = {\n  __name: 'Navbar',\n  setup(__props) {\n\r\nconst menuItems = ref([\r\n  { title: \"Home\", to: \"/\" },\r\n  { title: \"Service\", to: \"#services\" },\r\n  { title: \"Our Maestros\", to: \"#maestros\" },\r\n  { title: \"Contact Us\", to: \"#collaborate\" },\r\n\r\n  // add more items as needed\r\n]);\r\nconst showMenu = ref(true);\r\n\r\nconst handleScroll = () => {\r\n  showMenu.value = window.pageYOffset === 0;\r\n};\r\n\r\nonMounted(() => {\r\n  window.addEventListener(\"scroll\", handleScroll);\r\n});\r\n\r\nonUnmounted(() => {\r\n  window.removeEventListener(\"scroll\", handleScroll);\r\n});\r\n\nreturn (_ctx, _cache) => {\n  const _component_v_img = _resolveComponent(\"v-img\")\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n  const _component_v_col = _resolveComponent(\"v-col\")\n  const _component_v_icon = _resolveComponent(\"v-icon\")\n  const _component_v_row = _resolveComponent(\"v-row\")\n  const _component_v_container = _resolveComponent(\"v-container\")\n  const _component_v_list_item_title = _resolveComponent(\"v-list-item-title\")\n  const _component_v_list_item = _resolveComponent(\"v-list-item\")\n  const _component_v_list = _resolveComponent(\"v-list\")\n  const _component_v_menu = _resolveComponent(\"v-menu\")\n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createVNode(_component_v_container, { class: \"d-none d-md-block\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, { cols: \"6\" }, {\n              default: _withCtx(() => [\n                _createVNode(_component_NuxtLink, {\n                  to: \"/\",\n                  style: {\"text-decoration\":\"none\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, {\n                      src: _imports_0,\n                      width: \"220\",\n                      contain: \"\"\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              cols: \"6\",\n              class: \"my-auto d-flex ga-10\"\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_NuxtLink, {\n                  to: \"/\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_1, [\n                      _hoisted_2,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_NuxtLink, {\n                  to: \"#services\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_3, [\n                      _hoisted_4,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_NuxtLink, {\n                  to: \"#maestros\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_5, [\n                      _hoisted_6,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_NuxtLink, {\n                  to: \"#collaborate\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_7, [\n                      _hoisted_8,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    }),\n    _createVNode(_component_v_container, { class: \"d-block d-md-none\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, { class: \"justify-center\" }, {\n          default: _withCtx(() => [\n            _createVNode(_component_NuxtLink, {\n              to: \"/\",\n              style: {\"text-decoration\":\"none\"}\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_img, {\n                  src: _imports_0,\n                  width: \"180\",\n                  contain: \"\"\n                })\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              cols: \"6\",\n              class: \"my-auto\"\n            }, {\n              default: _withCtx(() => [\n                _createElementVNode(\"ul\", _hoisted_9, [\n                  _createElementVNode(\"li\", null, [\n                    (showMenu.value)\n                      ? (_openBlock(), _createBlock(_component_v_menu, {\n                          key: 0,\n                          activator: \"parent\"\n                        }, {\n                          activator: _withCtx(({ on, attrs }) => [\n                            _createVNode(_component_v_icon, _mergeProps(attrs, _toHandlers(on)), {\n                              default: _withCtx(() => [\n                                _createTextVNode(\" mdi-menu \")\n                              ]),\n                              _: 2\n                            }, 1040)\n                          ]),\n                          default: _withCtx(() => [\n                            _createVNode(_component_v_list, null, {\n                              default: _withCtx(() => [\n                                (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(menuItems.value, (item, index) => {\n                                  return (_openBlock(), _createBlock(_component_v_list_item, {\n                                    key: index,\n                                    value: index\n                                  }, {\n                                    default: _withCtx(() => [\n                                      _createVNode(_component_NuxtLink, {\n                                        class: \"text-primary\",\n                                        style: {\"text-decoration\":\"none\"},\n                                        to: item.to\n                                      }, {\n                                        default: _withCtx(() => [\n                                          _createVNode(_component_v_list_item_title, null, {\n                                            default: _withCtx(() => [\n                                              _createTextVNode(_toDisplayString(item.title), 1)\n                                            ]),\n                                            _: 2\n                                          }, 1024)\n                                        ]),\n                                        _: 2\n                                      }, 1032, [\"to\"])\n                                    ]),\n                                    _: 2\n                                  }, 1032, [\"value\"]))\n                                }), 128))\n                              ]),\n                              _: 1\n                            })\n                          ]),\n                          _: 1\n                        }))\n                      : _createCommentVNode(\"\", true)\n                  ])\n                ])\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    })\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
+      "start": 1706183598486,
+      "end": 1706183598492,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183598492,
+      "end": 1706183598492,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183598492,
+      "end": 1706183598492,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183598492,
+      "end": 1706183598493,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1706183598493,
+      "end": 1706183598493,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "result": "import { resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, toHandlers as _toHandlers, mergeProps as _mergeProps, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createBlock as _createBlock, createCommentVNode as _createCommentVNode } from \"vue\"\nimport _imports_0 from '/images/logo.png'\n\n\nconst _hoisted_1 = { class: \"d-flex ga-3\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Home\", -1)\nconst _hoisted_3 = { class: \"d-flex ga-3\" }\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Service\", -1)\nconst _hoisted_5 = { class: \"d-flex ga-3\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"p\", null, \"OurMaestros\", -1)\nconst _hoisted_7 = { class: \"d-flex ga-3\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"p\", null, \"ContactUs\", -1)\nconst _hoisted_9 = {\n  class: \"d-flex ga-14 justify-end\",\n  style: {\"list-style-type\":\"none\"}\n}\n\nimport { ref, onMounted, onUnmounted } from \"vue\";\r\n\nconst _sfc_main = {\n  __name: 'Navbar',\n  setup(__props) {\n\r\nconst menuItems = ref([\r\n  { title: \"Home\", to: \"/\" },\r\n  { title: \"Service\", to: \"#services\" },\r\n  { title: \"Our Maestros\", to: \"#maestros\" },\r\n  { title: \"Contact Us\", to: \"#collaborate\" },\r\n\r\n  // add more items as needed\r\n]);\r\nconst showMenu = ref(true);\r\n\r\nconst handleScroll = () => {\r\n  showMenu.value = window.pageYOffset === 0;\r\n};\r\n\r\nonMounted(() => {\r\n  window.addEventListener(\"scroll\", handleScroll);\r\n});\r\n\r\nonUnmounted(() => {\r\n  window.removeEventListener(\"scroll\", handleScroll);\r\n});\r\n\nreturn (_ctx, _cache) => {\n                                                     \n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n                                                     \n                                                       \n                                                     \n                                                                 \n                                                                             \n                                                                 \n                                                       \n                                                       \n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createVNode(_component_v_container, { class: \"d-none d-md-block\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, { cols: \"6\" }, {\n              default: _withCtx(() => [\n                _createVNode(_component_NuxtLink, {\n                  to: \"/\",\n                  style: {\"text-decoration\":\"none\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, {\n                      src: _imports_0,\n                      width: \"220\",\n                      contain: \"\"\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              cols: \"6\",\n              class: \"my-auto d-flex ga-10\"\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_NuxtLink, {\n                  to: \"/\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_1, [\n                      _hoisted_2,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_NuxtLink, {\n                  to: \"#services\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_3, [\n                      _hoisted_4,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_NuxtLink, {\n                  to: \"#maestros\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_5, [\n                      _hoisted_6,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_NuxtLink, {\n                  to: \"#collaborate\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_7, [\n                      _hoisted_8,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    }),\n    _createVNode(_component_v_container, { class: \"d-block d-md-none\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, { class: \"justify-center\" }, {\n          default: _withCtx(() => [\n            _createVNode(_component_NuxtLink, {\n              to: \"/\",\n              style: {\"text-decoration\":\"none\"}\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_img, {\n                  src: _imports_0,\n                  width: \"180\",\n                  contain: \"\"\n                })\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              cols: \"6\",\n              class: \"my-auto\"\n            }, {\n              default: _withCtx(() => [\n                _createElementVNode(\"ul\", _hoisted_9, [\n                  _createElementVNode(\"li\", null, [\n                    (showMenu.value)\n                      ? (_openBlock(), _createBlock(_component_v_menu, {\n                          key: 0,\n                          activator: \"parent\"\n                        }, {\n                          activator: _withCtx(({ on, attrs }) => [\n                            _createVNode(_component_v_icon, _mergeProps(attrs, _toHandlers(on)), {\n                              default: _withCtx(() => [\n                                _createTextVNode(\" mdi-menu \")\n                              ]),\n                              _: 2\n                            }, 1040)\n                          ]),\n                          default: _withCtx(() => [\n                            _createVNode(_component_v_list, null, {\n                              default: _withCtx(() => [\n                                (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(menuItems.value, (item, index) => {\n                                  return (_openBlock(), _createBlock(_component_v_list_item, {\n                                    key: index,\n                                    value: index\n                                  }, {\n                                    default: _withCtx(() => [\n                                      _createVNode(_component_NuxtLink, {\n                                        class: \"text-primary\",\n                                        style: {\"text-decoration\":\"none\"},\n                                        to: item.to\n                                      }, {\n                                        default: _withCtx(() => [\n                                          _createVNode(_component_v_list_item_title, null, {\n                                            default: _withCtx(() => [\n                                              _createTextVNode(_toDisplayString(item.title), 1)\n                                            ]),\n                                            _: 2\n                                          }, 1024)\n                                        ]),\n                                        _: 2\n                                      }, 1032, [\"to\"])\n                                    ]),\n                                    _: 2\n                                  }, 1032, [\"value\"]))\n                                }), 128))\n                              ]),\n                              _: 1\n                            })\n                          ]),\n                          _: 1\n                        }))\n                      : _createCommentVNode(\"\", true)\n                  ])\n                ])\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    })\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main\n\n/* Vuetify */\nimport { VCol as _component_v_col, VRow as _component_v_row, VContainer as _component_v_container } from \"vuetify/lib/components/VGrid/index.mjs\"\nimport { VIcon as _component_v_icon } from \"vuetify/lib/components/VIcon/index.mjs\"\nimport { VImg as _component_v_img } from \"vuetify/lib/components/VImg/index.mjs\"\nimport { VListItemTitle as _component_v_list_item_title, VListItem as _component_v_list_item, VList as _component_v_list } from \"vuetify/lib/components/VList/index.mjs\"\nimport { VMenu as _component_v_menu } from \"vuetify/lib/components/VMenu/index.mjs\"\n\n",
+      "start": 1706183598493,
+      "end": 1706183598493,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183598493,
+      "end": 1706183598493,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183598493,
+      "end": 1706183598493,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183598493,
+      "end": 1706183598493,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183598493,
+      "end": 1706183598493,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1706183598493,
+      "end": 1706183598493,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183598493,
+      "end": 1706183598493,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183598493,
+      "end": 1706183598493,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183598493,
+      "end": 1706183598493,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183598493,
+      "end": 1706183598493,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183598493,
+      "end": 1706183598494,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183598494,
+      "end": 1706183598494,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183598494,
+      "end": 1706183598494,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183598494,
+      "end": 1706183598497,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183598497,
+      "end": 1706183598497,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183598497,
+      "end": 1706183598497,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1706183598497,
+      "end": 1706183598497,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1706183598497,
+      "end": 1706183598497,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/Users/weigo/whitemedia/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { resolveComponent as _resolveComponent, createVNode as _createVNode, withCtx as _withCtx, createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, toHandlers as _toHandlers, mergeProps as _mergeProps, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, createBlock as _createBlock, createCommentVNode as _createCommentVNode } from \"vue\"\nimport _imports_0 from '/images/logo.png'\n\n\nconst _hoisted_1 = { class: \"d-flex ga-3\" }\nconst _hoisted_2 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Home\", -1)\nconst _hoisted_3 = { class: \"d-flex ga-3\" }\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"p\", null, \"Service\", -1)\nconst _hoisted_5 = { class: \"d-flex ga-3\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"p\", null, \"OurMaestros\", -1)\nconst _hoisted_7 = { class: \"d-flex ga-3\" }\nconst _hoisted_8 = /*#__PURE__*/_createElementVNode(\"p\", null, \"ContactUs\", -1)\nconst _hoisted_9 = {\n  class: \"d-flex ga-14 justify-end\",\n  style: {\"list-style-type\":\"none\"}\n}\n\nimport { ref, onMounted, onUnmounted } from \"vue\";\r\n\nconst _sfc_main = {\n  __name: 'Navbar',\n  setup(__props) {\n\r\nconst menuItems = ref([\r\n  { title: \"Home\", to: \"/\" },\r\n  { title: \"Service\", to: \"#services\" },\r\n  { title: \"Our Maestros\", to: \"#maestros\" },\r\n  { title: \"Contact Us\", to: \"#collaborate\" },\r\n\r\n  // add more items as needed\r\n]);\r\nconst showMenu = ref(true);\r\n\r\nconst handleScroll = () => {\r\n  showMenu.value = window.pageYOffset === 0;\r\n};\r\n\r\nonMounted(() => {\r\n  window.addEventListener(\"scroll\", handleScroll);\r\n});\r\n\r\nonUnmounted(() => {\r\n  window.removeEventListener(\"scroll\", handleScroll);\r\n});\r\n\nreturn (_ctx, _cache) => {\n                                                     \n  const _component_NuxtLink = __nuxt_component_0\n                                                     \n                                                       \n                                                     \n                                                                 \n                                                                             \n                                                                 \n                                                       \n                                                       \n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createVNode(_component_v_container, { class: \"d-none d-md-block\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, null, {\n          default: _withCtx(() => [\n            _createVNode(_component_v_col, { cols: \"6\" }, {\n              default: _withCtx(() => [\n                _createVNode(_component_NuxtLink, {\n                  to: \"/\",\n                  style: {\"text-decoration\":\"none\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, {\n                      src: _imports_0,\n                      width: \"220\",\n                      contain: \"\"\n                    })\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              cols: \"6\",\n              class: \"my-auto d-flex ga-10\"\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_NuxtLink, {\n                  to: \"/\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_1, [\n                      _hoisted_2,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_NuxtLink, {\n                  to: \"#services\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_3, [\n                      _hoisted_4,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_NuxtLink, {\n                  to: \"#maestros\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_5, [\n                      _hoisted_6,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_NuxtLink, {\n                  to: \"#collaborate\",\n                  style: {\"text-decoration\":\"none\",\"color\":\"white\"}\n                }, {\n                  default: _withCtx(() => [\n                    _createElementVNode(\"div\", _hoisted_7, [\n                      _hoisted_8,\n                      _createVNode(_component_v_icon, {\n                        class: \"my-auto\",\n                        style: {\"font-size\":\"18px\"}\n                      }, {\n                        default: _withCtx(() => [\n                          _createTextVNode(\" mdi-star-four-points \")\n                        ]),\n                        _: 1\n                      })\n                    ])\n                  ]),\n                  _: 1\n                })\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    }),\n    _createVNode(_component_v_container, { class: \"d-block d-md-none\" }, {\n      default: _withCtx(() => [\n        _createVNode(_component_v_row, { class: \"justify-center\" }, {\n          default: _withCtx(() => [\n            _createVNode(_component_NuxtLink, {\n              to: \"/\",\n              style: {\"text-decoration\":\"none\"}\n            }, {\n              default: _withCtx(() => [\n                _createVNode(_component_v_img, {\n                  src: _imports_0,\n                  width: \"180\",\n                  contain: \"\"\n                })\n              ]),\n              _: 1\n            }),\n            _createVNode(_component_v_col, {\n              cols: \"6\",\n              class: \"my-auto\"\n            }, {\n              default: _withCtx(() => [\n                _createElementVNode(\"ul\", _hoisted_9, [\n                  _createElementVNode(\"li\", null, [\n                    (showMenu.value)\n                      ? (_openBlock(), _createBlock(_component_v_menu, {\n                          key: 0,\n                          activator: \"parent\"\n                        }, {\n                          activator: _withCtx(({ on, attrs }) => [\n                            _createVNode(_component_v_icon, _mergeProps(attrs, _toHandlers(on)), {\n                              default: _withCtx(() => [\n                                _createTextVNode(\" mdi-menu \")\n                              ]),\n                              _: 2\n                            }, 1040)\n                          ]),\n                          default: _withCtx(() => [\n                            _createVNode(_component_v_list, null, {\n                              default: _withCtx(() => [\n                                (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(menuItems.value, (item, index) => {\n                                  return (_openBlock(), _createBlock(_component_v_list_item, {\n                                    key: index,\n                                    value: index\n                                  }, {\n                                    default: _withCtx(() => [\n                                      _createVNode(_component_NuxtLink, {\n                                        class: \"text-primary\",\n                                        style: {\"text-decoration\":\"none\"},\n                                        to: item.to\n                                      }, {\n                                        default: _withCtx(() => [\n                                          _createVNode(_component_v_list_item_title, null, {\n                                            default: _withCtx(() => [\n                                              _createTextVNode(_toDisplayString(item.title), 1)\n                                            ]),\n                                            _: 2\n                                          }, 1024)\n                                        ]),\n                                        _: 2\n                                      }, 1032, [\"to\"])\n                                    ]),\n                                    _: 2\n                                  }, 1032, [\"value\"]))\n                                }), 128))\n                              ]),\n                              _: 1\n                            })\n                          ]),\n                          _: 1\n                        }))\n                      : _createCommentVNode(\"\", true)\n                  ])\n                ])\n              ]),\n              _: 1\n            })\n          ]),\n          _: 1\n        })\n      ]),\n      _: 1\n    })\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main\n\n/* Vuetify */\nimport { VCol as _component_v_col, VRow as _component_v_row, VContainer as _component_v_container } from \"vuetify/lib/components/VGrid/index.mjs\"\nimport { VIcon as _component_v_icon } from \"vuetify/lib/components/VIcon/index.mjs\"\nimport { VImg as _component_v_img } from \"vuetify/lib/components/VImg/index.mjs\"\nimport { VListItemTitle as _component_v_list_item_title, VListItem as _component_v_list_item, VList as _component_v_list } from \"vuetify/lib/components/VList/index.mjs\"\nimport { VMenu as _component_v_menu } from \"vuetify/lib/components/VMenu/index.mjs\"\n\n",
+      "start": 1706183598497,
+      "end": 1706183598497,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183598497,
+      "end": 1706183598497,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183598497,
+      "end": 1706183598498,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183598498,
+      "end": 1706183598498,
+      "order": "normal"
+    }
+  ]
+}

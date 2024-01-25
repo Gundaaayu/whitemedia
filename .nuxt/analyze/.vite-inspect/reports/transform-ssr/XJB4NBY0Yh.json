@@ -1,0 +1,268 @@
+{
+  "resolvedId": "C:/Users/weigo/whitemedia/components/ScrollAnime.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div>\r\n    <v-container fluid>\r\n      <v-row>\r\n        <v-col cols=\"12\">\r\n          <div class=\"scrolling-container\">\r\n            <div class=\"scrolling-images\">\r\n              <v-img src=\"/images/scrolllogo.png\" />\r\n              <v-img src=\"/images/scrolllogo2.png\" />\r\n            </div>\r\n\r\n            <!-- <v-img src=\"/images/scrolllogo2.png\"></v-img> -->\r\n          </div>\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n    <v-container>\r\n      <v-row>\r\n        <v-col class=\"my-auto\" cols=\"12\" xxl=\"6\" xl=\"6\" lg=\"6\">\r\n          <p class=\"dinlight-h1\">\r\n            <span>\r\n              In the rapid currents of today’s digital landscape, White Water\r\n              Media is your steadfast navigator,channeling the magic of\r\n              marketing to fuel your brand's seamless and robust growth.\r\n            </span>\r\n          </p>\r\n        </v-col>\r\n        <v-col cols=\"12\" xxl=\"6\" xl=\"6\" lg=\"6\">\r\n          <v-img\r\n            ref=\"animatedImage\"\r\n            class=\"mx-auto\"\r\n            src=\"/images/astrau.png\"\r\n            width=\"400\"\r\n          />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<!-- <script setup>\r\nimport anime from \"animejs\";\r\nimport { onMounted, onBeforeUnmount } from \"vue\";\r\n\r\nconst handleScroll = () => {\r\n  //for Text\r\n  const animatedText = document.querySelector(\".animated-text\");\r\n  const rect = animatedText.getBoundingClientRect();\r\n  const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;\r\n\r\n  //for Image\r\n  const animatedImage = document.querySelector(\".imageanime\");\r\n  const rectImage = animatedImage.getBoundingClientRect();\r\n  const isInViewportImage =\r\n    rectImage.top >= 0 && rectImage.bottom <= window.innerHeight;\r\n\r\n  //for Text\r\n  if (isInViewport) {\r\n    anime({\r\n      targets: animatedText,\r\n      translateY: [100, 0],\r\n      opacity: [0, 1],\r\n      easing: \"easeOutQuad\",\r\n      duration: 1000,\r\n    });\r\n\r\n    window.removeEventListener(\"scroll\", handleScroll);\r\n  }\r\n\r\n  //for image\r\n  if (isInViewportImage) {\r\n    anime({\r\n      targets: animatedImage,\r\n      translateY: [300, 0],\r\n      opacity: [0, 1],\r\n      easing: \"easeOutQuad\",\r\n      duration: 1500,\r\n    });\r\n\r\n    window.removeEventListener(\"scroll\", handleScroll);\r\n  }\r\n};\r\n\r\nonMounted(() => {\r\n  window.addEventListener(\"scroll\", handleScroll);\r\n});\r\n\r\nonBeforeUnmount(() => {\r\n  window.removeEventListener(\"scroll\", handleScroll);\r\n});\r\n</script> -->\r\n\r\n<style scoped>\r\n.text-para {\r\n  font-size: 32px;\r\n  line-height: 56.5px;\r\n}\r\n\r\n.scrolling-container {\r\n  overflow: hidden;\r\n}\r\n.scrolling-images {\r\n  display: flex;\r\n  width: 200%;\r\n  max-width: 200%;\r\n  animation: scroll 10s linear infinite;\r\n}\r\n@keyframes scroll {\r\n  0% {\r\n    transform: translateX(0);\r\n  }\r\n\r\n  100% {\r\n    transform: translateX(-50%);\r\n  }\r\n}\r\n\r\n.animated-text {\r\n  display: block;\r\n  opacity: 0;\r\n}\r\n</style>\r\n",
+      "start": 1706183608936,
+      "end": 1706183609173,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609173,
+      "end": 1706183609173,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1706183609173,
+      "end": 1706183609173,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609173,
+      "end": 1706183609173,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1706183609173,
+      "end": 1706183609173,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1706183609173,
+      "end": 1706183609173,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1706183609173,
+      "end": 1706183609173,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1706183609173,
+      "end": 1706183609173,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1706183609173,
+      "end": 1706183609173,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1706183609173,
+      "end": 1706183609173,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/scrolllogo.png'\nimport _imports_1 from '/images/scrolllogo2.png'\nimport _imports_2 from '/images/astrau.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  const _component_v_container = _resolveComponent(\"v-container\")\n  const _component_v_row = _resolveComponent(\"v-row\")\n  const _component_v_col = _resolveComponent(\"v-col\")\n  const _component_v_img = _resolveComponent(\"v-img\")\n\n  _push(`<div${_ssrRenderAttrs(_attrs)} data-v-f7e40b4b>`)\n  _push(_ssrRenderComponent(_component_v_container, { fluid: \"\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_v_row, null, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(_ssrRenderComponent(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(`<div class=\"scrolling-container\" data-v-f7e40b4b${\n                      _scopeId\n                    }><div class=\"scrolling-images\" data-v-f7e40b4b${\n                      _scopeId\n                    }>`)\n                    _push(_ssrRenderComponent(_component_v_img, { src: _imports_0 }, null, _parent, _scopeId))\n                    _push(_ssrRenderComponent(_component_v_img, { src: _imports_1 }, null, _parent, _scopeId))\n                    _push(`</div></div>`)\n                  } else {\n                    return [\n                      _createVNode(\"div\", { class: \"scrolling-container\" }, [\n                        _createVNode(\"div\", { class: \"scrolling-images\" }, [\n                          _createVNode(_component_v_img, { src: _imports_0 }),\n                          _createVNode(_component_v_img, { src: _imports_1 })\n                        ])\n                      ])\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n            } else {\n              return [\n                _createVNode(_component_v_col, { cols: \"12\" }, {\n                  default: _withCtx(() => [\n                    _createVNode(\"div\", { class: \"scrolling-container\" }, [\n                      _createVNode(\"div\", { class: \"scrolling-images\" }, [\n                        _createVNode(_component_v_img, { src: _imports_0 }),\n                        _createVNode(_component_v_img, { src: _imports_1 })\n                      ])\n                    ])\n                  ]),\n                  _: 1\n                })\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_v_row, null, {\n            default: _withCtx(() => [\n              _createVNode(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx(() => [\n                  _createVNode(\"div\", { class: \"scrolling-container\" }, [\n                    _createVNode(\"div\", { class: \"scrolling-images\" }, [\n                      _createVNode(_component_v_img, { src: _imports_0 }),\n                      _createVNode(_component_v_img, { src: _imports_1 })\n                    ])\n                  ])\n                ]),\n                _: 1\n              })\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(_ssrRenderComponent(_component_v_container, null, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_v_row, null, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(_ssrRenderComponent(_component_v_col, {\n                class: \"my-auto\",\n                cols: \"12\",\n                xxl: \"6\",\n                xl: \"6\",\n                lg: \"6\"\n              }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(`<p class=\"dinlight-h1\" data-v-f7e40b4b${\n                      _scopeId\n                    }><span data-v-f7e40b4b${\n                      _scopeId\n                    }> In the rapid currents of today’s digital landscape, White Water Media is your steadfast navigator,channeling the magic of marketing to fuel your brand&#39;s seamless and robust growth. </span></p>`)\n                  } else {\n                    return [\n                      _createVNode(\"p\", { class: \"dinlight-h1\" }, [\n                        _createVNode(\"span\", null, \" In the rapid currents of today’s digital landscape, White Water Media is your steadfast navigator,channeling the magic of marketing to fuel your brand's seamless and robust growth. \")\n                      ])\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n              _push(_ssrRenderComponent(_component_v_col, {\n                cols: \"12\",\n                xxl: \"6\",\n                xl: \"6\",\n                lg: \"6\"\n              }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(_ssrRenderComponent(_component_v_img, {\n                      ref: \"animatedImage\",\n                      class: \"mx-auto\",\n                      src: _imports_2,\n                      width: \"400\"\n                    }, null, _parent, _scopeId))\n                  } else {\n                    return [\n                      _createVNode(_component_v_img, {\n                        ref: \"animatedImage\",\n                        class: \"mx-auto\",\n                        src: _imports_2,\n                        width: \"400\"\n                      }, null, 512)\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n            } else {\n              return [\n                _createVNode(_component_v_col, {\n                  class: \"my-auto\",\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(\"p\", { class: \"dinlight-h1\" }, [\n                      _createVNode(\"span\", null, \" In the rapid currents of today’s digital landscape, White Water Media is your steadfast navigator,channeling the magic of marketing to fuel your brand's seamless and robust growth. \")\n                    ])\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, {\n                      ref: \"animatedImage\",\n                      class: \"mx-auto\",\n                      src: _imports_2,\n                      width: \"400\"\n                    }, null, 512)\n                  ]),\n                  _: 1\n                })\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_v_row, null, {\n            default: _withCtx(() => [\n              _createVNode(_component_v_col, {\n                class: \"my-auto\",\n                cols: \"12\",\n                xxl: \"6\",\n                xl: \"6\",\n                lg: \"6\"\n              }, {\n                default: _withCtx(() => [\n                  _createVNode(\"p\", { class: \"dinlight-h1\" }, [\n                    _createVNode(\"span\", null, \" In the rapid currents of today’s digital landscape, White Water Media is your steadfast navigator,channeling the magic of marketing to fuel your brand's seamless and robust growth. \")\n                  ])\n                ]),\n                _: 1\n              }),\n              _createVNode(_component_v_col, {\n                cols: \"12\",\n                xxl: \"6\",\n                xl: \"6\",\n                lg: \"6\"\n              }, {\n                default: _withCtx(() => [\n                  _createVNode(_component_v_img, {\n                    ref: \"animatedImage\",\n                    class: \"mx-auto\",\n                    src: _imports_2,\n                    width: \"400\"\n                  }, null, 512)\n                ]),\n                _: 1\n              })\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div>`)\n}\n\nimport \"C:/Users/weigo/whitemedia/components/ScrollAnime.vue?vue&type=style&index=0&scoped=f7e40b4b&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/ScrollAnime.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-f7e40b4b\"]])",
+      "start": 1706183609173,
+      "end": 1706183609180,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/weigo/whitemedia/components/ScrollAnime.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/weigo/whitemedia/components/ScrollAnime.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n  <div>\r\n    <v-container fluid>\r\n      <v-row>\r\n        <v-col cols=\"12\">\r\n          <div class=\"scrolling-container\">\r\n            <div class=\"scrolling-images\">\r\n              <v-img src=\"/images/scrolllogo.png\" />\r\n              <v-img src=\"/images/scrolllogo2.png\" />\r\n            </div>\r\n\r\n            <!-- <v-img src=\"/images/scrolllogo2.png\"></v-img> -->\r\n          </div>\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n    <v-container>\r\n      <v-row>\r\n        <v-col class=\"my-auto\" cols=\"12\" xxl=\"6\" xl=\"6\" lg=\"6\">\r\n          <p class=\"dinlight-h1\">\r\n            <span>\r\n              In the rapid currents of today’s digital landscape, White Water\r\n              Media is your steadfast navigator,channeling the magic of\r\n              marketing to fuel your brand's seamless and robust growth.\r\n            </span>\r\n          </p>\r\n        </v-col>\r\n        <v-col cols=\"12\" xxl=\"6\" xl=\"6\" lg=\"6\">\r\n          <v-img\r\n            ref=\"animatedImage\"\r\n            class=\"mx-auto\"\r\n            src=\"/images/astrau.png\"\r\n            width=\"400\"\r\n          />\r\n        </v-col>\r\n      </v-row>\r\n    </v-container>\r\n  </div>\r\n</template>\r\n\r\n<!-- <script setup>\r\nimport anime from \"animejs\";\r\nimport { onMounted, onBeforeUnmount } from \"vue\";\r\n\r\nconst handleScroll = () => {\r\n  //for Text\r\n  const animatedText = document.querySelector(\".animated-text\");\r\n  const rect = animatedText.getBoundingClientRect();\r\n  const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;\r\n\r\n  //for Image\r\n  const animatedImage = document.querySelector(\".imageanime\");\r\n  const rectImage = animatedImage.getBoundingClientRect();\r\n  const isInViewportImage =\r\n    rectImage.top >= 0 && rectImage.bottom <= window.innerHeight;\r\n\r\n  //for Text\r\n  if (isInViewport) {\r\n    anime({\r\n      targets: animatedText,\r\n      translateY: [100, 0],\r\n      opacity: [0, 1],\r\n      easing: \"easeOutQuad\",\r\n      duration: 1000,\r\n    });\r\n\r\n    window.removeEventListener(\"scroll\", handleScroll);\r\n  }\r\n\r\n  //for image\r\n  if (isInViewportImage) {\r\n    anime({\r\n      targets: animatedImage,\r\n      translateY: [300, 0],\r\n      opacity: [0, 1],\r\n      easing: \"easeOutQuad\",\r\n      duration: 1500,\r\n    });\r\n\r\n    window.removeEventListener(\"scroll\", handleScroll);\r\n  }\r\n};\r\n\r\nonMounted(() => {\r\n  window.addEventListener(\"scroll\", handleScroll);\r\n});\r\n\r\nonBeforeUnmount(() => {\r\n  window.removeEventListener(\"scroll\", handleScroll);\r\n});\r\n</script> -->\r\n\r\n<style scoped>\r\n.text-para {\r\n  font-size: 32px;\r\n  line-height: 56.5px;\r\n}\r\n\r\n.scrolling-container {\r\n  overflow: hidden;\r\n}\r\n.scrolling-images {\r\n  display: flex;\r\n  width: 200%;\r\n  max-width: 200%;\r\n  animation: scroll 10s linear infinite;\r\n}\r\n@keyframes scroll {\r\n  0% {\r\n    transform: translateX(0);\r\n  }\r\n\r\n  100% {\r\n    transform: translateX(-50%);\r\n  }\r\n}\r\n\r\n.animated-text {\r\n  display: block;\r\n  opacity: 0;\r\n}\r\n</style>\r\n"
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1706183609180,
+      "end": 1706183609180,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609180,
+      "end": 1706183609180,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609180,
+      "end": 1706183609180,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609180,
+      "end": 1706183609180,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1706183609180,
+      "end": 1706183609180,
+      "order": "normal"
+    },
+    {
+      "name": "vuetify:import",
+      "result": "const _sfc_main = {}\nimport { resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode } from \"vue\"\nimport { ssrRenderComponent as _ssrRenderComponent, ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\nimport _imports_0 from '/images/scrolllogo.png'\nimport _imports_1 from '/images/scrolllogo2.png'\nimport _imports_2 from '/images/astrau.png'\n\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n                                                                 \n                                                     \n                                                     \n                                                     \n\n  _push(`<div${_ssrRenderAttrs(_attrs)} data-v-f7e40b4b>`)\n  _push(_ssrRenderComponent(_component_v_container, { fluid: \"\" }, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_v_row, null, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(_ssrRenderComponent(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(`<div class=\"scrolling-container\" data-v-f7e40b4b${\n                      _scopeId\n                    }><div class=\"scrolling-images\" data-v-f7e40b4b${\n                      _scopeId\n                    }>`)\n                    _push(_ssrRenderComponent(_component_v_img, { src: _imports_0 }, null, _parent, _scopeId))\n                    _push(_ssrRenderComponent(_component_v_img, { src: _imports_1 }, null, _parent, _scopeId))\n                    _push(`</div></div>`)\n                  } else {\n                    return [\n                      _createVNode(\"div\", { class: \"scrolling-container\" }, [\n                        _createVNode(\"div\", { class: \"scrolling-images\" }, [\n                          _createVNode(_component_v_img, { src: _imports_0 }),\n                          _createVNode(_component_v_img, { src: _imports_1 })\n                        ])\n                      ])\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n            } else {\n              return [\n                _createVNode(_component_v_col, { cols: \"12\" }, {\n                  default: _withCtx(() => [\n                    _createVNode(\"div\", { class: \"scrolling-container\" }, [\n                      _createVNode(\"div\", { class: \"scrolling-images\" }, [\n                        _createVNode(_component_v_img, { src: _imports_0 }),\n                        _createVNode(_component_v_img, { src: _imports_1 })\n                      ])\n                    ])\n                  ]),\n                  _: 1\n                })\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_v_row, null, {\n            default: _withCtx(() => [\n              _createVNode(_component_v_col, { cols: \"12\" }, {\n                default: _withCtx(() => [\n                  _createVNode(\"div\", { class: \"scrolling-container\" }, [\n                    _createVNode(\"div\", { class: \"scrolling-images\" }, [\n                      _createVNode(_component_v_img, { src: _imports_0 }),\n                      _createVNode(_component_v_img, { src: _imports_1 })\n                    ])\n                  ])\n                ]),\n                _: 1\n              })\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(_ssrRenderComponent(_component_v_container, null, {\n    default: _withCtx((_, _push, _parent, _scopeId) => {\n      if (_push) {\n        _push(_ssrRenderComponent(_component_v_row, null, {\n          default: _withCtx((_, _push, _parent, _scopeId) => {\n            if (_push) {\n              _push(_ssrRenderComponent(_component_v_col, {\n                class: \"my-auto\",\n                cols: \"12\",\n                xxl: \"6\",\n                xl: \"6\",\n                lg: \"6\"\n              }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(`<p class=\"dinlight-h1\" data-v-f7e40b4b${\n                      _scopeId\n                    }><span data-v-f7e40b4b${\n                      _scopeId\n                    }> In the rapid currents of today’s digital landscape, White Water Media is your steadfast navigator,channeling the magic of marketing to fuel your brand&#39;s seamless and robust growth. </span></p>`)\n                  } else {\n                    return [\n                      _createVNode(\"p\", { class: \"dinlight-h1\" }, [\n                        _createVNode(\"span\", null, \" In the rapid currents of today’s digital landscape, White Water Media is your steadfast navigator,channeling the magic of marketing to fuel your brand's seamless and robust growth. \")\n                      ])\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n              _push(_ssrRenderComponent(_component_v_col, {\n                cols: \"12\",\n                xxl: \"6\",\n                xl: \"6\",\n                lg: \"6\"\n              }, {\n                default: _withCtx((_, _push, _parent, _scopeId) => {\n                  if (_push) {\n                    _push(_ssrRenderComponent(_component_v_img, {\n                      ref: \"animatedImage\",\n                      class: \"mx-auto\",\n                      src: _imports_2,\n                      width: \"400\"\n                    }, null, _parent, _scopeId))\n                  } else {\n                    return [\n                      _createVNode(_component_v_img, {\n                        ref: \"animatedImage\",\n                        class: \"mx-auto\",\n                        src: _imports_2,\n                        width: \"400\"\n                      }, null, 512)\n                    ]\n                  }\n                }),\n                _: 1\n              }, _parent, _scopeId))\n            } else {\n              return [\n                _createVNode(_component_v_col, {\n                  class: \"my-auto\",\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(\"p\", { class: \"dinlight-h1\" }, [\n                      _createVNode(\"span\", null, \" In the rapid currents of today’s digital landscape, White Water Media is your steadfast navigator,channeling the magic of marketing to fuel your brand's seamless and robust growth. \")\n                    ])\n                  ]),\n                  _: 1\n                }),\n                _createVNode(_component_v_col, {\n                  cols: \"12\",\n                  xxl: \"6\",\n                  xl: \"6\",\n                  lg: \"6\"\n                }, {\n                  default: _withCtx(() => [\n                    _createVNode(_component_v_img, {\n                      ref: \"animatedImage\",\n                      class: \"mx-auto\",\n                      src: _imports_2,\n                      width: \"400\"\n                    }, null, 512)\n                  ]),\n                  _: 1\n                })\n              ]\n            }\n          }),\n          _: 1\n        }, _parent, _scopeId))\n      } else {\n        return [\n          _createVNode(_component_v_row, null, {\n            default: _withCtx(() => [\n              _createVNode(_component_v_col, {\n                class: \"my-auto\",\n                cols: \"12\",\n                xxl: \"6\",\n                xl: \"6\",\n                lg: \"6\"\n              }, {\n                default: _withCtx(() => [\n                  _createVNode(\"p\", { class: \"dinlight-h1\" }, [\n                    _createVNode(\"span\", null, \" In the rapid currents of today’s digital landscape, White Water Media is your steadfast navigator,channeling the magic of marketing to fuel your brand's seamless and robust growth. \")\n                  ])\n                ]),\n                _: 1\n              }),\n              _createVNode(_component_v_col, {\n                cols: \"12\",\n                xxl: \"6\",\n                xl: \"6\",\n                lg: \"6\"\n              }, {\n                default: _withCtx(() => [\n                  _createVNode(_component_v_img, {\n                    ref: \"animatedImage\",\n                    class: \"mx-auto\",\n                    src: _imports_2,\n                    width: \"400\"\n                  }, null, 512)\n                ]),\n                _: 1\n              })\n            ]),\n            _: 1\n          })\n        ]\n      }\n    }),\n    _: 1\n  }, _parent))\n  _push(`</div>`)\n}\n\nimport \"C:/Users/weigo/whitemedia/components/ScrollAnime.vue?vue&type=style&index=0&scoped=f7e40b4b&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/ScrollAnime.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-f7e40b4b\"]])\n\n/* Vuetify */\nimport { VContainer as _component_v_container, VRow as _component_v_row, VCol as _component_v_col } from \"vuetify/lib/components/VGrid/index.mjs\"\nimport { VImg as _component_v_img } from \"vuetify/lib/components/VImg/index.mjs\"\n\n",
+      "start": 1706183609180,
+      "end": 1706183609181,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1706183609181,
+      "end": 1706183609181,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609181,
+      "end": 1706183609183,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1706183609181,
+      "end": 1706183609183,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609183,
+      "end": 1706183609183,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1706183609183,
+      "end": 1706183609183,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609183,
+      "end": 1706183609183,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1706183609183,
+      "end": 1706183609183,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1706183609183,
+      "end": 1706183609183,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1706183609183,
+      "end": 1706183609183,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1706183609183,
+      "end": 1706183609183,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1706183609183,
+      "end": 1706183609184,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1706183609184,
+      "end": 1706183609184,
+      "order": "normal"
+    }
+  ]
+}
